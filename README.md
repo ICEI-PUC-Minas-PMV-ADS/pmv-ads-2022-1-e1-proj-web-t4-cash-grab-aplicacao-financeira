@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Cash Grab - Aplicação Financeira
 
-`CURSO`
+`Analise e desenvolvimento de sistema`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1/2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Matheus Ferreira Pires
+* Matheus Lemos Sampaio
+* Pedro Assis Silva de Almeida
+* Renato Batista Duarte de Sousa
+* Vinicius Eduardo Silva Oliveira
+* Vitor Hugo Silva Ribeiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Sandra Maria Silveira
 
 ## Instruções de utilização
 

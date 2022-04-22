@@ -10,12 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Matheus Ferreira Pires
-* Matheus Lemos Sampaio
-* Pedro Assis Silva de Almeida
-* Renato Batista Duarte de Sousa
-* Vinicius Eduardo Silva Oliveira
-* Vitor Hugo Silva Ribeiro
+
 
 ## Orientador
 

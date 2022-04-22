@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Teste do Git
+* Sandra Maria Silvera
 
 ## Instruções de utilização
 

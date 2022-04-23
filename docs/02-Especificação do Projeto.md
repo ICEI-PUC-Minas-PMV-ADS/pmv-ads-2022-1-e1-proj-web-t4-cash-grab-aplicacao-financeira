@@ -8,37 +8,31 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Persona 1**:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Letícia Ophelia tem 24 anos, é desenvolvedora de software e tem uma remuneração de 1 a 3 salários mínimos. Letícia usa o cartão de crédito regularmente, gastando em torno de 1 a 3 salários mínimos. Atualmente, possui investimentos em renda fixa, tem interesse em aprender sobre o mercado financeiro e acha que uma aplicação financeira para controlar os gastos é uma ideia ótima e necessária.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+**Persona 2**:
+
+Helaine Cristina tem 50 anos, é farmacêutica e tem uma remuneração de 4 ou mais salários mínimos. Helaine usa o cartão de crédito com frequência. Atualmente, possui investimentos em renda fixa e tem interesse em aprender sobre o mercado financeiro.
+
+**Persona 3**:
+
+Jose Geraldo Machado possui 75 anos, é aposentando e tem uma remuneração de 1 a 3 salários mínimos. Jose não possui cartão de crédito e no momento não possui nenhum tipo de investimento. Em relação ao mercado financeiro, Jose não possui interesse em aprender sobre o mercado financeiro.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                      |PARA ... `MOTIVO/VALOR`                                                        |
+|--------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+|Letícia             | Aprender sobre o mercado financeiro                                     | Para saber gerenciar melhor o meu dinheiro                                    |
+|Letícia             | Visualizar dados de compras de um modo dinâmico                         | Para ter maior entendimentos de como está meus gastos                         |
+|Letícia             | Visualizar valores de juros de empréstimos                              | Para que consiga analisar as melhores opções                                  |
+|Helaine             | Receber notificações de quando minha fatura estiver perto do vencimento | Para que não esqueça pagar as contas e não pagar juros                        |
+|Helaine             | Simular os rendimentos dos investimentos                                | Para saber em qual tipo de investimento aplicar o meu dinheiro                |
+|Helaine             | Gostaria de ler os materiais sobre investimentos                        | Para aprender sobre o mercado financeiro                                      |
+|Jose Geraldo        | Gostaria de usar uma aplicação simples                                  | Para que não tenha dificuldades em conseguir ler as notícias                  |
 
 ## Requisitos
 
@@ -48,44 +42,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir a criação de tabela com controle dos gastos como, os limites pré-estabelecido pelo o usuário do que ele vai gastar | ALTA | 
+|RF-002| Exibir as despesas em formato de gráficos e porcentagem ou barra de progresso                                               | ALTA |
+|RF-003| Conter uma função que mande notificação alertando quando estiver perto de estourar o limite separado para gastos            | MÉDIA |
+|RF-004| Possibilitar ao usuário visualizar despesas futuras                                                                         | MÉDIA |
+|RF-005| Calcular juros de empréstimos                                                                                               | MÉDIA |
+|RF-006| Possibilitar o usuário criar uma Lista de despesas                                                                          | MÉDIA |
+|RF-007| Conter um “simulador” de investimento                                                                                       | MÉDIA |
+|RF-008| Conter uma página sobre notícias de investimento                                                                            | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Site deve ser responsivo | MÉDIA | 
+|RNF-002| Site deve ser compatível com os principais navegadores |  ALTA | 
+|RNF-003| Site terá um layout minimalista |  ALTA |
+|RNF-004| Sistema deve ser organizado e de fácil visibilidade e ter uma interface dinâmica |  ALTA |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                    |
+|--|--------------------------------------------------------------|
+|01| Não pode contratar terceiros para desenvolvimento do projeto |
+|02| Projeto deve ser entregado até o final do semestre           |
+|03| Aplicação com foco no front end                              |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)

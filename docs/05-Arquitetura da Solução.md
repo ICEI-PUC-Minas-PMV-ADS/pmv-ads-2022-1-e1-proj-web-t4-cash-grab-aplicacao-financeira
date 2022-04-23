@@ -10,20 +10,20 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura representada abaixo.
 
 ![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+<center>Figura 1.0 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
+- **Navegador** - Interface básica do sistema;
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+     - **Canais** - seções de notícias apresentadas; 
+     - **Comentários** - registro de opiniões dos usuários sobre as notícias;
+     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior;
+ - **News API** - plataforma que permite o acesso às notícias exibidas no site;
+ - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador; 
 
 > **Links Úteis**:
 >
@@ -60,14 +60,21 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias utilizadas para desenvolvimento da Aplicação Web Front-End são:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> - Visual Studio Code
+> - Bootstrap
+> - GitHub
 
+
+Para elaboração e desenvolvimento da Aplicação Web Front-End utilizamos as seguintes linguagens de programação e marcarção:
+> - HTML;
+> - CSS;
+> - JavaScript;
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+> - [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t4-cash-grab-aplicacao-financeira/)
 
 > **Links Úteis**:
 >
@@ -75,3 +82,10 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Programação colaborativa com Repl.it](https://repl.it/)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+
+
+ ## Referências
+
+ Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças, Agencia Brasil, 2018. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas. Acesso em 18/03/2022. 
+
+Logo, https://www.flaticon.com/br/icones-gratis/bootstrap,Bootstrap ícones criados por Vitaly Gorbachev - Flaticon 

@@ -74,6 +74,9 @@ Para elaboração e desenvolvimento da Aplicação Web Front-End utilizamos as s
 
 
 ## Hospedagem
+A aplicação em gestão financeira Cash-Grab deve oferecer ao usuario boa performace, segurança, opcções de configurações simples, painel de controle com simples vizualização.
+
+Nele ficam armazenados todos os arquivos e dados necessários para o bom funcionamento do site.
 
 > - [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t4-cash-grab-aplicacao-financeira/)
 

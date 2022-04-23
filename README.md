@@ -4,9 +4,9 @@
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`1/2022`
+`1º/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto que está em desenvolviemnto trata-se de um gestor financiero pessoal. Tendo como objetivo auxiliar as pessoas em relção a sua saude financeira e dar dicas de possiveis caminhos para lhe ajudar
 
 ## Integrantes
 

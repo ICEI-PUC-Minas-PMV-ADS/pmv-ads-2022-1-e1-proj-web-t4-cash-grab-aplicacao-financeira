@@ -65,7 +65,7 @@ As tecnologias utilizadas para desenvolvimento da Aplicação Web Front-End são
 > - Visual Studio Code;
 > - Bootstrap;
 > - GitHub;
-> - Figma;
+> - Software Figma;
 
 Para elaboração e desenvolvimento da Aplicação Web Front-End utilizamos as seguintes linguagens de programação e marcarção:
 > - HTML;

@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/UserFlowKit.jpg)
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
@@ -20,11 +20,32 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
+Tela 1 – Tela Inicial 
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Esta será a tela de apresentação da nossa aplicação, onde terá uma sobre o projeto, um informativo sobre nossa parte de notícias e uma parte com informações do projeto. Nesta tela encontra-se também, o campo para realizar o login. 
+![Tela 1](img/Inicial.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+Tela 1.1 - Login 
+
+Tela aonde serão informados o nome e a senha do usuário para acessar a aplicação. 
+![Tela 1.1](img/Login.png)
+
+Tela 1.2 - Cadastro Login 
+
+Tela aonde será realizado o cadastro inicial do usuário, para que seja possível acessar a aplicação. 
+![Tela 1.2](img/CadastroLogin.png)
  
+ Tela 2- Despesas e renda do usuário. 
+
+Nessa tela o usuário poderá ver suas despesas, o valor que falta para seu cartão estoura e suas fontes de renda. Também será possível adicionar novos gastos e nova fontes. 
+![Tela 2](img/tela2.png)
+
+Tela 2.1 - Adicionar novas despesas 
+
+Modal onde o usuário colocar a nova despesa, no campo de cima fica o nome e no de baixo o valor 
+
+![2.1](img/SuccessModal.png)
+
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)

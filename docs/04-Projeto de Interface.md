@@ -23,21 +23,25 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 Tela 1 – Tela Inicial 
 
 Esta será a tela de apresentação da nossa aplicação, onde terá uma sobre o projeto, um informativo sobre nossa parte de notícias e uma parte com informações do projeto. Nesta tela encontra-se também, o campo para realizar o login. 
+
 ![Tela 1](img/Inicial.png)
 
 Tela 1.1 - Login 
 
 Tela aonde serão informados o nome e a senha do usuário para acessar a aplicação. 
+
 ![Tela 1.1](img/Login.png)
 
 Tela 1.2 - Cadastro Login 
 
 Tela aonde será realizado o cadastro inicial do usuário, para que seja possível acessar a aplicação. 
+
 ![Tela 1.2](img/CadastroLogin.png)
  
  Tela 2- Despesas e renda do usuário. 
 
 Nessa tela o usuário poderá ver suas despesas, o valor que falta para seu cartão estoura e suas fontes de renda. Também será possível adicionar novos gastos e nova fontes. 
+
 ![Tela 2](img/tela2.png)
 
 Tela 2.1 - Adicionar novas despesas 

@@ -89,6 +89,6 @@ Nele ficará armazenados todos os arquivos e dados necessários para o bom funci
 
  ## Referências
 
- Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças, Agencia Brasil, 2018. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas. Acesso em 18/03/2022. 
+ Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças, Agencia Brasil, 2018. Disponível em:(https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas.) Acesso em 18/03/2022. 
 
-Logo, https://www.flaticon.com/br/icones-gratis/bootstrap,Bootstrap ícones criados por Vitaly Gorbachev - Flaticon 
+Logo, (https://www.flaticon.com/br/icones-gratis/bootstrap,Bootstrap) ícones criados por Vitaly Gorbachev - Flaticon 

@@ -62,20 +62,17 @@ para a Tela 2.
 
 As tecnologias utilizadas para desenvolvimento da Aplicação Web Front-End são:
 
-> - Visual Studio Code;
-> - Bootstrap;
-> - GitHub;
-> - Software Figma;
+> - Visual Studio Code
+> - Bootstrap
+> - GitHub
+
 
 Para elaboração e desenvolvimento da Aplicação Web Front-End utilizamos as seguintes linguagens de programação e marcarção:
 > - HTML;
 > - CSS;
 > - JavaScript;
 
-
 ## Hospedagem
-A aplicação em gestão financeira Cash-Grab deve oferecer ao usuario boa performace, segurança, opcções de configurações simples, painel de controle com simples vizualização.
-Nele ficará armazenados todos os arquivos e dados necessários para o bom funcionamento do site web.
 
 > - [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t4-cash-grab-aplicacao-financeira/)
 
@@ -89,6 +86,6 @@ Nele ficará armazenados todos os arquivos e dados necessários para o bom funci
 
  ## Referências
 
- Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças, Agencia Brasil, 2018. Disponível em:(https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas.) Acesso em 18/03/2022. 
+ Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças, Agencia Brasil, 2018. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas. Acesso em 18/03/2022. 
 
-Logo, (https://www.flaticon.com/br/icones-gratis/bootstrap,Bootstrap) ícones criados por Vitaly Gorbachev - Flaticon 
+Logo, https://www.flaticon.com/br/icones-gratis/bootstrap,Bootstrap ícones criados por Vitaly Gorbachev - Flaticon 

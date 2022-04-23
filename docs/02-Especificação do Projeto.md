@@ -8,19 +8,19 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 **Persona 1**:
 
-(img/Persona 1.png)
+![Persona](img/Persona%201.png)
 
 Letícia Ophelia tem 24 anos, é desenvolvedora de software e tem uma remuneração de 1 a 3 salários mínimos. Letícia usa o cartão de crédito regularmente, gastando em torno de 1 a 3 salários mínimos. Atualmente, possui investimentos em renda fixa, tem interesse em aprender sobre o mercado financeiro e acha que uma aplicação financeira para controlar os gastos é uma ideia ótima e necessária.
 
 **Persona 2**:
 
-(img/Persona 2.png)
+![Persona](img/Persona%202.png)
 
 Helaine Cristina tem 50 anos, é farmacêutica e tem uma remuneração de 4 ou mais salários mínimos. Helaine usa o cartão de crédito com frequência. Atualmente, possui investimentos em renda fixa e tem interesse em aprender sobre o mercado financeiro.
 
 **Persona 3**:
 
-(img/Persona 3.png)
+![Persona](img/Persona%203.png)
 
 Jose Geraldo Machado possui 75 anos, é aposentando e tem uma remuneração de 1 a 3 salários mínimos. Jose não possui cartão de crédito e no momento não possui nenhum tipo de investimento. Em relação ao mercado financeiro, Jose não possui interesse em aprender sobre o mercado financeiro.
 

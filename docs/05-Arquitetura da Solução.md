@@ -14,7 +14,6 @@ Os componentes que fazem parte da solução são apresentados na Figura XX.
 ![Diagrama de Componentes](img/Arquitetura%20de%20solu%C3%A7%C3%A3o.jpeg)
 <center>Figura XX - Arquitetura da Solução</center>
 
-
 A solução implementada conta com os seguintes módulos:
 - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema;
   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:

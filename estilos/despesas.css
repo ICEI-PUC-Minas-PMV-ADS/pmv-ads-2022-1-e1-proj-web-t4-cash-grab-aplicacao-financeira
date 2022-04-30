@@ -9,11 +9,26 @@ main{
     top: 23px;
     margin-left: 250px;
 }
+
+/*Mexendo com os IDs*/
 #nameUser{
     display: flex;
     justify-content: end;
+    background-color: aqua;
+    margin-left: 12%;
 }
-/*Mexendo com os IDs*/
+#nameUser>h1{
+    font-size: 1.5rem;
+    position: relative; 
+    right: 10%;
+    
+}
+#menu{
+    width: 10%;
+    float: left;
+    background-color: rgb(81, 141, 81);
+    height: 713px;
+}
 #financas{
    
     background-color: aquamarine;

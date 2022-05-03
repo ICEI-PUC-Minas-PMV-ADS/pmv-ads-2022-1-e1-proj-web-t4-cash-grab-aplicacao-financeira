@@ -38,17 +38,19 @@ main{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+    padding: 12px;
     
 }
 #despesas{
-    background-color: blue;
+    background-color: aquamarine;
     width: 81%;
     height: 250px;
     position: relative;
     top: 10px;
+    padding: 12px;
 }
 #limites{
-    background-color: red;
+    background-color: aquamarine;
     width: 81%;
     height: 250px;
     position: relative;
@@ -56,24 +58,51 @@ main{
     padding: 12px;
     
 }
+#limites>button{
+    position: relative;
+    top: -1%;
+    left: 81%;
+
+}
 #rendas{
-    background-color: bisque;
+    background-color: aquamarine;
     width: 81%;
     height: 250px;
     position: relative;
     top: 50px;
+    padding: 12px;
+}
+#rendas>button{
+    position: relative;
+    top: 71%;
+    left: 81%;
 }
 #suasfontes{
-    background-color:blueviolet;
+    background-color:aquamarine;
     width: 81%;
     position: relative;
     height: 250px;
-    /*left: 70%;*/
     top: 50px;
+    padding: 12px;
+}
+#suasfontes>button{
+    position: relative;
+    top: 58%;
+    left: 81%;
 }
 #barradeprogresso{
     width: 80%;
     position: relative;
     left: 29px;
+}
+#modalLimites{
+       background-color: pink;
+    width: 35%;
+    /* height: 170px; */
+    position: relative;
+    padding: 12px;
+    /* top: 389px; */
+    z-index: 1;
+
 }
 /*mexendo com class*/

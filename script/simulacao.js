@@ -1,0 +1,1 @@
+/*variaveis de toda a pagina*/

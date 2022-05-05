@@ -10,7 +10,7 @@ main{
     margin-left: 250px;
 }
 
-/*configurando menus*/
+/*Mexendo com os IDs*/
 #nameUser{
     display: flex;
     justify-content: end;
@@ -30,4 +30,23 @@ main{
     background-color: rgba(24, 172, 0, 0.59);
     height: 713px;
     border-radius: 4px 10px 10px 4px;
+}
+#btnEditar{
+    width: 30px;
+    height: 30px;
+}
+#caminhosMenu{
+    position: relative;
+    top:-5%;
+    right: 30%;
+}
+#menu>ul>li>a{
+    color: #fff;
+}
+#logo{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top:-45%;
+    left: 20%;
 }

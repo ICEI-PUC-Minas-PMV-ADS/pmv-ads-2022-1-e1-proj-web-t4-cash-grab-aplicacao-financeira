@@ -1,0 +1,33 @@
+/*Mexendo com o dom*/
+*{
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: relative;
+    top: 23px;
+    margin-left: 250px;
+}
+
+/*configurando menus*/
+#nameUser{
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 204, 82, 1);
+    margin-left: 12%;
+    border-radius: 10px 0px 0px 10px;
+}
+#nameUser>h1{
+    font-size: 1.5rem;
+    position: relative; 
+    right: 10%;
+    
+}
+#menu{
+    width: 10%;
+    float: left;
+    background-color: rgba(24, 172, 0, 0.59);
+    height: 713px;
+    border-radius: 4px 10px 10px 4px;
+}

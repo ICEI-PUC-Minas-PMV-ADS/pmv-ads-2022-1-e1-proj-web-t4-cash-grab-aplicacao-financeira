@@ -49,15 +49,16 @@ main{
 }
 #limites{
     width: 81%;
-    height: 300px;
+    height: 329px;
     position: relative;
-    top: 50px;
+    top: 30px;
     padding: 12px;
     
 }
 #limites>button{
     position: relative;
-    left: 9%;
+    left: 90%;
+    bottom: 10%;
 
 }
 #rendas{
@@ -107,6 +108,21 @@ main{
     width: 30px;
     height: 30px;
 }
+#caminhosMenu{
+    position: relative;
+    top:-5%;
+    right: 30%;
+}
+#menu>ul>li>a{
+    color: #fff;
+}
+#logo{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top:-45%;
+    left: 20%;
+}
 /*mexendo com class*/
 .campos{
     background-color: rgba(24, 172, 0, 0.59);
@@ -115,6 +131,21 @@ main{
 .ocultarElemento{
     visibility: hidden;
 }
-.mostrarElemento{
-    visibility: visible;
+.colcarFechamento{
+    background-image: url(../imgsite/cancel.png);
+}
+.estiloInputs{
+    display: block;
+    position: relative;
+     margin: 0 auto;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: #fff;
+    border-left-color:#fff ;
+    background-color: transparent;
+    color: #fff;
+    bottom: 1%;
+}
+.estiloBotao{
+    border: none;
 }

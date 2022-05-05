@@ -39,11 +39,12 @@ function colocarDividas(){
 }
 function mostrar(){
   gastoInput.classList.toggle('ocultarElemento');
-  btncolocarDividas.classList.toggle('ocultarElemento')
+  btncolocarDividas.classList.toggle('ocultarElemento');
+  //btnAddDespesas.classList.toggle('colcarFechamento');
 }
 function mostrarCampoLimite(){
   limiteProposto.classList.toggle('ocultarElemento');
-  btnAdcionarLimite.classList.toggle('ocultarElemento')
+  btnAdcionarLimite.classList.toggle('ocultarElemento');
 }
 /*Chamando a função atraves do click no botão*/
 btnAdcionarLimite.addEventListener('click',colocarLimite);

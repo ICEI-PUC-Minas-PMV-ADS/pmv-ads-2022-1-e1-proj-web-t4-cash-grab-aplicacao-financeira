@@ -9,19 +9,19 @@
     <title>Desepesas</title>
 </head>
 <body>
-    <nav  id="menu" class="navbar navbar-expand-lg">
+    <nav  id="menu" class="navbar navbar-expand-lg ">
         <ul class="nav flex-column">
             <li class="nav-item">
             </li>
             <li class="nav-item">
-                <p>Opcao 1</p>
-              <!--<a class="nav-link" href="#">Link</a>-->
+                <a class="nav-link" href="index.html"><p>inicio</p></a>
+              <!---->
             </li>
             <li class="nav-item">
-                <p>Opcao 1</p>
+                <a class="nav-link" href="despesas.html"><p>Despesa</p></a>
             </li>
             <li class="nav-item">
-                <p>Opcao 1</p>
+                <a class="nav-link" href="index.html"><p>Extrato</p></a>
             </li>
           </ul>
       </nav>
@@ -33,40 +33,41 @@
     <!--Modais-->
     </article>
     <main>
-        <div id="financas">
+        <div id="financas" class="campos">
             <h3>como esta suas financas</h3>
         </div>
         
         <!--Parte de limites-->
-        <div id="limites">
+        <div id="limites" class="campos">
             <h3> Seus limites</h3>
             <div class="progress" id="barradeprogresso">
                 <div id="visualizador"class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <h4>Limite proposto</h4>
-             <p >R$ <span id="valorLimite"></span></p>
-             <input id="limiteproposto"type="text">
-
-        <button id="adiconarLimite">+</button>
+                <p > <span id="valorLimite"> </span></p>
+                <img id="btnEditar"src="imgsite/editar.png" alt="Editar">
+                <input id="limiteproposto" class="ocultarElemento"type="text">
+                <button id="adiconarLimite" class="ocultarElemento">+</button>
             <h4>Valor da divida</h4>
-             <p ><span id="somaDividas"></span></p>
-             <input id="gastos" type="text">
-             <button id="colocarDividas" type="submit">+</button>
+                <p ><span id="somaDividas"> </span></p>
+               <img  id="btnAddDespesas" src="imgsite/botao-adicionar.png" alt="Colocar Divida">
+                <input class="ocultarElemento" id="gastos" type="text">
+                <button class="ocultarElemento" id="colocarDividas" type="submit" >+</button>
         </div>
     
         <!--Parte das rendas-->
-        <div id="rendas">
+        <div id="rendas" class="campos">
             <h3>Suas rendas</h3>
             <button type="submit">+</button>
         </div>
 
         <!--Parte das fontes de renda-->
-        <div id="suasfontes">
+        <div id="suasfontes" class="campos">
             <h3> Suas fontos de renda</h3>
             <button type="submit">+</button>
         </div>
     </main>
 
-    <script src="/script/despesas.js"></script>
+    <script src="script/despesas.js"></script>
 </body>
 </html>

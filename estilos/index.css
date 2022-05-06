@@ -5,4 +5,16 @@
 }
 .efeitoimg{
     box-shadow: inset 0 0 10px 10px #070707;
+    position: relative;
 }
+/*Ajustando texto na imagem*/
+#texto {
+    position: absolute;
+    font-size: 110px;
+    font-weight: bold;
+    right: 250px;
+    top: 180%;
+    color:aliceblue;
+    text-shadow: 0.1em 0.1em 0.1em #303030;
+  }
+

@@ -1,1 +1,1 @@
-/*variaveis de toda a pagina*/
+/*variaveis do escopo da pagina*/

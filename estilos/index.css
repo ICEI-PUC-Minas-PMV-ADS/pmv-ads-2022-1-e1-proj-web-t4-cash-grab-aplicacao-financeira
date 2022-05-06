@@ -7,8 +7,20 @@
     box-shadow: inset 0 0 10px 10px #070707;
     position: relative;
 }
-/*Ajustando texto na imagem*/
-#texto {
+
+/*Ajustando texto na imagem Inicial*/
+#cashgrab {
+    position: absolute;
+    font-size: 110px;
+    font-weight: bold;
+    right: 50px;
+    top: 180%;
+    color:aliceblue;
+    text-shadow: 0.1em 0.1em 0.1em #303030;
+  }
+
+/*Ajustando texto na imagem Noticia*/
+#textonot {
     position: absolute;
     font-size: 110px;
     font-weight: bold;
@@ -18,3 +30,12 @@
     text-shadow: 0.1em 0.1em 0.1em #303030;
   }
 
+  /*Ajustando texto parte Inferior*/
+  #textoinf {
+    font-size: 110px;
+    font-weight: bold;
+    left: 250px;
+    top: 180%;
+    color:aliceblue;
+    text-shadow: 0.1em 0.1em 0.1em #303030;
+  }

@@ -21,6 +21,8 @@ main{
     border-radius: 10px 0px 0px 10px;
     background: rgba(36, 38, 58, 1);
     color: #fff;
+    box-shadow:  1px 1px 1px 1px #000;
+
 }
 #nameUser>h1{
     font-size: 1.5rem;
@@ -34,6 +36,8 @@ main{
     background: rgba(36, 38, 58, 1);
     height: 713px;
     border-radius: 4px 10px 10px 4px;
+    box-shadow:  1px 1px 1px 1px #000;
+
 }
 #financas{
     position: relative;
@@ -93,6 +97,7 @@ main{
     width: 80%;
     position: relative;
     left: 29px;
+    top: 10px;
 }
 #modalLimites{
        background-color: pink;
@@ -127,11 +132,20 @@ main{
     top:-45%;
     left: 20%;
 }
+#valorLimite{
+    position: relative;
+    left: 15%;
+}
+#somaDividas{
+    position: relative;
+    left: 15%;
+}
 /*mexendo com class*/
 .campos{
     background: rgba(36, 38, 58, 1);
     border-radius: 10px 10px 10px 10px;
     color: #fff;
+    box-shadow:  1px 1px 1px 1px #000;
 }
 .ocultarElemento{
     visibility: hidden;
@@ -153,4 +167,5 @@ main{
 }
 .estiloBotao{
     border: none;
+    border-radius: 10px;
 }

@@ -2,6 +2,7 @@
 *{
     margin: 0;
 }
+
 main{
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -9,14 +10,17 @@ main{
     top: 23px;
     margin-left: 250px;
 }
-
+#corpo{
+    background-color:rgba(29, 30, 44, 1);
+}
 /*Mexendo com os IDs*/
 #nameUser{
     display: flex;
     justify-content: end;
-    background-color: rgba(0, 204, 82, 1);
     margin-left: 12%;
     border-radius: 10px 0px 0px 10px;
+    background: rgba(36, 38, 58, 1);
+    color: #fff;
 }
 #nameUser>h1{
     font-size: 1.5rem;
@@ -27,11 +31,10 @@ main{
 #menu{
     width: 10%;
     float: left;
-    background-color: rgba(24, 172, 0, 0.59);
+    background: rgba(36, 38, 58, 1);
     height: 713px;
     border-radius: 4px 10px 10px 4px;
 }
-
 #caminhosMenu{
     position: relative;
     top:-5%;

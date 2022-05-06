@@ -42,22 +42,23 @@
     </nav>
     <!--Simulador de emprestimos-->
     <main>
-        <div id="simulador de emprestimos" class="campos">
+        <div id="simuladordeemprestimos" class="campos">
             <h3>Simulador de emprestimos</h3>
-            <h4>Qual valor você precisa?(R$)</h4>
+            <header>Qual valor você precisa?(R$)</header>
             <input id="valor" class="number" step="0,01" min="0" type="number">
-            <h4>Em quantos meses deseja pagar?</h4>
-            <input id="mensal" class="ocultarElemento" type="number">
+            <header>Em quantos meses deseja pagar?</header>
+            <input id="campos" class="ocultarElemento" type="number">
     </div>
-        <div id="calculo de emprestimos" class="valor">
+        <div id="calculodeemprestimos" class="campos">
             <h3>Calculo de emprestimos</h3>
-            <header>A parcela mensal será aproximadamente</header>
+            <header>A parcela mensal será aproximadamente -- x de --</header>
         </div>
+        <p></p>
      <!--Simulador de Investimentos-->   
-        <div id="simulador de investimentos" class="valor">
+        <div id="simuladordeinvestimentos" class="campos">
             <h3>Simulador de investimentos</h3>
-            <h4>Qual investimentos voce busca?</h4>
-            <label for="investimentos">investimentos</label>
+            <header>Qual investimentos voce busca?</header>
+            <label for="investimentos"></label>
             <select name="investimentos">
             <option value="">Selecione um investimento</option>
             <option value="CDB">CDB</option>
@@ -67,15 +68,15 @@
             <option value="Tesouro Direto">Tesouro Direto</option>
             <option value="Poupanca">Poupanca</option>
             </select>
-            <h4>Qual valor você gostaria de investir?(R$)</h4>
-            <input id="valor" class="number" step="0,01" min="0" type="number">
-            <h4>Por quanto tempo (em meses) deixaria seu dinheiro investido?</h4>    
-            <input id="mensal" class="ocultarElemento" type="number">
+            <header>Qual valor você gostaria de investir?(R$)</header>
+            <input id="campos" class="number" step="0,01" min="0" type="number">
+            <header>Por quanto tempo (em meses) deixaria seu dinheiro investido?</header>    
+            <input id="valor" class="ocultarElemento" type="number">
         </div>
-         <div id="retorno de investimento" class="valor">
+         <div id="retornodeinvestimento" class="campos">
              <h3>Retorno de Investimentos</h3>
-             <header>Em -- meses você terá</header>
-             <header>Seu dinheiro renderá</header>
+             <header>Em -- meses você terá --</header>
+             <header>Seu dinheiro renderá --</header>
          </div>   
     </main>
 

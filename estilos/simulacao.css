@@ -9,6 +9,7 @@ main{
     position: relative;
     top: 23px;
     margin-left: 250px;
+    color:#fff
 }
 #corpo{
     background-color:rgba(29, 30, 44, 1);

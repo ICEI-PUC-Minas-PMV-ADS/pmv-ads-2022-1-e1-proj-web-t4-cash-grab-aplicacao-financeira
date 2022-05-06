@@ -31,10 +31,7 @@ main{
     height: 713px;
     border-radius: 4px 10px 10px 4px;
 }
-#btnEditar{
-    width: 30px;
-    height: 30px;
-}
+
 #caminhosMenu{
     position: relative;
     top:-5%;

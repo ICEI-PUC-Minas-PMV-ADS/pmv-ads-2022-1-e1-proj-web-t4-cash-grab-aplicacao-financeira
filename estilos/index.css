@@ -8,15 +8,13 @@
 .efeitoimg{
     width: 1500px;
     height: 200px;
-    -moz-box-shadow: inset 10px 10px 50px #070707;
-    -webkit-box-shadow: inset 10px 10px 50px #070707;
-    box-shadow: inset 10px 10px 50px #070707;
     position: relative;
     filter: blur(2px);
 }
 
-/*Ajustando texto na imagem Inicial*/
+/*Ajustando texto Inicial*/
 #cashgrab {
+    display: flex;
     position: absolute;
     font-size: 110px;
     font-weight: bold;
@@ -34,8 +32,17 @@
     color:aliceblue;
     text-shadow: 0.2em 0.2em 0.2em #303030;
   }
+  #deschome{
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    top: 45%;
+    right: 30px;
+    text-shadow: 0.2em 0.2em 0.2em #303030;
+  }
 
-/*Ajustando texto na imagem Noticia*/
+/*Ajustando texto Noticia*/
 #textonot {
     position: absolute;
     font-size: 110px;
@@ -45,13 +52,49 @@
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
   }
+  #descnot{
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    top: 180%;
+    left: 30px;
+    text-shadow: 0.2em 0.2em 0.2em #303030;
+  }
+  #infor{
+    position: absolute;
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: 24px;
+    left: 599px;
+    top: 220%;
+    text-shadow: 0.2em 0.2em 0.2em #303030;
+  }
 
-  /*Ajustando texto parte Inferior*/
+  /*Ajustando parte Informações*/
+  #informacao{
+    background-color: rgba(36, 38, 58, 1);
+    height: 820px;
+  }
+
   #textoinf {
     font-size: 110px;
     font-weight: bold;
-    left: 250px;
+    right: 250px;
     top: 180%;
     color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #303030;
+    text-shadow: 0.1em 0.1em 0.1em #494848;
+  }
+  #descinfo{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:aliceblue;
+    text-shadow: 0.1em 0.1em 0.1em #494848;
+  }
+  #sugest{
+    width: 500px;
+  }
+  .labelsugest{
+    color: aliceblue;
   }

@@ -1,4 +1,8 @@
 /*Mexendo com o dom*/
+@font-face {
+    font-family:'roboto';
+    src: url(fontes/Roboto-Regular.ttf);
+}
 *{
     margin: 0;
 }
@@ -9,6 +13,7 @@ main{
     position: relative;
     top: 23px;
     margin-left: 250px;
+    font-family: 'roboto','Arial';
 }
 #corpo{
     background-color:rgba(29, 30, 44, 1);
@@ -91,6 +96,10 @@ main{
     width: 30px;
     height: 30px;
 }
+#cancelarEditar{
+    width: 30px;
+    height: 30px;
+}
 #valorLimite{
     position: relative;
     left: 15%;
@@ -109,8 +118,11 @@ main{
 .ocultarElemento{
     visibility: hidden;
 }
-.colcarFechamento{
-    background-image: url(../imgsite/cancel.png);
+.mostrarELemento{
+    visibility: visible;
+}
+#cancelarEditar{
+    visibility: hidden;
 }
 .estiloInputs{
     display: block;

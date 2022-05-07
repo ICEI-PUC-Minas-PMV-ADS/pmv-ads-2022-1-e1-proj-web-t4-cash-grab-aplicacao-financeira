@@ -9,6 +9,7 @@ let btnAdcionarLimite = document.getElementById('adiconarLimite');
 let btnAddDespesas = document.getElementById('btnAddDespesas');
 let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
+let cancelarEditar = document.getElementById('cancelarEditar');
 
 /*Função para modificar a barra de progresso*/
 function limiteUser(){
@@ -49,6 +50,7 @@ function mostrar(){
 function mostrarCampoLimite(){
   limiteProposto.classList.toggle('ocultarElemento');
   btnAdcionarLimite.classList.toggle('ocultarElemento');
+  cancelarEditar.classList.toggle('ocultarElemento');
 }
 /*Chamando a função atraves do click no botão*/
 btnAdcionarLimite.addEventListener('click',colocarLimite);

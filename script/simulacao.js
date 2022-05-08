@@ -1,1 +1,0 @@
-/*variaveis do escopo da pagina*/

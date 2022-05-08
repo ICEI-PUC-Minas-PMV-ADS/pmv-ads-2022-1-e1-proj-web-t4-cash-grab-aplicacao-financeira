@@ -46,7 +46,7 @@ main{
 }
 #simuladordeinvestimentos{
     width: 180%;
-    height: 240px;
+    height: 295px;
     position: relative;
     top: 20px;
     padding: 22px;
@@ -54,7 +54,7 @@ main{
 }
 #retornodeinvestimento{
     width: 160%;
-    height: 240px;
+    height: 295px;
     position: relative;
     top: 20px;
     padding: 22px;

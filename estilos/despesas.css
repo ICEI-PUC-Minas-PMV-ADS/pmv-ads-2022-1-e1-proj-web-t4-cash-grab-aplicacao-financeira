@@ -137,8 +137,11 @@ main{
     bottom: 1%;
 }
 .estiloBotao{
-    border: none;
-    border-radius: 10px;
+    border-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    text-shadow: none;
+    color: aliceblue;
+    background: rgba(36, 38, 58, 1);;
 }
 /*Estilo do menu*/
 #caminhosMenu{

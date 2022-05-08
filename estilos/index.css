@@ -6,27 +6,30 @@
 
 /*Efeito das imagens*/
 .efeitoimg{
-    width: 1500px;
-    height: 200px;
+    max-width:100%;
+    height:auto;
     position: relative;
     filter: blur(2px);
 }
 
 /*Ajustando texto Inicial*/
+.container{
+  display: flex;
+}
+
 #cashgrab {
-    display: flex;
-    position: absolute;
-    font-size: 110px;
+    position: absolute; 
+    font-size: calc(1em + 3vw);
     font-weight: bold;
-    left: 60px;
+    left: 185px;
     top: 15%;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
   } 
-  .subtext{
+  #subtext{
     position: absolute;
-    font-size: 45px;
-    top: 23%;
+    font-size: calc(1em + 2vw);
+    top: 15%;
     left: 105px;
     font-weight: bold;
     color:aliceblue;
@@ -35,7 +38,7 @@
   #deschome{
     position: absolute;
     color: aliceblue;
-    font-size: 30px;
+    font-size: calc(1em + 1vw);
     font-weight: bold;
     top: 45%;
     right: 30px;
@@ -45,17 +48,17 @@
 /*Ajustando texto Noticia*/
 #textonot {
     position: absolute;
-    font-size: 110px;
+    font-size: calc(3em + 3vw);
     font-weight: bold;
     right: 100px;
-    top: 150%;
+    top: 160%;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
   }
   #descnot{
     position: absolute;
     color: aliceblue;
-    font-size: 30px;
+    font-size: calc(1em + 1vw);
     font-weight: bold;
     top: 180%;
     left: 30px;
@@ -65,7 +68,7 @@
     position: absolute;
     color: aliceblue;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: calc(0.5em + 1vw);
     left: 599px;
     top: 220%;
     text-shadow: 0.2em 0.2em 0.2em #303030;
@@ -78,7 +81,7 @@
   }
 
   #textoinf {
-    font-size: 110px;
+    font-size: calc(1.5em + 3vw);
     font-weight: bold;
     right: 250px;
     top: 180%;
@@ -86,15 +89,13 @@
     text-shadow: 0.1em 0.1em 0.1em #494848;
   }
   #descinfo{
-    font-size: 20px;
+    font-size: calc(0.5em + 0.5vw);
     text-align: center;
     font-weight: bold;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #494848;
   }
-  #sugest{
-    width: 500px;
-  }
+  
   .labelsugest{
     color: aliceblue;
   }

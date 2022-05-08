@@ -1,4 +1,8 @@
 /*Mexendo com o dom*/
+@font-face {
+    font-family:'roboto';
+    src: url(fontes/Roboto-Regular.ttf);
+}
 *{
     margin: 0;
 }
@@ -9,7 +13,7 @@ main{
     position: relative;
     top: 23px;
     margin-left: 250px;
-    color:#fff
+    font-family: 'roboto','Arial';
 }
 #corpo{
     background-color:rgba(29, 30, 44, 1);
@@ -22,12 +26,7 @@ main{
     border-radius: 10px 0px 0px 10px;
     background: rgba(36, 38, 58, 1);
     color: #fff;
-}
-#nameUser>h1{
-    font-size: 1.5rem;
-    position: relative; 
-    right: 10%;
-    
+    box-shadow:  1px 1px 1px 1px #000;
 }
 #simuladordeemprestimos{
     width: 180%;
@@ -61,28 +60,6 @@ main{
     padding: 22px;
     margin-left: 180px;
 }
-#menu{
-    width: 10%;
-    float: left;
-    background: rgba(36, 38, 58, 1);
-    height: 713px;
-    border-radius: 4px 10px 10px 4px;
-}
-#caminhosMenu{
-    position: relative;
-    top:-5%;
-    right: 30%;
-}
-#menu>ul>li>a{
-    color: #fff;
-}
-#logo{
-    position: relative;
-    width: 80px;
-    height: 80px;
-    top:-45%;
-    left: 20%;
-}
 /*mexendo com class*/
 .campos{
     background: rgba(36, 38, 58, 1);
@@ -90,13 +67,10 @@ main{
     color: #fff;
     box-shadow:  1px 1px 1px 1px #000;
 }
-.colcarFechamento{
-    background-image: url(../imgsite/cancel.png);
-}
 .estiloInputs{
     display: block;
     position: relative;
-     margin: 0 auto;
+    margin: 0 auto;
     border-top: none;
     border-right: none;
     border-bottom-color: #fff;
@@ -106,6 +80,110 @@ main{
     bottom: 1%;
 }
 .estiloBotao{
-    border: none;
-    border-radius: 10px;
+    border-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    text-shadow: none;
+    color: aliceblue;
+    background: rgba(36, 38, 58, 1);;
+}
+/*Estilo do menu*/
+#caminhosMenu{
+    position: relative;
+    top:2%;
+    right: 30%;
+}
+#nameUser>h1{
+    font-size: 1.5rem;
+    position: relative; 
+    right: 10%;
+}
+#menu{
+    width: 10%;
+    float: left;
+    background: rgba(36, 38, 58, 1);
+    height: 713px;
+    border-radius: 4px 10px 10px 4px;
+    box-shadow:  1px 1px 1px 1px #000;
+}
+#menu>ul>li>a{
+    color: #fff;
+}
+#logo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top:-45%;
+    left: 20%;
+}
+.imgsMenu{
+    width: 40px;
+    height:40px;
+    left: 50%;
+    position: relative;
+}
+.elementoMenu:hover img{
+    /*Onde faz a imagem sumir*/
+    visibility: hidden;
+}
+#textoInicio{
+    color: #fff;
+    position: relative;
+    top:64px;
+    left: 50%;
+    visibility:hidden;
+}
+.elementoMenu:hover #textoInicio{
+    /*Onde faz o texto aparecer*/
+    visibility: visible;
+}
+#textoDespesas{
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    visibility: hidden;
+}
+.elementoMenu:hover #textoDespesas{
+    visibility: visible;
+}
+
+#textoExtrato{
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    visibility: hidden;
+}
+.elementoMenu:hover #textoExtrato{
+    visibility: visible;
+}
+#textoSimulacao{
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    visibility: hidden;
+}
+.elementoMenu:hover #textoSimulacao{
+    visibility: visible;
+}
+#textoNoticias{
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    visibility: hidden;
+}
+.elementoMenu:hover #textoNoticias{
+    visibility: visible;
+}
+#textoSobre{
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    visibility: hidden;
+}
+.elementoMenu:hover #textoSobre{
+    visibility: visible;
 }

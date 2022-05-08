@@ -1,0 +1,111 @@
+/*Mexendo com o dom*/
+*{
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: relative;
+    top: 23px;
+    margin-left: 250px;
+    color:#fff
+}
+#corpo{
+    background-color:rgba(29, 30, 44, 1);
+}
+/*Mexendo com os IDs*/
+#nameUser{
+    display: flex;
+    justify-content: end;
+    margin-left: 12%;
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(36, 38, 58, 1);
+    color: #fff;
+}
+#nameUser>h1{
+    font-size: 1.5rem;
+    position: relative; 
+    right: 10%;
+    
+}
+#simuladordeemprestimos{
+    width: 180%;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    padding: 12px;
+    margin-left: -90px;
+}
+#calculodeemprestimos{
+    width: 160%;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    padding: 12px;
+    margin-left: 180px;
+}
+#simuladordeinvestimentos{
+    width: 180%;
+    height: 240px;
+    position: relative;
+    top: 20px;
+    padding: 22px;
+    margin-left: -90px;
+}
+#retornodeinvestimento{
+    width: 160%;
+    height: 240px;
+    position: relative;
+    top: 20px;
+    padding: 22px;
+    margin-left: 180px;
+}
+#menu{
+    width: 10%;
+    float: left;
+    background: rgba(36, 38, 58, 1);
+    height: 713px;
+    border-radius: 4px 10px 10px 4px;
+}
+#caminhosMenu{
+    position: relative;
+    top:-5%;
+    right: 30%;
+}
+#menu>ul>li>a{
+    color: #fff;
+}
+#logo{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top:-45%;
+    left: 20%;
+}
+/*mexendo com class*/
+.campos{
+    background: rgba(36, 38, 58, 1);
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    box-shadow:  1px 1px 1px 1px #000;
+}
+.colcarFechamento{
+    background-image: url(../imgsite/cancel.png);
+}
+.estiloInputs{
+    display: block;
+    position: relative;
+     margin: 0 auto;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: #fff;
+    border-left-color:#fff ;
+    background-color: transparent;
+    color: #fff;
+    bottom: 1%;
+}
+.estiloBotao{
+    border: none;
+    border-radius: 10px;
+}

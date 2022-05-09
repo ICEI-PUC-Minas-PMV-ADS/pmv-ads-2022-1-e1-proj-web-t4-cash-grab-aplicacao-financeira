@@ -56,9 +56,13 @@
             <input id="valorEmprestimo" class="number" placeholder="digite o valor em (R$)">
             <header>Em quantos meses deseja pagar?</header>
             <input id="mesesEmprestimo" class="number" placeholder="digite os meses">
+            <header>Qual a taxa de juros do emprestimo?</header>
+            <input id="taxaEmprestimo" class="number" placeholder="digite os juros em (%)">
+            <input type="button" onclick="capturar()" value="ok">
     </div>
         <div id="calculodeemprestimos" class="campos">
             <h3>Calculo de emprestimos</h3>
+            <p id="valorDigitado"></p>
         </div>
         <p></p>
      <!--Simulador de Investimentos-->   
@@ -81,6 +85,7 @@
             <input id="mesesInvestimento" class="number" placeholder="digite os meses">
             <header>Qual seria a contribuição mensal?(R$)</header>
             <input id="contribuicaoMensal" class="number" placeholder="digite o valor em (R$)">
+            <input type="button" onclick="capturar()" value="ok">
         </div>
          <div id="retornodeinvestimento" class="campos">
              <h3>Retorno de Investimentos</h3>

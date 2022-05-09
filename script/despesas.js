@@ -13,8 +13,8 @@ let cancelarEditar = document.getElementById('cancelarEditar');
 
 /*Função para modificar a barra de progresso*/
 function limiteUser(){
-    if(gastoInput.value!= ' ' & limiteProposto.value!=''){
-      porcetagemDivida= (gastoInput.value*1)/limiteProposto.value; 
+    //if(gastoInput.value!= ' ' & limiteProposto.value!=''){
+      porcetagemDivida= (somaDividas.value*1)/limiteProposto.value; 
       porcetagemDivida = Math.round(porcetagemDivida*100);
       barraProgesso.style.width=porcetagemDivida+'%';
       barraProgesso.innerHTML=porcetagemDivida+'%';
@@ -25,22 +25,37 @@ function limiteUser(){
       }else if(porcetagemDivida>=100){
         barraProgesso.style.background='red'
       }
-    }
-    else{
-      window.alert('Campo vazio');
-    }
+  //  }
+    //else{
+      //window.alert('Campo vazio');
+   // }
       
 }
 function colocarLimite(){
     valorLimiteEl.value=limiteProposto.value;
-    valorLimiteEl.innerHTML= 'R$'+limiteProposto.value;
+    valorLimiteEl.innerHTML= 'R$ '+limiteProposto.value;
     limiteUser()      
-   
+}
+let cont=0
+let vetor = [];
+let i=0
+function somaDivida(){
+    let soma = 0
+    for(let i in vetor) {
+      soma +=vetor[i]
+    }
+    return soma
 }
 function colocarDividas(){
-    somaDividas.value=gastoInput.value
-    somaDividas.innerHTML='R$'+gastoInput.value
-    limiteUser()  
+    let b= parseFloat(gastoInput.value,10)
+      vetor[cont] = b
+      cont+=1
+      console.log(cont)
+      console.log(vetor)
+     somaDividas.innerHTML=somaDivida();
+     somaDividas.value=somaDivida();
+     limiteUser()
+  
 }
 function mostrar(){
   gastoInput.classList.toggle('ocultarElemento');

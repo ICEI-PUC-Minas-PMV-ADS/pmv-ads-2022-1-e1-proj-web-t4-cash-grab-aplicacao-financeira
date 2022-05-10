@@ -1,11 +1,11 @@
 html{
   scroll-behavior: smooth;
+  display: flex;
 }
 
 #login{
-    display: flex;
     justify-content: end;
-    margin-left: 1000px;
+    margin-left: 1520px;
 }
 
 /*Efeito das imagens*/
@@ -17,10 +17,6 @@ html{
 }
 
 /*Ajustando texto Inicial*/
-.container{
-  display: flex;
-}
-
 #cashgrab {
     position: absolute; 
     font-size: calc(1em + 3vw);
@@ -55,7 +51,7 @@ html{
     font-size: calc(3em + 3vw);
     font-weight: bold;
     right: 100px;
-    top: 160%;
+    top: 170%;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
   }
@@ -64,8 +60,8 @@ html{
     color: aliceblue;
     font-size: calc(1em + 1vw);
     font-weight: bold;
-    top: 180%;
     left: 30px;
+    top: 200%;
     text-shadow: 0.2em 0.2em 0.2em #303030;
   }
   #infor{
@@ -73,15 +69,19 @@ html{
     color: aliceblue;
     font-weight: lighter;
     font-size: calc(0.5em + 1vw);
-    left: 599px;
-    top: 220%;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
+    left: 756px;
+    top: 265%;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
   }
 
   /*Ajustando parte Informações*/
   #informacao{
     background-color: rgba(36, 38, 58, 1);
-    height: 820px;
+    height: 500px;
+  }
+
+  #inf{
+    width: 500px;
   }
 
   #textoinf {
@@ -100,6 +100,7 @@ html{
     text-shadow: 0.1em 0.1em 0.1em #494848;
   }
   
-  .labelsugest{
+#sugest{
     color: aliceblue;
+    width: 500px;
   }

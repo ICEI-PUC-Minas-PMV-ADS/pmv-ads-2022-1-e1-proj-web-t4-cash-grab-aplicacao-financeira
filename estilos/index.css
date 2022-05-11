@@ -16,6 +16,14 @@ html{
     filter: blur(2px);
 }
 
+
+#noticia{
+  background-image: url(../imgsite/Background\ Noticia.jpg);
+  background-size: contain;
+  max-width:100%;
+  height: 1269px;
+}
+
 /*Ajustando texto Inicial*/
 #cashgrab {
     position: absolute; 
@@ -47,15 +55,14 @@ html{
 
 /*Ajustando texto Noticia*/
 #textonot {
-    position: absolute;
     font-size: calc(3em + 3vw);
     font-weight: bold;
-    right: 100px;
-    top: 170%;
+    text-align: end;
+    padding: 20px;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
   }
-  #descnot{
+#descnot{
     position: absolute;
     color: aliceblue;
     font-size: calc(1em + 1vw);
@@ -63,44 +70,69 @@ html{
     left: 30px;
     top: 200%;
     text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
-  #infor{
-    position: absolute;
-    color: aliceblue;
-    font-weight: lighter;
-    font-size: calc(0.5em + 1vw);
-    left: 756px;
-    top: 265%;
-    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
-  }
+}
+#infor{
+  position: absolute;
+  color: aliceblue;
+  font-weight: lighter;
+  font-size: calc(0.5em + 1vw);
+  left: 756px;
+  top: 265%;
+  text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+}
+
+#img_not{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding-top: 850px;
+}
+
+.img_inf{
+    max-width: 150px;
+}
 
   /*Ajustando parte Informações*/
-  #informacao{
+#informacao{
     background-color: rgba(36, 38, 58, 1);
-    height: 500px;
-  }
+    height: 900px;
+}
 
-  #inf{
+.puc{
+    max-width:300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+#inf{
     width: 500px;
-  }
+}
 
-  #textoinf {
+#textoinf {
     font-size: calc(1.5em + 3vw);
     font-weight: bold;
     right: 250px;
     top: 180%;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #494848;
-  }
-  #descinfo{
+}
+#descinfo{
     font-size: calc(0.5em + 0.5vw);
     text-align: center;
     font-weight: bold;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #494848;
-  }
-  
+}
+
+.sugest_text{
+  font-size: calc(0.5em + 0.5vw);
+  color:aliceblue;
+}
+
 #sugest{
+    position: absolute;
     color: aliceblue;
     width: 500px;
-  }
+    left: 1250px;
+    top: 300%;
+}

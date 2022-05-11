@@ -69,7 +69,7 @@
       </nav>
       <main>
         <!--Home-->
-        <div class="home">
+        <div id="home">
           <img src="imgsite/Background inicio.jpg" class="efeitoimg img-fluid height: auto" alt="Responsive image">
           <p id="cashgrab">Cash Grab </p>
           <div id="subtext"><br>Aplicação Financeria</div>
@@ -80,24 +80,34 @@
         </div>
       <!--Notícias-->
       <div id="noticia">
-        <img src="imgsite/Background Noticia.jpg" class="efeitoimg img-fluid height: auto" alt="Responsive image">
-        <p id="textonot">Notícias</p>
+        <div id="textonot"><p>Notícias</p></div>  
         <label id="descnot">Possuímos uma tela com as ultimas notícias disponíeis <br>
           sobre o mundo dos investimentos, para que você possa <br>
           se interar ao mundo de investimentos, sem necessitar <br>
-          sair da sua aplicação financeira</label>
+          sair da sua aplicação financeira
+        </label>
         <label id="infor">Principais portais de notícias</label>
+        <div id="img_not">
+          <img src="imgsite/InfoMoney.png" class="img_inf" alt="Responsive image">
+          <img src="imgsite/E-investidor.jpg" class="img_inf" alt="Responsive image">
+          <img src="imgsite/Valor_economico.jpg" class="img_inf" alt="Responsive image">
+        </div>
       </div>
       <!--Informações-->
       <div id="informacao">
         <div id="inf">
-          <label id="textoinf">PUC MINAS</label>
-          <label id="descinfo">Projeto realizado por alunos do curso de <br>
+          <img src="imgsite/Logo_PUC.jpg" class="puc" alt="Responsive image" >
+          <h1 id="textoinf">PUC MINAS</h1>
+          <h1 id="descinfo">Projeto realizado por alunos do curso de <br>
             Analise e Desenvolvimento de Sistema da <br>
-            Pontífica Universidade Católica de Minas Gerais</label>
+            Pontífica Universidade Católica de Minas Gerais</h1>
         </div>
+        <!--Campo de sugestão-->
         <div id="sugest">
-          <!--Campo de sugestão-->
+          <p class="sugest_text">Tem alguma sugestão para nosso site?<br>
+             Escreva sua sugestão abaixo para que possamos <br>
+             melhorar cada vez mais sua experiência.
+          </p>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="labelsugest form-label">Seu e-mail</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">

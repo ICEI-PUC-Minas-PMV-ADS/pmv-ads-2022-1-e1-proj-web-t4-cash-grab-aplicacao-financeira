@@ -12,8 +12,8 @@ let porcetagemDivida;
 let cancelarEditar = document.getElementById('cancelarEditar');
 
 /*Função para modificar a barra de progresso*/
-function limiteUser(){
-    //if(gastoInput.value!= ' ' & limiteProposto.value!=''){
+//function limiteUser(){
+    if(somaDividas.value!= ' ' & limiteProposto.value!=''){
       porcetagemDivida= (somaDividas.value*1)/limiteProposto.value; 
       porcetagemDivida = Math.round(porcetagemDivida*100);
       barraProgesso.style.width=porcetagemDivida+'%';
@@ -25,9 +25,9 @@ function limiteUser(){
       }else if(porcetagemDivida>=100){
         barraProgesso.style.background='red'
       }
-  //  }
-    //else{
-      //window.alert('Campo vazio');
+   // }
+   // else{
+   //    window.alert('Campo vazio');
    // }
       
 }

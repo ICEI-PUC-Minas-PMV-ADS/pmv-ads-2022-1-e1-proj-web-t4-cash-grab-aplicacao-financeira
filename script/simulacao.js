@@ -1,13 +1,11 @@
-/*variaveis do emprestimo*/
-function calculaJuros(){
-var capital = $("valorEmprestimo").val();
-var taxaJuros = val(2);
-var tempoAplicacao = $("mesesEmprestimo").val(); 
-var taxaJuros = taxaJuros/100;
-}
-var montante = capital * Math.pow((1 + taxaJuros), tempoAplicacao);
-var tot = montante.toString();
-var men = tot/tempoAplicacao;
+/*calculo do emprestimo*/
+var valor = "";
+var meses = "";
 
-$('#total').val(tot);
-$('#mensal').val(men);
+function capturar() {
+    valor = document.getElementById("valorEmprestimo").value;
+    meses = document.getElementById("mesesEmprestimo").value;
+    juros = 2/100;
+    document.getElementById("parcelas").innerHTML = (valor*Math.pow((1+juros),meses)/meses).toFixed(2);
+    document.getElementById("montante").innerHTML = (valor*Math.pow((1+juros),meses)).toFixed(2);
+}

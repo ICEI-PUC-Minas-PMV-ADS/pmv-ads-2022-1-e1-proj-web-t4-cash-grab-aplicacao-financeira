@@ -7,6 +7,18 @@
     margin: 0;
 }
 
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: right;
+}
+
 main{
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -30,42 +42,22 @@ main{
 }
 #financas{
     position: relative;
-    height: px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    height: 300px;
     padding: 12px;   
 }
-
-
-
-
-
-
-
-
-
-TEXTO DO EXTRATO BÁNCARIO
-body 
-h1 {text-align: center;}
-
-H2 {text-align: justify;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#despesas{
+    width: 81%;
+    height: 250px;
+    position: relative;
+    top: 10px;
+    padding: 12px;
+}
+#limites{
+    width: 81%;
+    height: 329px;
+    position: relative;
+    top: 30px;
+    padding: 12px;
     
 }
 /*mexendo com class*/

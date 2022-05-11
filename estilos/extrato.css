@@ -6,7 +6,6 @@
 *{
     margin: 0;
 }
-
 main{
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -30,43 +29,17 @@ main{
 }
 #financas{
     position: relative;
-    height: px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    padding: 12px;   
+    height: 720px;
+    padding: 12px; 
+    width: 300%;
+    display: flex;
+    justify-content: space-between;
 }
+/*TEXTO DO EXTRATO BÁNCARIO*/ 
+#despesas>h3{
+    text-align: center;
+position: relative;
 
-
-
-
-
-
-
-
-
-TEXTO DO EXTRATO BÁNCARIO
-body 
-h1 {text-align: center;}
-
-H2 {text-align: justify;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
 /*mexendo com class*/
 .campos{
@@ -163,7 +136,6 @@ H2 {text-align: justify;}
 .elementoMenu:hover #textoDespesas{
     visibility: visible;
 }
-
 #textoExtrato{
     color: #fff;
     position: relative;

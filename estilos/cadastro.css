@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1B2029;
+    color: aliceblue;
+    font-weight: 500;
+    display: flex;
+    min-height: 10vw;
+    min-width: 50vw;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #8880FE;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main label{
+    display: flex;
+    flex-direction: column;
+}
+
+main label span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input{
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+main form input[type="button"]{
+    cursor: pointer;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #6c36ff;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+} 
+
+main form input[type="button"]:hover{
+    background: #5952D4;
+}
+
+section.imagem{
+    width: 50vw;
+    display: flex;
+}
+
+section.imagem img{
+    width: 1200px;
+    height: 1159px;
+    border-radius: 10px;
+    filter:blur(1px);
+}
+
+/* Responsividade */
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    section.imagem img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    section.imagem img{
+        display: none;
+        visibility: hidden;
+    }
+    main{
+        width: 100vw;
+    }
+}

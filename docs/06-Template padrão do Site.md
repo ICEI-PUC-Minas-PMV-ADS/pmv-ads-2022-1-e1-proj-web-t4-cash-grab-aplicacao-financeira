@@ -1,12 +1,16 @@
 # Template padrão do site
+## Tela de Inicio
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+## Demais telas
+As telas do site terá seu layout conforme o da figura abaixo:
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![Template](img/template.png)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O layout é composto pelos itens:
+
+    1- Barra de Navegação: Barra na lateral será a forma em que o usario consiga acessar todas as funcionalidades do nosso site. Quando o usuario passa o mouse por cima dos icones do menu, será mostrado o titulo do que e que ele está tentando acessar.
+
+    2- Barra indentificação do usuário: Nessa parte mostra o nome de quem está utilizando o site.
+
+    3- Parte de Conteúdo: Nessa parte as disposição dos conteudos se modam de acordo com a pagina que ele está. Assim trazendo uma melhor experiencia no uso do site.
+

@@ -61,7 +61,6 @@ html{
     text-shadow: 0.1em 0.1em 0.1em #303030;
   }
 #descnot{
-    position: absolute;
     color: aliceblue;
     font-size: calc(1em + 1vw);
     font-weight: bold;
@@ -69,23 +68,27 @@ html{
     top: 200%;
     text-shadow: 0.2em 0.2em 0.2em #303030;
 }
-#infor{
-  position: relative;
+#portais{
   color: aliceblue;
   font-weight: lighter;
   font-size: calc(0.5em + 1vw);
-  left: 40vw;
-  top: 33vw;
   text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
 }
 
 #img_not{
   display: flex;
-  flex-direction: row;
-  justify-content:center;
+  flex-direction: column;
   padding-top: 850px;
   padding-bottom: 100px;
-  
+  padding-left: 44vw;
+}
+
+.img_config{
+  gap: 30px;
+  display: flex;
+}
+.img_config::before{
+  gap: -100px;
 }
 
 .img_inf{
@@ -96,6 +99,8 @@ html{
 #informacao{
     background-color: rgba(36, 38, 58, 1);
     height: 900px;
+    flex-direction: row;
+    display: flex;
 }
 
 .puc{
@@ -130,7 +135,7 @@ html{
 }
 
 #sugest{
-    position: absolute;
+    
     color: aliceblue;
     width: 500px;
     left: 1250px;

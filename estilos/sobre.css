@@ -114,6 +114,9 @@
     top: 100%;
     left: 20%;
     color:white ;
+    font-size: medium;
+font-family: arial;
+text-align: center;
     
 }
 h2 {
@@ -161,4 +164,16 @@ color: white;
 font-size: medium;
 font-family: arial;
 text-align: center;
+}
+h6 {
+    top:100%;
+    left: 20%;
+color: white;
+font-size: medium;
+font-family: arial;
+text-align: center;
+
+}
+img {
+border-radius: 10px 10px 10px 10px;
 }

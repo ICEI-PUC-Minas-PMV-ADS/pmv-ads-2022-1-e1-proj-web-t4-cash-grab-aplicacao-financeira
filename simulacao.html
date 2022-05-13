@@ -54,13 +54,16 @@
             <h3>Simulador de emprestimos</h3>
             <header>Qual valor você precisa?(R$)</header>
             <input id="valorEmprestimo" class="ocultarElemento estiloInputs number" placeholder="digite o valor em (R$)">
+            <br>
             <header>Em quantos meses deseja pagar?</header>
             <input id="mesesEmprestimo" class="ocultarElemento estiloInputs number" placeholder="digite os meses">
+            <br>
             <input type="button" class="ocultarElemento estiloBotao" onclick="capturar()" value="ok">
     </div>
         <div id="calculodeemprestimos" class="campos">
             <h3>Calculo de emprestimos</h3>
             <header>Valor da parcela R$ <b><h7 id="parcelas"></h7></b></header>
+            <br>
             <header>Valor total do montante R$ <b><h7 id="montante"></h7></b></header>
         </div>
         <p></p>
@@ -77,17 +80,22 @@
             <option value="LCA">LCA</option>
             <option value="Poupanca">Poupanca</option>
             </select>
+            <p></p>
             <header>Qual valor você gostaria de investir?(R$)</header>
             <input id="valorInvestimento" class="ocultarElemento estiloInputs number" placeholder="digite o valor em (R$)">
+            <br>
             <header>Por quanto tempo (em meses) deixaria seu dinheiro investido?</header>    
             <input id="mesesInvestimento" class="ocultarElemento estiloInputs number" placeholder="digite os meses">
+            <br>
             <header>Qual seria a contribuição mensal?(R$)</header>
             <input id="contribuicaoMensal" class="ocultarElemento estiloInputs number" placeholder="digite o valor em (R$)">
+            <br>
             <input type="button" class="ocultarElemento estiloBotao" onclick="capturar()" value="ok">
         </div>
          <div id="retornodeinvestimento" class="campos">
              <h3>Retorno de Investimentos</h3>
              <header>Valor total do retorno R$ <b><h7 id="retornoInv"></h7></b></header>
+             <br>
              <header>Valor total dos rendimentos R$ <b><h7 id="rendimentos"></h7></b></header>
          </div>   
     </main>

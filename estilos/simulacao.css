@@ -30,33 +30,33 @@ main{
 }
 #simuladordeemprestimos{
     width: 180%;
-    height: 230px;
+    height: 250px;
     position: relative;
-    top: 10px;
+    top: 0px;
     padding: 12px;
     margin-left: -90px;
 }
 #calculodeemprestimos{
     width: 160%;
-    height: 230px;
+    height: 250px;
     position: relative;
-    top: 10px;
+    top: 0px;
     padding: 12px;
     margin-left: 180px;
 }
 #simuladordeinvestimentos{
     width: 180%;
-    height: 295px;
+    height: 390px;
     position: relative;
-    top: 20px;
+    top: 10px;
     padding: 22px;
     margin-left: -90px;
 }
 #retornodeinvestimento{
     width: 160%;
-    height: 295px;
+    height: 390px;
     position: relative;
-    top: 20px;
+    top: 10px;
     padding: 22px;
     margin-left: 180px;
 }
@@ -70,7 +70,7 @@ main{
 .estiloInputs{
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: -4 auto;
     border-top: none;
     border-right: none;
     border-bottom-color: #fff;

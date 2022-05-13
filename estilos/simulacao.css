@@ -46,7 +46,7 @@ main{
 }
 #simuladordeinvestimentos{
     width: 180%;
-    height: 295px;
+    height: 300px;
     position: relative;
     top: 20px;
     padding: 22px;
@@ -54,7 +54,7 @@ main{
 }
 #retornodeinvestimento{
     width: 160%;
-    height: 295px;
+    height: 300px;
     position: relative;
     top: 20px;
     padding: 22px;
@@ -70,7 +70,7 @@ main{
 .estiloInputs{
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: -4 auto;
     border-top: none;
     border-right: none;
     border-bottom-color: #fff;

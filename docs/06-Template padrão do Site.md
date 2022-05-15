@@ -1,5 +1,23 @@
 # Template padrão do site
 ## Tela de Inicio
+A tela inicial do site é apresentada com uma curta descrição do nosso objetivo e tem o seguinte layout:
+
+![Home](img/Home_template.png)
+
+Nesta tela possuímos os seguintes detalhes:
+
+    1- Layout: Nesta primeira página, decidimos utilizar um layout baseado em Single Page Applications(SPA), para que fique de manuseio mais fácil ao usuário.
+
+    2- Barra de Navegação: Barra  no topo do site, onde ao clicar no tópico desejado, o site irá encaminhar o usuário para o campo correspondente.
+
+Ao clicar no botão "Login", será aberto a tela (modal) abaixo:
+
+![Login](img/Login_template.png)
+
+Caso o usuário não tenha realizado um cadastro, o mesmo irá clicar no campo onde é informado para clicar e realizar o cadastro.
+O usuário será redirecionado para a página abaixo:
+
+![Cadastro](img/Cadastro_template.png)
 
 ## Demais telas
 As telas do site terá seu layout conforme o da figura abaixo:

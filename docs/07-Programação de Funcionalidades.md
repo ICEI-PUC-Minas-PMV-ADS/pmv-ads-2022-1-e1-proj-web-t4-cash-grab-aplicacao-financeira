@@ -16,3 +16,13 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
     Essa funcionalidade permite que o usuario crie um controle de gastos com o limite pré estabelecido pelo mesmo, e quando vai acresentando novas dividas a barra de status mostra a situação como está. Uma ilustração da funionalidade na imagem abaixo
 
 ![RF-01](img/RF-01.png)
+
+## Tela de Simulacoes (RF-05) e (RF-07)
+    A tela de simulações permitirá ao usuário acessar e simular juros de empréstimos e rendimentos de investimentos a sua escolha.
+
+![Simulacoes](img/Simula%C3%A7%C3%B5es%20Intt..png)  
+
+### Funcionalidade (RF-05)
+    Essa funcionalidade concederá ao usuário uma simulação de empréstimo, calculando juros ao mês, e lhe informando o valor de cada parcela referente a sua solicitação nos campos de preenchimento como mostra a imagem a seguir.
+
+ ![RF-05](img/simulacoes%20func..png)   

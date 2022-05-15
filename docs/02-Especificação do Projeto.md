@@ -36,7 +36,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Helaine             | Receber notificações de quando minha fatura estiver perto do vencimento | Para que não esqueça pagar as contas e não pagar juros                        |
 |Helaine             | Simular os rendimentos dos investimentos                                | Para saber em qual tipo de investimento aplicar o meu dinheiro                |
 |Helaine             | Gostaria de ler os materiais sobre investimentos                        | Para aprender sobre o mercado financeiro                                      |
-|Jose Geraldo        | Gostaria de usar uma aplicação simples                                  | Para que não tenha dificuldades em conseguir ler as notícias                  |
+|Helaine             |Gostaria de criar e ter um controle das minhas despesas. | Para que eu possa ter melhor organização pessoal.                                     |
+|Jose Geraldo        | Gostaria de ter informações sobre o mercado financeiro para que eu possa ficar atualizado com as notícias correntes. | Para que eu possa ter uma facilidade na leitura das notícias atualizadas.                   |
 
 ## Requisitos
 
@@ -46,24 +47,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir a criação de tabela com controle dos gastos como, os limites pré-estabelecido pelo o usuário do que ele vai gastar | ALTA | 
-|RF-002| Exibir as despesas em formato de gráficos e porcentagem ou barra de progresso                                               | ALTA |
-|RF-003| Conter uma função que mande notificação alertando quando estiver perto de estourar o limite separado para gastos            | MÉDIA |
-|RF-004| Possibilitar ao usuário visualizar despesas futuras                                                                         | MÉDIA |
-|RF-005| Calcular juros de empréstimos                                                                                               | MÉDIA |
-|RF-006| Possibilitar o usuário criar uma Lista de despesas                                                                          | MÉDIA |
-|RF-007| Conter um “simulador” de investimento                                                                                       | MÉDIA |
-|RF-008| Conter uma página sobre notícias de investimento                                                                            | MÉDIA |
+|RF-01| O sistema deve permitir a criação de um controlador de gastos, com limites pré-estabelecido pelo usuário.  | ALTA | 
+|RF-02| O sistema deve exibir as despesas em formato de gráficos.                                                | ALTA |
+|RF-03| Conter uma função que mande notificação alertando quando estiver perto de estourar o limite separado para gastos            | MÉDIA |
+|RF-04| Possibilitar ao usuário visualizar despesas futuras                                                                         | MÉDIA |
+|RF-05| Calcular juros de empréstimos                                                                                               | MÉDIA |
+|RF-06| Possibilitar o usuário criar uma Lista de despesas                                                                          | MÉDIA |
+|RF-07| Conter um “simulador” de investimento                                                                                       | MÉDIA |
+|RF-08| Conter uma página sobre notícias de investimento                                                                            | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Site deve ser responsivo | MÉDIA | 
-|RNF-002| Site deve ser compatível com os principais navegadores |  ALTA | 
-|RNF-003| Site terá um layout minimalista |  ALTA |
-|RNF-004| Sistema deve ser organizado e de fácil visibilidade e ter uma interface dinâmica |  ALTA |
+|RNF-01| Site deve ser responsivo | MÉDIA | 
+|RNF-02| Site deve ser compatível com os principais navegadores |  ALTA | 
+|RNF-03| Site terá um layout minimalista |  ALTA |
+|RNF-04| Sistema deve ser organizado e de fácil visibilidade e ter uma interface dinâmica |  ALTA |
 
 ## Restrições
 

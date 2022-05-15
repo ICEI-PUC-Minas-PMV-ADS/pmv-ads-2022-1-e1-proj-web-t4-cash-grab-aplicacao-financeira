@@ -12,7 +12,7 @@ let porcetagemDivida;
 let cancelarEditar = document.getElementById('cancelarEditar');
 
 /*Função para modificar a barra de progresso*/
-//function limiteUser(){
+function limiteUser(){
     if(somaDividas.value!= ' ' & limiteProposto.value!=''){
       porcetagemDivida= (somaDividas.value*1)/limiteProposto.value; 
       porcetagemDivida = Math.round(porcetagemDivida*100);
@@ -28,7 +28,7 @@ let cancelarEditar = document.getElementById('cancelarEditar');
    // }
    // else{
    //    window.alert('Campo vazio');
-   // }
+   }
       
 }
 function colocarLimite(){

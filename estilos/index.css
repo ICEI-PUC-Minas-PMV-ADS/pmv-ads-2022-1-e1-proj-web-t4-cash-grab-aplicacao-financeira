@@ -107,19 +107,21 @@ html{
     max-width:300px;
     height: auto;
     border-radius: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
 }
 
 #inf{
-    width: 500px;
+  width: auto;
+  margin-top: 170px;
 }
 
 #textoinf {
     font-size: calc(1.5em + 3vw);
     font-weight: bold;
-    right: 250px;
-    top: 180%;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #494848;
+    margin-left: 210px;
 }
 #descinfo{
     font-size: calc(0.5em + 0.5vw);
@@ -127,17 +129,33 @@ html{
     font-weight: bold;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #494848;
+    margin-left: 210px;
 }
 
+  /*Ajustando parte Sobre*/
 .sugest_text{
   font-size: calc(0.5em + 0.5vw);
   color:aliceblue;
+  font-weight:bolder;
+  margin-left: 600px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-#sugest{
-    
+#sugest{    
     color: aliceblue;
-    width: 500px;
-    left: 1250px;
-    top: 300%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 170px;
+}
+
+#envia_sugest{
+  margin-left: 600px;
+  margin-right: 100px;
+  width: 500px;
+}
+
+#inf_final{
+  margin-top: 250px;
 }

@@ -29,17 +29,74 @@ main{
 }
 #financas{
     position: relative;
-    height: 720px;
+    height: 55px;
     padding: 12px; 
-    width: 300%;
+    width: 310%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    left: -10%;
+}
+#data
+{
+    position: relative;
+    top: 12%;
+    height: 582px;
+    padding: 12px; 
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    left: -110%;
+} 
+#Descrição
+{
+    position: relative;
+    top: 12%;
+    height: 580px;
+    padding: 12px; 
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    left: -129%;
+
+}
+#Tipo
+{
+   position: relative;
+   top: -88%;
+   height: 580px;
+   padding: 12px;
+   width: 70%;
+   display: flex;
+   justify-content: center;
+    left: 150%;
+}
+#Valor
+{   
+    position: relative;
+    top: -88%;
+    height: 580px;
+    padding: 12px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    left: 130%; 
+}
+#SaldoAtual
+{
+    position: relative;
+    top: 14%;
+    height: 84px;
+    padding: 12px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    left: 50%; 
+    
 }
 /*TEXTO DO EXTRATO BÁNCARIO*/ 
 #despesas>h3{
     text-align: center;
 position: relative;
-
 }
 /*mexendo com class*/
 .campos{

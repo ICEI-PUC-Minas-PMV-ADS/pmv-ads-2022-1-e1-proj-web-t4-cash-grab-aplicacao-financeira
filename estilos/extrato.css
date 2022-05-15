@@ -30,77 +30,73 @@ main{
 #financas{
     position: relative;
     height: 55px;
-    padding: 13px; 
-    width: 300%;
+    padding: 12px; 
+    width: 310%;
     display: flex;
     justify-content: center;
-
+    left: -10%;
 }
 #data
 {
     position: relative;
-    height: 50px;
+    top: 12%;
+    height: 582px;
     padding: 12px; 
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
-    top: 150%;
-    left: -100%;
-
+    left: -110%;
 } 
 #Descrição
 {
     position: relative;
-    height: 50px;
+    top: 12%;
+    height: 580px;
     padding: 12px; 
-    width: 50%;
+    width: 70%;
     display:flex;
     justify-content: center;
-    top: 150%;
-    left: -115%;
+    left: -129%;
 
 }
 #Tipo
 {
-    position: relative;
-   height: 50px;
+   position: relative;
+   top: -88%;
+   height: 580px;
    padding: 12px;
-   width: 50%;
+   width: 70%;
    display: flex;
    justify-content: center;
-   top: 55%;
-    left: 165%;
+    left: 150%;
 }
 #Valor
 {   
     position: relative;
-    height: 50px;
+    top: -88%;
+    height: 580px;
     padding: 12px;
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
-    top: 55%;
-    left: 150%; 
+    left: 130%; 
 }
 #SaldoAtual
 {
     position: relative;
-    height: 50px;
+    top: 14%;
+    height: 84px;
     padding: 12px;
     width: 50%;
     display: flex;
     justify-content: center;
-    top: 1100%;
     left: 50%; 
     
 }
-
 /*TEXTO DO EXTRATO BÁNCARIO*/ 
 #despesas>h3{
     text-align: center;
 position: relative;
-
-
 }
 /*mexendo com class*/
 .campos{

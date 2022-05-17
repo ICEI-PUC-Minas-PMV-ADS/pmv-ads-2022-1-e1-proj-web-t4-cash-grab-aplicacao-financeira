@@ -10,8 +10,20 @@ let btnAddDespesas = document.getElementById('btnAddDespesas');
 let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
 let cancelarEditar = document.getElementById('cancelarEditar');
-
+/*Função que envia email com alerta do limite*/
+function enviarEmail(){
+  Email.send({
+    Host:"smtp.elasticemail.com",
+    Username:"cashgrap@gmail.com",
+    Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
+    To:'vitorhugoemail@gmail.com ',
+    From:"cashgrap@gmail.com",
+    Subject: "Ola Vitor, Bem vindo ao Cash grab",
+    Body: "Ola, Vamos começar nossa nova jornada",
+  }).then(message => console.log(message));
+}
 /*Função para modificar a barra de progresso*/
+//arrumar um bug aqui
 function limiteUser(){
     if(somaDividas.value!= ' ' & limiteProposto.value!=''){
       porcetagemDivida= (somaDividas.value*1)/limiteProposto.value; 

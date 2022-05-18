@@ -11,47 +11,62 @@ let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
 let cancelarEditar = document.getElementById('cancelarEditar');
 /*Função que envia email com alerta do limite*/
-function enviarEmail(){
-  Email.send({
-    Host:"smtp.elasticemail.com",
-    Username:"cashgrap@gmail.com",
-    Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-    To:'vitorhugoemail@gmail.com ',
-    From:"cashgrap@gmail.com",
-    Subject: "Ola Vitor, Bem vindo ao Cash grab",
-    Body: "Ola, Vamos começar nossa nova jornada",
-  }).then(message => console.log(message));
+function enviarEmail(e){
+  if(e>=60 && e<100){
+    Email.send({
+      Host:"smtp.elasticemail.com",
+      Username:"cashgrap@gmail.com",
+      Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
+      To:'vitorhugoemail@gmail.com ',
+      From:"cashgrap@gmail.com",
+      Subject: "Alerta.... Limite",
+      Body: "Olá, Vimos aquie seus gastos estão a "+e+"% do valor estibulado por você.",
+    }).then(message => console.log(message));
+  }else if(e>=100){
+    Email.send({
+      Host:"smtp.elasticemail.com",
+      Username:"cashgrap@gmail.com",
+      Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
+      To:'vitorhugoemail@gmail.com ',
+      From:"cashgrap@gmail.com",
+      Subject: "Limite estourado",
+      Body: "Ops, verificamos aqui seu gasto utrapassaram o seu limite",
+    }).then(message => console.log(message));
+  }
 }
 /*Função para modificar a barra de progresso*/
-//arrumar um bug aqui
+
 function limiteUser(){
-    if(somaDividas.value!= ' ' & limiteProposto.value!=''){
+    if(somaDividas.value!=undefined & limiteProposto.value!=''){
       porcetagemDivida= (somaDividas.value*1)/limiteProposto.value; 
       porcetagemDivida = Math.round(porcetagemDivida*100);
       barraProgesso.style.width=porcetagemDivida+'%';
       barraProgesso.innerHTML=porcetagemDivida+'%';
       if(porcetagemDivida>=60 && porcetagemDivida<100){
         barraProgesso.style.background='#dede22';
+        enviarEmail(porcetagemDivida)
       }else if(porcetagemDivida<=50){
         barraProgesso.style.background='green';
       }else if(porcetagemDivida>=100){
         barraProgesso.style.background='red'
+        enviarEmail(porcetagemDivida)
       }
-   // }
-   // else{
-   //    window.alert('Campo vazio');
    }
       
 }
+/*Funções para colocar limite e fazer calculo das dividas*/
+let cont=0
+let vetor = [];
+let i=0
 function colocarLimite(){
+    /*Colocar o limite do usario na tela*/
     valorLimiteEl.value=limiteProposto.value;
     valorLimiteEl.innerHTML= 'R$ '+limiteProposto.value;
     limiteUser()      
 }
-let cont=0
-let vetor = [];
-let i=0
+
 function somaDivida(){
+  /*Função para somar as dividas*/
     let soma = 0
     for(let i in vetor) {
       soma +=vetor[i]
@@ -62,13 +77,12 @@ function colocarDividas(){
     let b= parseFloat(gastoInput.value,10)
       vetor[cont] = b
       cont+=1
-      console.log(cont)
-      console.log(vetor)
      somaDividas.innerHTML=somaDivida();
      somaDividas.value=somaDivida();
      limiteUser()
   
 }
+/*Parte onde faz o campos aparecer*/
 function mostrar(){
   gastoInput.classList.toggle('ocultarElemento');
   btncolocarDividas.classList.toggle('ocultarElemento');

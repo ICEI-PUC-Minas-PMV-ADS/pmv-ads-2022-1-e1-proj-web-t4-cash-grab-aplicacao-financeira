@@ -77,7 +77,7 @@ function colocarDividas(){
     let b= parseFloat(gastoInput.value,10)
       vetor[cont] = b
       cont+=1
-     somaDividas.innerHTML=somaDivida();
+     somaDividas.innerHTML='R$ '+somaDivida();
      somaDividas.value=somaDivida();
      limiteUser()
   

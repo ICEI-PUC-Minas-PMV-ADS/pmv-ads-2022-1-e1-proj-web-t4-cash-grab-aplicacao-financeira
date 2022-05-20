@@ -12,6 +12,7 @@ let porcetagemDivida;
 let cancelarEditar = document.getElementById('cancelarEditar');
 /*Função que envia email com alerta do limite*/
 function enviarEmail(e){
+  /*Falta nessa função integrar o nome e email do usuario logado*/
   if(e>=60 && e<100){
     Email.send({
       Host:"smtp.elasticemail.com",

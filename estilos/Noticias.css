@@ -11,6 +11,7 @@
 }
 #menu{
     width: 10%;
+    position: fixed;
     float: left;
     background: rgba(36, 38, 58, 1);
     height: 713px;

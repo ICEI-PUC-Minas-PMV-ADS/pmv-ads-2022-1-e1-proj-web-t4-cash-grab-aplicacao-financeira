@@ -140,40 +140,26 @@ font-family: arial;
     text-align: center;
     
 }
-h3 {
-    top:100%;
-    left: 20%;
-color: white;
-font-size: medium;
-font-family: arial;
-text-align: center;
-}
-h4 {
-    top:100%;
-    left: 20%;
-color: white;
-font-size: medium;
-font-family: arial;
-text-align: center;
-}
 
-h5 {
-    top:100%;
-    left: 20%;
-color: white;
-font-size: medium;
-font-family: arial;
-text-align: center;
-}
-h6 {
-    top:100%;
-    left: 20%;
-color: white;
-font-size: medium;
-font-family: arial;
-text-align: center;
-
-}
 img {
 border-radius: 10px 10px 10px 10px;
+}
+#programadores {
+    border-radius: 4px 10px 10px 4px;
+    box-shadow:  1px 1px 1px 1px #000;
+    height: 400px;
+    max-width: 400px;
+    background: rgba(36, 38, 58, 1);
+    top: 10px;
+    position: relative;
+    margin: 10px;
+   
+}
+main {
+display: flex;
+flex-direction: row;
+
+
+justify-content: center;
+
 }

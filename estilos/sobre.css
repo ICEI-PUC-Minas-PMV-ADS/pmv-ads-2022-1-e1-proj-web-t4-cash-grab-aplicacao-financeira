@@ -155,11 +155,8 @@ border-radius: 10px 10px 10px 10px;
     margin: 10px;
    
 }
-main {
+.conteiner{
 display: flex;
+justify-content: space-around;
 flex-direction: row;
-
-
-justify-content: center;
-
 }

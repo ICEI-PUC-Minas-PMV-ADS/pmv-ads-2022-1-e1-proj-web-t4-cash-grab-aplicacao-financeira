@@ -24,5 +24,5 @@ function captura() {
     jurosinv = 1/100;
     document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
     document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
-    document.getElementById("retornoTotal").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv))+((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
+    document.getElementById("retornoTotal").innerHTML = .toFixed(2);
 }

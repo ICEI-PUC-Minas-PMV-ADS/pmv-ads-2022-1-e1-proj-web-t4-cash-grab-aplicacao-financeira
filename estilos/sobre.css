@@ -24,6 +24,7 @@
     height: 713px;
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
+    position: fixed;
 }
 #menu>ul>li>a{
     color: #fff;
@@ -159,4 +160,6 @@ border-radius: 10px 10px 10px 10px;
 display: flex;
 justify-content: space-around;
 flex-direction: row;
+left: 5%;
+position: relative;
 }

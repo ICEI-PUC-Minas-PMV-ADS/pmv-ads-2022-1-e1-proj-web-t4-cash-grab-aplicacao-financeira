@@ -64,9 +64,9 @@
             <h3>Calculo de emprestimos</h3>
             <header>Valor da parcela R$ <b><h7 id="parcelas"></h7></b></header>
             <br>
-            <header>Valor total do montante R$ <b><h7 id="montante"></h7></b></header>
-            <br>
             <header>Total dos Juros R$ <b><h7 id="jurosemp"></h7></b></header>
+            <br>
+            <header>Valor total do montante R$ <b><h7 id="montante"></h7></b></header>
         </div>
         <p></p>
      <!--Simulador de Investimentos-->   
@@ -89,16 +89,18 @@
             <header>Por quanto tempo (em meses) deixaria seu dinheiro investido?</header>    
             <input id="mesesInvestimento" class="ocultarElemento estiloInputs number" placeholder="digite os meses">
             <br>
-            <header>Qual seria a contribuição mensal?(R$)</header>
-            <input id="contribuicaoMensal" class="ocultarElemento estiloInputs number" placeholder="digite o valor em (R$)">
+            <header>Qual seria o aporte mensal?(R$)</header>
+            <input id="aporteMensal" class="ocultarElemento estiloInputs number" placeholder="digite o valor em (R$)">
             <br>
             <input type="button" class="ocultarElemento estiloBotao" onclick="captura()" value="ok">
         </div>
          <div id="retornodeinvestimento" class="campos">
              <h3>Retorno de Investimentos</h3>
-             <header>Valor total do retorno R$ <b><h7 id="retornoInv"></h7></b></header>
+             <header>Retorno do aporte inicial R$ <b><h7 id="retornoInicial"></h7></b></header>
              <br>
-             <header>Valor total dos rendimentos R$ <b><h7 id="rendimentos"></h7></b></header>
+             <header>Retorno do aporte mensal R$ <b><h7 id="retornoMensal"></h7></b></header>
+             <br>
+             <header>Retorno total do investimento R$ <b><h7 id="retornoTotal"></h7></b></header>
          </div>   
     </main>
 

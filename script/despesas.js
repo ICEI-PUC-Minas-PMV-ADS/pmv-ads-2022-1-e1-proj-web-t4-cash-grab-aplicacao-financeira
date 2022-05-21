@@ -99,3 +99,22 @@ btnAdcionarLimite.addEventListener('click',colocarLimite);
 btncolocarDividas.addEventListener('click',colocarDividas);
 btnAddDespesas.addEventListener('click',mostrar);
 btnEditar.addEventListener('click', mostrarCampoLimite);
+
+/*Criação do grafico de pizza*/
+const grafico = document.getElementsByClassName('line-chart')
+const criacaoDoGrafico = new Chart(grafico,{
+  type: 'doughnut',
+  data: {
+ 
+  datasets: [{
+    label: 'My First Dataset',
+    data: [50, 50, 50],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)'
+    ],
+    hoverOffset: 1
+  }]
+  }
+});

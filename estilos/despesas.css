@@ -243,4 +243,17 @@ main{
 .elementoMenu:hover #textoSobre{
     visibility: visible;
 }
-
+#desenhodografico{
+ width: 20%;
+ justify-content: space-around;
+ flex-direction: row;
+ left: 50%;
+ position: relative;
+ top: -75%;
+ 
+}
+canvas{
+    position: relative;
+    
+    
+}

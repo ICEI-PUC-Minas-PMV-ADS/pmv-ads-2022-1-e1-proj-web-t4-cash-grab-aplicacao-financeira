@@ -22,7 +22,7 @@ function captura() {
     mesesinv = document.getElementById("mesesInvestimento").value;
     aporte = document.getElementById("aporteMes").value;
     jurosinv = 1/100;
-    document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
-    document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
+    var retornoInicial = document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
+    var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
     document.getElementById("retornoTotal").innerHTML = .toFixed(2);
 }

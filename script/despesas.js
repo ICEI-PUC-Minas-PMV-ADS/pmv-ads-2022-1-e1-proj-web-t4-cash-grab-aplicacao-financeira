@@ -104,11 +104,9 @@ btnEditar.addEventListener('click', mostrarCampoLimite);
 let menuCell = document.getElementsByClassName('imgMenuCell');
 
 function aparecerMenu(){
-  console.log('oi')
   let menu = document.getElementById('teste');
   menu.classList.toggle('visibilidadeMenuCell');
   menu.classList.toggle('menu');
-
   let textoInicio = document.getElementById('textoInicio')
   let textoDespesas = document.getElementById('textoDespesas')
   let textoExtrato= document.getElementById('textoExtrato')
@@ -143,7 +141,7 @@ const criacaoDoGrafico = new Chart(grafico,{
       'rgb(54, 162, 235)',
       'rgb(255, 205, 86)'
     ],
-    hoverOffset: 1
+    hoverOffset: 0
   }]
   }
 });

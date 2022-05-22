@@ -180,10 +180,11 @@ main{
     position: relative;
 }
 .imgMenuCell{
-    width: 40px;
-    height:40px;
+    width: 30px;
+    height: 30px;
     position: relative;
-    right:89vw;
+    right: 90vw;
+    top: 7px;
     visibility: hidden;
 }
 .elementoMenu:hover img{
@@ -260,6 +261,8 @@ main{
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
     z-index: 1;
+    transition-duration: 0.8s;
+    transition-delay: 0.1s;
 }
 #desenhodografico{
  width: 20%;
@@ -279,6 +282,10 @@ canvas{
     left: 22vw;
     top: 7vh;
     color: #fff;
+    transition-duration: 0.8s;
+    transition-delay: 0.1s;
+    
+
 }
 /*Parte da responsividade*/
 @media only screen and (min-width: 900px) and (max-width:1800px){
@@ -290,6 +297,15 @@ canvas{
     .menu{
         height: 100vh;
         visibility:hidden;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    main{
+        left: -2vh;
+    }
+    #caminhosMenu{
+        right: 54vw;
+        top: 5vh;
     }
     #caminhosMenus>a{
         visibility: hidden;
@@ -303,10 +319,11 @@ canvas{
         width: 85vw;
     }
     #rendas{
-        top: 77vh;
-    right: 4vh;
-    width: 85vw;
-    position: absolute;
+        top: 111%;
+        right: 4vh;
+        width: 85vw;
+        position: absolute;
+        z-index: 0;
     }
     
     #desenhodografico{

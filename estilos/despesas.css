@@ -97,7 +97,15 @@ main{
 #cancelarEditar{
     width: 30px;
     height: 30px;
+    left: -10%;
+
 }
+#cancelarEditardois{
+    width: 30px;
+    height: 30px;
+    left: -10%;
+}
+
 #valorLimite{
     position: relative;
     left: 15%;
@@ -116,12 +124,10 @@ main{
 .ocultarElemento{
     visibility: hidden;
 }
-.mostrarELemento{
-    visibility: visible;
-}
-#cancelarEditar{
+.mostraoX{
     visibility: hidden;
 }
+
 .estiloInputs{
     display: block;
     position: relative;

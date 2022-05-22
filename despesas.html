@@ -10,7 +10,7 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Desepesas</title>
 </head>
-<body id="corpo">
+<body onload="saudacoesUsuario()"id="corpo">
      <!--Menu-->
      <nav  id="teste"class=" menu navbar navbar-expand-lg ">
         <img id="logo" src="imgsite/Logo_Principal.png" alt="">
@@ -47,7 +47,7 @@
 
     <!--Parte onde vai ficar o nome de usaurio-->
     <nav id="nameUser">
-        <h1> Ola, <span>Nome do usuario</span></h1>
+        <h2> <span id="campoDeSaudacao"></span><span>, Vitor Hugo</span></h2>
         <img src="imgsite/menu.png"  onclick="aparecerMenu()"class="imgMenuCell" alt="">
     </nav>
     <!--Modais-->
@@ -73,12 +73,12 @@
             <br>
             <p>Limite proposto: <span id="valorLimite"> R$</span> </p>
                 <img id="btnEditar" style="position: relative; left: 0%; top:8%" src="imgsite/editar.png" alt="Editar">
-                <img id="cancelarEditar" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative; left: -12%; top:8%" alt="">
+                <img id="cancelarEditar" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative; top:8%" alt="">
                 <input id="limiteproposto" class="ocultarElemento estiloInputs"type="text" placeholder="Adicionar valor do limite...">
                 <button id="adiconarLimite" class="ocultarElemento estiloBotao">+</button>
             <p>Valor da divida: <span value="0"id="somaDividas">  R$</span> </p>
                 <img  id="btnAddDespesas" style="position: relative; left: 0%;top:5%;" src="imgsite/botao-adicionar.png" alt="Colocar Divida">
-                <img id="cancelarEditar" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative; left: -12%; top:8%" alt="">
+                <img id="cancelarEditardois" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative;top:8%" alt="">
                 <input class="ocultarElemento estiloInputs" value="0"id="gastos" type="text"placeholder="Adicionar nova divida...">
                 <button class="ocultarElemento estiloBotao" id="colocarDividas" type="submit" >+</button>
         </div>

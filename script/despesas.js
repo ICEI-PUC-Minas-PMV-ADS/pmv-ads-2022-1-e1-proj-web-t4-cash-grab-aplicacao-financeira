@@ -9,7 +9,7 @@ let btnAdcionarLimite = document.getElementById('adiconarLimite');
 let btnAddDespesas = document.getElementById('btnAddDespesas');
 let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
-let cancelarEditar = document.getElementById('cancelarEditar');
+
 /*Função que envia email com alerta do limite*/
 function enviarEmail(e){
   /*Falta nessa função integrar o nome e email do usuario logado*/
@@ -84,21 +84,27 @@ function colocarDividas(){
   
 }
 /*Parte onde faz o campos aparecer*/
-function mostrar(){
+let cancelarEditar = document.getElementById('cancelarEditar');
+let cancelarDois = document.getElementById('cancelarEditardois')
+function mostrarCamposDivida(){
   gastoInput.classList.toggle('ocultarElemento');
   btncolocarDividas.classList.toggle('ocultarElemento');
-  //btnAddDespesas.classList.toggle('colcarFechamento');
+  cancelarDois.classList.toggle('ocultarElemento')
+  btnAddDespesas.classList.toggle('ocultarElemento')
 }
 function mostrarCampoLimite(){
   limiteProposto.classList.toggle('ocultarElemento');
   btnAdcionarLimite.classList.toggle('ocultarElemento');
   cancelarEditar.classList.toggle('ocultarElemento');
+  btnEditar.classList.toggle('ocultarElemento')
 }
 /*Chamando a função atraves do click no botão*/
 btnAdcionarLimite.addEventListener('click',colocarLimite);
 btncolocarDividas.addEventListener('click',colocarDividas);
-btnAddDespesas.addEventListener('click',mostrar);
+btnAddDespesas.addEventListener('click',mostrarCamposDivida);
 btnEditar.addEventListener('click', mostrarCampoLimite);
+cancelarEditar.addEventListener('click',mostrarCampoLimite)
+cancelarDois.addEventListener('click',mostrarCamposDivida)
 
 /*Parte onde faz o menu no celular aparecer*/
 let menuCell = document.getElementsByClassName('imgMenuCell');
@@ -138,11 +144,32 @@ const criacaoDoGrafico = new Chart(grafico,{
     data: [50, 50, 50],
     backgroundColor: [
       'rgb(255, 99, 132)',
-      'rgb(54, 162, 235)',
+      'green',
       'rgb(255, 205, 86)'
     ],
     hoverOffset: 0
   }]
   }
 });
-
+/*Saudação ao usario*/
+let campoDeSaudacao = document.getElementById('campoDeSaudacao')
+let posicao
+const horas = new Date();
+function saudacoesUsuario(){
+  let saudacoes = ['Olá',' Seja Bem-Vindo','Hi','Hellou','Oi','Ei','Bom dia', 'Boa Tarde','Boa Noite']
+  posicao = Math.floor(Math.random() * 5)
+  console.log(posicao)
+  if(posicao>=6 && posicao<=8){
+    if(horas.getHours()>=6 && horas.getHours()<=12){
+      campoDeSaudacao.innerHTML=saudacoes[6]
+    }
+    else if(horas.getHours()>=13 && horas.getHours()<=18){
+      campoDeSaudacao.innerHTML=saudacoes[7]
+    }
+    else if(horas.getHours()>=19 && horas.getHours()<=0){
+      campoDeSaudacao.innerHTML=saudacoes[6]
+    }
+  }else{
+    campoDeSaudacao.innerHTML=saudacoes[posicao]
+  }
+}

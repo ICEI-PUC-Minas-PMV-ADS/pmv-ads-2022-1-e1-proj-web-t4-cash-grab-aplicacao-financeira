@@ -275,9 +275,10 @@ canvas{
 }
 .textoMenucelular{
     visibility: visible;
-        position: relative;
-        left: 22vw;
-        top: 7vh;
+    position: relative;
+    left: 22vw;
+    top: 7vh;
+    color: #fff;
 }
 /*Parte da responsividade*/
 @media only screen and (min-width: 900px) and (max-width:1800px){

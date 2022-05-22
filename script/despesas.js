@@ -109,14 +109,12 @@ function aparecerMenu(){
   menu.classList.toggle('visibilidadeMenuCell');
   menu.classList.toggle('menu');
 
-}
-function mostraImgmenu(){
-  let textoInicio = document.getElementsByClassName('textoInicio')
-  let textoDespesas = document.getElementsByClassName('textoDespesas')
-  let textoExtrato= document.getElementsByClassName('textoExtrato')
-  let textoSimulacao = document.getElementsByClassName('textoSimulacao')
-  let textoNoticias = document.getElementsByClassName('textoNoticias')
-  let textoSobre = document.getElementsByClassName('textoSobre')
+  let textoInicio = document.getElementById('textoInicio')
+  let textoDespesas = document.getElementById('textoDespesas')
+  let textoExtrato= document.getElementById('textoExtrato')
+  let textoSimulacao = document.getElementById('textoSimulacao')
+  let textoNoticias = document.getElementById('textoNoticias')
+  let textoSobre = document.getElementById('textoSobre')
   textoInicio.classList.toggle('textoInicio');
   textoInicio.classList.toggle('textoMenucelular');
   textoDespesas.classList.toggle('textoMenucelular');

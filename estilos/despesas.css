@@ -154,7 +154,7 @@ main{
     position: relative; 
     right: 10%;
 }
-#menu{
+.menu{
     width: 10%;
     float: left;
     background: rgba(36, 38, 58, 1);
@@ -163,7 +163,7 @@ main{
     box-shadow:  1px 1px 1px 1px #000;
 }
 
-#menu>ul>li>a{
+.menu>ul>li>a{
     color: #fff;
 }
 #logo{
@@ -178,6 +178,13 @@ main{
     height:40px;
     left: 50%;
     position: relative;
+}
+.imgMenuCell{
+    width: 40px;
+    height:40px;
+    position: relative;
+    right:89vw;
+    visibility: hidden;
 }
 .elementoMenu:hover img{
     /*Onde faz a imagem sumir*/
@@ -244,6 +251,16 @@ main{
 .elementoMenu:hover #textoSobre{
     visibility: visible;
 }
+.visibilidadeMenuCell{
+    visibility:visible;
+    width: 80vw;
+    float: left;
+    background: rgba(36, 38, 58, 1);
+    height: 100vh;
+    border-radius: 4px 10px 10px 4px;
+    box-shadow:  1px 1px 1px 1px #000;
+    z-index: 1;
+}
 #desenhodografico{
  width: 20%;
  justify-content: space-around;
@@ -258,12 +275,12 @@ canvas{
 }
 /*Parte da responsividade*/
 @media only screen and (min-width: 900px) and (max-width:1800px){
-    #menu{
+    .menu{
         height: 100vh;
     }
 }
 @media only screen and (min-width: 360px) and (max-width:800px){
-    #menu{
+    .menu{
         height: 100vh;
         visibility:hidden;
     }
@@ -287,6 +304,53 @@ canvas{
         left: 45%;
         position: relative;
         top: -58%;
+     }
+     .imgMenuCell{
+         visibility: visible;
+         z-index: 1;
+     }
+     #logo{
+        width: 34px;
+        height: 38px;
+        top: -49%;
+        left: 78%;
+    
+     }
+     #textoNoticias{
+         visibility: visible;
+         position: relative;
+         left: 21vw;
+         top: 7vh;
+     }
+     #textoSobre{
+        visibility: visible;
+        position: relative;
+        left: 22vw;
+        top: 7vh;
+    }
+     #textoSimulacao{
+        visibility: visible;
+        position: relative;
+        left: 22vw;
+        top: 7vh;
+     }
+     #textoExtrato{
+        visibility: visible;
+        position: relative;
+        left: 22vw;
+        top: 7vh;
+     }
+     #textoDespesas{
+        visibility: visible;
+        position: relative;
+        left: 22vw;
+        top: 7vh;
+     }
+     #textoInicio{
+        visibility: visible;
+        position: relative;
+        left: 22vw;
+        top: 7vh;
      }
  
 }

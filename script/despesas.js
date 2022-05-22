@@ -100,6 +100,17 @@ btncolocarDividas.addEventListener('click',colocarDividas);
 btnAddDespesas.addEventListener('click',mostrar);
 btnEditar.addEventListener('click', mostrarCampoLimite);
 
+/*Parte onde faz o menu no celular aparecer*/
+let menuCell = document.getElementsByClassName('imgMenuCell');
+
+function aparecerMenu(){
+  console.log('oi')
+  let menu = document.getElementById('teste');
+  menu.classList.toggle('visibilidadeMenuCell');
+  menu.classList.toggle('menu');
+}
+
+
 /*Criação do grafico de pizza*/
 const grafico = document.getElementsByClassName('line-chart')
 const criacaoDoGrafico = new Chart(grafico,{
@@ -118,3 +129,4 @@ const criacaoDoGrafico = new Chart(grafico,{
   }]
   }
 });
+

@@ -33,8 +33,6 @@ main{
     height: 250px;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
     padding: 12px;   
 }
 #despesas{
@@ -146,8 +144,10 @@ main{
 /*Estilo do menu*/
 #caminhosMenu{
     position: relative;
-    top:2%;
-    right: 30%;
+    top: 0;
+    right: 40%;
+    padding: 11px;
+    height: 100vh;
 }
 #nameUser>h1{
     font-size: 1.5rem;
@@ -162,6 +162,7 @@ main{
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
 }
+
 #menu>ul>li>a{
     color: #fff;
 }
@@ -254,6 +255,38 @@ main{
 }
 canvas{
     position: relative;
-    
-    
+}
+/*Parte da responsividade*/
+@media only screen and (min-width: 900px) and (max-width:1800px){
+    #menu{
+        height: 100vh;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width:800px){
+    #menu{
+        height: 100vh;
+        visibility:hidden;
+    }
+    #financas{
+        left: -54vw;
+        width: 85vw;
+    }
+    #limites{
+        right: 54vw;
+        width: 85vw;
+    }
+    #rendas{
+        top: 43vh;
+        right: 30vh;
+        width: 85vw;
+    }
+    #desenhodografico{
+        width: 40vw;
+        justify-content: space-around;
+        flex-direction: row;
+        left: 45%;
+        position: relative;
+        top: -58%;
+     }
+ 
 }

@@ -108,8 +108,28 @@ function aparecerMenu(){
   let menu = document.getElementById('teste');
   menu.classList.toggle('visibilidadeMenuCell');
   menu.classList.toggle('menu');
-}
 
+}
+function mostraImgmenu(){
+  let textoInicio = document.getElementsByClassName('textoInicio')
+  let textoDespesas = document.getElementsByClassName('textoDespesas')
+  let textoExtrato= document.getElementsByClassName('textoExtrato')
+  let textoSimulacao = document.getElementsByClassName('textoSimulacao')
+  let textoNoticias = document.getElementsByClassName('textoNoticias')
+  let textoSobre = document.getElementsByClassName('textoSobre')
+  textoInicio.classList.toggle('textoInicio');
+  textoInicio.classList.toggle('textoMenucelular');
+  textoDespesas.classList.toggle('textoMenucelular');
+  textoDespesas.classList.toggle('textoDespesas');
+  textoExtrato.classList.toggle('textoMenucelular');
+  textoExtrato.classList.toggle('textoExtrato');
+  textoSimulacao.classList.toggle('textoMenucelular');
+  textoSimulacao.classList.toggle('textoSimulacao');
+  textoNoticias.classList.toggle('textoMenucelular');
+  textoNoticias.classList.toggle('textoNoticias');
+  textoSobre.classList.toggle('textoMenucelular');
+  textoSobre.classList.toggle('textoSobre');
+}
 
 /*Criação do grafico de pizza*/
 const grafico = document.getElementsByClassName('line-chart')

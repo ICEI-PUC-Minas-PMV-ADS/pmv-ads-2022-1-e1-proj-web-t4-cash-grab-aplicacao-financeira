@@ -312,16 +312,16 @@ canvas{
     }
     #financas{
         left: -54vw;
-        width: 85vw;
+        width: 95vw;
     }
     #limites{
         right: 54vw;
-        width: 85vw;
+        width: 95vw;
     }
     #rendas{
         top: 111%;
-        right: 4vh;
-        width: 85vw;
+        right: -1vh;
+        width: 94vw;
         position: absolute;
         z-index: 0;
     }

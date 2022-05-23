@@ -89,17 +89,15 @@ main{
 /*Estilo do menu*/
 #caminhosMenu{
     position: relative;
-    top: 0;
-    right: 40%;
-    padding: 11px;
-    height: 100vh;
+    top:2%;
+    right: 30%;
 }
 #nameUser>h1{
     font-size: 1.5rem;
     position: relative; 
     right: 10%;
 }
-.menu{
+#menu{
     width: 10%;
     float: left;
     background: rgba(36, 38, 58, 1);
@@ -107,8 +105,7 @@ main{
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
 }
-
-.menu>ul>li>a{
+#menu>ul>li>a{
     color: #fff;
 }
 #logo{
@@ -124,70 +121,63 @@ main{
     left: 50%;
     position: relative;
 }
-.imgMenuCell{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    right: 90vw;
-    top: 7px;
-    visibility: hidden;
-}
 .elementoMenu:hover img{
     /*Onde faz a imagem sumir*/
     visibility: hidden;
 }
-.textoInicio{
+#textoInicio{
     color: #fff;
     position: relative;
     top:64px;
     left: 50%;
     visibility:hidden;
 }
-.elementoMenu:hover .textoInicio{
+.elementoMenu:hover #textoInicio{
     /*Onde faz o texto aparecer*/
     visibility: visible;
 }
-.textoDespesas{
+#textoDespesas{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover .textoDespesas{
+.elementoMenu:hover #textoDespesas{
     visibility: visible;
 }
-.textoExtrato{
+
+#textoExtrato{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover .textoExtrato{
+.elementoMenu:hover #textoExtrato{
     visibility: visible;
 }
-.textoSimulacao{
+#textoSimulacao{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover .textoSimulacao{
+.elementoMenu:hover #textoSimulacao{
     visibility: visible;
 }
-.textoNoticias{
+#textoNoticias{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover .textoNoticias{
+.elementoMenu:hover #textoNoticias{
     visibility: visible;
 }
-.textoSobre{
+#textoSobre{
     color: #fff;
     position: relative;
     top: 50px;

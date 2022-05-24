@@ -35,12 +35,15 @@ main{
     grid-column-end: 4;
     padding: 12px;   
 }
+#financas>p{
+    margin-bottom: 10px;
+}
 #despesas{
     width: 81%;
     height: 250px;
     position: relative;
     top: 10px;
-    padding: 12px;
+    padding-left: 10px;
 }
 #limites{
     width: 81%;
@@ -160,6 +163,11 @@ main{
     position: relative; 
     right: 10%;
 }
+#nameUser>h2{
+    font-size:revert;
+    position: relative;
+    top:10px;
+}
 .menu{
     width: 10%;
     float: left;
@@ -276,7 +284,7 @@ main{
  flex-direction: row;
  left: 50%;
  position: relative;
- top: -75%;
+ bottom: 110%;
  
 }
 canvas{

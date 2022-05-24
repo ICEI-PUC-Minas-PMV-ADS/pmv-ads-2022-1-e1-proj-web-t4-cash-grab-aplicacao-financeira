@@ -18,7 +18,7 @@ function enviarEmail(e){
       Host:"smtp.elasticemail.com",
       Username:"cashgrap@gmail.com",
       Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-      To:'vitorhugoemail@gmail.com ',
+      To:'',
       From:"cashgrap@gmail.com",
       Subject: "Alerta.... Limite",
       Body: "Olá, Vimos aquie seus gastos estão a "+e+"% do valor estibulado por você.",
@@ -28,7 +28,7 @@ function enviarEmail(e){
       Host:"smtp.elasticemail.com",
       Username:"cashgrap@gmail.com",
       Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-      To:'vitorhugoemail@gmail.com ',
+      To:'',
       From:"cashgrap@gmail.com",
       Subject: "Limite estourado",
       Body: "Ops, verificamos aqui seu gasto utrapassaram o seu limite",
@@ -44,12 +44,12 @@ function limiteUser(){
       barraProgesso.style.width=porcetagemDivida+'%';
       barraProgesso.innerHTML=porcetagemDivida+'%';
       if(porcetagemDivida>=60 && porcetagemDivida<100){
-        barraProgesso.style.background='#dede22';
+        barraProgesso.style.background='#D4CD08';
         enviarEmail(porcetagemDivida)
       }else if(porcetagemDivida<=50){
-        barraProgesso.style.background='green';
+        barraProgesso.style.background='#11BD2E';
       }else if(porcetagemDivida>=100){
-        barraProgesso.style.background='red'
+        barraProgesso.style.background='#C71F16'
         enviarEmail(porcetagemDivida)
       }
    }
@@ -141,11 +141,12 @@ const criacaoDoGrafico = new Chart(grafico,{
  
   datasets: [{
     label: 'My First Dataset',
-    data: [50, 50, 50],
+    data: [50, 50, 50,50],
     backgroundColor: [
-      'rgb(255, 99, 132)',
-      'green',
-      'rgb(255, 205, 86)'
+      '#D4CD08',//saude
+      '#11BD2E',//educacao
+      '#089AC7',//lazer
+      '#9116D1'//Outros
     ],
     hoverOffset: 0
   }]
@@ -154,22 +155,10 @@ const criacaoDoGrafico = new Chart(grafico,{
 /*Saudação ao usario*/
 let campoDeSaudacao = document.getElementById('campoDeSaudacao')
 let posicao
-const horas = new Date();
 function saudacoesUsuario(){
-  let saudacoes = ['Olá',' Seja Bem-Vindo','Hi','Hellou','Oi','Ei','Bom dia', 'Boa Tarde','Boa Noite']
+  let saudacoes = ['Olá',' Seja Bem-Vindo','Hi','Hellou','Oi','Ei']
   posicao = Math.floor(Math.random() * 5)
-  console.log(posicao)
-  if(posicao>=6 && posicao<=8){
-    if(horas.getHours()>=6 && horas.getHours()<=12){
-      campoDeSaudacao.innerHTML=saudacoes[6]
-    }
-    else if(horas.getHours()>=13 && horas.getHours()<=18){
-      campoDeSaudacao.innerHTML=saudacoes[7]
-    }
-    else if(horas.getHours()>=19 && horas.getHours()<=0){
-      campoDeSaudacao.innerHTML=saudacoes[6]
-    }
-  }else{
-    campoDeSaudacao.innerHTML=saudacoes[posicao]
-  }
+  campoDeSaudacao.innerHTML=saudacoes[posicao]
+  
+
 }

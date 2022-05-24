@@ -111,22 +111,14 @@
 #corpo{
     background-color:rgba(29, 30, 44, 1);
 }
-.sampaio {
-    top: 100%;
-    left: 20%;
-    color:white ;
-    font-size: medium;
-font-family: arial;
-text-align: center;
-    
-}
+
 h2 {
-    top:100%;
-    left: 20%;
+    
 color: white;
-font-size: medium;
-font-family: arial;
+font-size: smaller;
+font-family: Arial;
 text-align: center;
+
 }
 h1{
     font-size: medium;
@@ -160,6 +152,19 @@ border-radius: 10px 10px 10px 10px;
 display: flex;
 justify-content: space-around;
 flex-direction: row;
-left: 5%;
+left: 10%;
 position: relative;
 }
+h3{
+    font-size: medium;
+font-family: arial;
+    color: white;
+    text-align: center;
+}
+a{
+    font-size: medium;
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+

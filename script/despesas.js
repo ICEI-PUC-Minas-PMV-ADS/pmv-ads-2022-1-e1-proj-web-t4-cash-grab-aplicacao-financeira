@@ -152,13 +152,16 @@ const criacaoDoGrafico = new Chart(grafico,{
   }]
   }
 });
+let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];
 /*Saudação ao usario*/
 let campoDeSaudacao = document.getElementById('campoDeSaudacao')
 let posicao
+let cariha
 function saudacoesUsuario(){
   let saudacoes = ['Olá',' Seja Bem-Vindo','Hi','Hellou','Oi','Ei']
   posicao = Math.floor(Math.random() * 5)
-  campoDeSaudacao.innerHTML=saudacoes[posicao]
+  carinha = Math.floor(Math.random() * 13)
+  campoDeSaudacao.innerHTML= saudacoes[posicao]+' '+emojis[carinha]+' ';
   
 
 }

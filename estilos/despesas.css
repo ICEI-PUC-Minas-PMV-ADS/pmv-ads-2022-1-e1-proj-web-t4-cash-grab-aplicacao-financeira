@@ -298,16 +298,111 @@ canvas{
     color: #fff;
     transition-duration: 0.8s;
     transition-delay: 0.1s;
-    
-
+}
+#legendaSaude{
+    background-color: #D4CD08; 
+    position: relative; 
+    top: -25px; 
+    width: 2vw; 
+    left: 3.5vw; 
+    height: 1vh;
+}
+#legendaEducacao{
+    background-color: #11BD2E;
+    position: relative;
+    top: -25px;
+    width: 2vw;
+    left: 5vw;
+    height: 1vh;
+}
+#legendaLazer{
+    background-color: #089AC7; 
+    position: relative; 
+    top: -25px; 
+    width: 2vw; 
+    left: 3.5vw; 
+    height: 1vh
+}
+#legendaOutros{
+    background-color:#9116D1; 
+    position: relative; 
+    top: -25px; 
+    width: 2vw; 
+    left: 3.5vw; 
+    height: 1vh
 }
 /*Parte da responsividade*/
 @media only screen and (min-width: 900px) and (max-width:1800px){
     .menu{
         height: 100vh;
     }
+
 }
-@media only screen and (min-width: 360px) and (max-width:800px){
+@media only screen and (width:820px){
+    .menu{
+        height: 100vh;
+        visibility:hidden;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    main{
+        position: relative;
+        right: 12em;
+        top: 10vh;
+     }
+     #caminhosMenu{
+        right: 20vw;
+        top: 7vh;
+     }
+     #logo{
+        width: 50px;
+        height: 50px;
+        top: -69vw;
+        left: 57%;
+        visibility: visible;
+     }
+     #financas{
+        width: 89vw;
+     }
+     #caminhosMenus>a{
+        visibility: hidden;
+    }
+    .imgMenuCell{
+        visibility: visible;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        right: 93vw;
+        top: 7px;
+    }
+    .menuCell{
+        width: 30vw;
+    }
+    #limites{
+        width: 40vw;
+    }
+    #rendas{
+        left: 22vw;
+        width: 46vw;   
+    }
+    .posicaoLegenda{
+        left: 815vw;
+    }
+    #desenhodografico {
+        width: 30%;
+        justify-content: space-around;
+        flex-direction: row;
+        left: 50%;
+        position: relative;
+        bottom: 23vh;
+    }
+    .textoMenucelular{
+        left: 13vw;
+        top: 5vh;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width:700px){
     .menu{
         height: 100vh;
         visibility:hidden;
@@ -325,11 +420,11 @@ canvas{
         visibility: hidden;
     }
     #financas{
-        left: -54vw;
+        left: -56vw;
         width: 95vw;
     }
     #limites{
-        right: 54vw;
+        right: 56vw;
         width: 95vw;
     }
     #rendas{
@@ -339,14 +434,17 @@ canvas{
         position: absolute;
         z-index: 0;
     }
-    
+    .posicaoLegenda{
+        left: 20%;
+    }
     #desenhodografico{
         width: 40vw;
         justify-content: space-around;
         flex-direction: row;
-        left: 45%;
+        left: 53%;
         position: relative;
-        top: -58%;
+        top: -91%;
+
      }
      .imgMenuCell{
          visibility: visible;
@@ -359,6 +457,18 @@ canvas{
         left: 78%;
     
      }
+     #legendaSaude{
+        left: 20%;
+    }
+    #legendaEducacao{
+        left: 20%;;
+    }
+    #legendaLazer{
+        left: 20%;
+    }
+    #legendaOutros{
+        left: 20%;
+    }
     
  
 }

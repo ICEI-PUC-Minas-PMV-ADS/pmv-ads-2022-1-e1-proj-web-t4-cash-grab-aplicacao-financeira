@@ -89,15 +89,22 @@ main{
 /*Estilo do menu*/
 #caminhosMenu{
     position: relative;
-    top:2%;
-    right: 30%;
+    top: 0;
+    right: 40%;
+    padding: 11px;
+    height: 100vh;
 }
 #nameUser>h1{
     font-size: 1.5rem;
     position: relative; 
     right: 10%;
 }
-#menu{
+#nameUser>h2{
+    font-size:revert;
+    position: relative;
+    top:10px;
+}
+.menu{
     width: 10%;
     float: left;
     background: rgba(36, 38, 58, 1);
@@ -105,7 +112,8 @@ main{
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
 }
-#menu>ul>li>a{
+
+.menu>ul>li>a{
     color: #fff;
 }
 #logo{
@@ -121,63 +129,70 @@ main{
     left: 50%;
     position: relative;
 }
+.imgMenuCell{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 90vw;
+    top: 7px;
+    visibility: hidden;
+}
 .elementoMenu:hover img{
     /*Onde faz a imagem sumir*/
     visibility: hidden;
 }
-#textoInicio{
+.textoInicio{
     color: #fff;
     position: relative;
     top:64px;
     left: 50%;
     visibility:hidden;
 }
-.elementoMenu:hover #textoInicio{
+.elementoMenu:hover .textoInicio{
     /*Onde faz o texto aparecer*/
     visibility: visible;
 }
-#textoDespesas{
+.textoDespesas{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover #textoDespesas{
+.elementoMenu:hover .textoDespesas{
     visibility: visible;
 }
-
-#textoExtrato{
+.textoExtrato{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover #textoExtrato{
+.elementoMenu:hover .textoExtrato{
     visibility: visible;
 }
-#textoSimulacao{
+.textoSimulacao{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover #textoSimulacao{
+.elementoMenu:hover .textoSimulacao{
     visibility: visible;
 }
-#textoNoticias{
+.textoNoticias{
     color: #fff;
     position: relative;
     top: 50px;
     left: 30px;
     visibility: hidden;
 }
-.elementoMenu:hover #textoNoticias{
+.elementoMenu:hover .textoNoticias{
     visibility: visible;
 }
-#textoSobre{
+.textoSobre{
     color: #fff;
     position: relative;
     top: 50px;
@@ -187,3 +202,120 @@ main{
 .elementoMenu:hover #textoSobre{
     visibility: visible;
 }
+/*Parte da responsividade*/
+@media only screen and (min-width: 900px) and (max-width:1800px){
+    .menu{
+        height: 100vh;
+    }
+
+}
+@media only screen and (width:820px){
+    .menu{
+        height: 100vh;
+        visibility:hidden;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    main{
+        position: relative;
+        right: 12em;
+        top: 10vh;
+     }
+     #caminhosMenu{
+        right: 20vw;
+        top: 7vh;
+     }
+     #logo{
+        width: 50px;
+        height: 50px;
+        top: -69vw;
+        left: 57%;
+        visibility: visible;
+     }
+     #financas{
+        width: 89vw;
+     }
+     #caminhosMenus>a{
+        visibility: hidden;
+    }
+    .imgMenuCell{
+        visibility: visible;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        right: 93vw;
+        top: 7px;
+    }
+    .menuCell{
+        width: 30vw;
+    }
+    #limites{
+        width: 40vw;
+    }
+    #rendas{
+        left: 22vw;
+        width: 46vw;   
+    }
+    .posicaoLegenda{
+        left: 815vw;
+    }
+    #desenhodografico {
+        width: 30%;
+        justify-content: space-around;
+        flex-direction: row;
+        left: 50%;
+        position: relative;
+        bottom: 23vh;
+    }
+    .textoMenucelular{
+        left: 13vw;
+        top: 5vh;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width:700px){
+    .menu{
+        height: 100vh;
+        visibility:hidden;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    main{
+        left: -2vh;
+    }
+    #caminhosMenu{
+        right: 54vw;
+        top: 5vh;
+    }
+    #caminhosMenus>a{
+        visibility: hidden;
+    }
+    #financas{
+        left: -56vw;
+        width: 95vw;
+    }
+    #limites{
+        right: 56vw;
+        width: 95vw;
+    }
+    #rendas{
+        top: 111%;
+        right: -1vh;
+        width: 94vw;
+        position: absolute;
+        z-index: 0;
+    }
+
+
+     }
+     .imgMenuCell{
+         visibility: visible;
+         z-index: 1;
+     }
+     #logo{
+        width: 34px;
+        height: 38px;
+        top: -49%;
+        left: 78%;
+    
+     }

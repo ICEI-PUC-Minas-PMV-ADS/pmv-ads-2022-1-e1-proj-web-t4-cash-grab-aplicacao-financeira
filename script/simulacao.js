@@ -26,3 +26,15 @@ function captura() {
     var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
     document.getElementById("retornoTotal").innerHTML = Number(retornoInicial) + Number(retornoMensal).toFixed(2);
 }
+
+/*Saudação ao usario*/
+let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];
+let campoDeSaudacao = document.getElementById('campoDeSaudacao')
+let posicao
+let cariha
+function saudacoesUsuario(){
+  let saudacoes = ['Olá!','Bem-Vindo!','Hi!','Hellou!','Oi!','Ei!']
+  posicao = Math.floor(Math.random() * 5)
+  carinha = Math.floor(Math.random() * 13)
+  campoDeSaudacao.innerHTML= saudacoes[posicao]+' '+emojis[carinha]+' ';
+}

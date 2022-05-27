@@ -10,6 +10,10 @@ let btnAddDespesas = document.getElementById('btnAddDespesas');
 let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
 
+/*Recuperando dados do localStorage*/
+let dadosUser = JSON.parse(localStorage.getItem('dadosUsuario'));
+console.log(dadosUser)
+
 /*Função que envia email com alerta do limite*/
 function enviarEmail(e){
   /*Falta nessa função integrar o nome e email do usuario logado*/
@@ -18,7 +22,7 @@ function enviarEmail(e){
       Host:"smtp.elasticemail.com",
       Username:"cashgrap@gmail.com",
       Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-      To:'',
+      To:dadosUser[0].email,
       From:"cashgrap@gmail.com",
       Subject: "Alerta.... Limite",
       Body: "Olá, Vimos aquie seus gastos estão a "+e+"% do valor estibulado por você.",
@@ -28,7 +32,7 @@ function enviarEmail(e){
       Host:"smtp.elasticemail.com",
       Username:"cashgrap@gmail.com",
       Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-      To:'',
+      To:dadosUser[0].email,
       From:"cashgrap@gmail.com",
       Subject: "Limite estourado",
       Body: "Ops, verificamos aqui seu gasto utrapassaram o seu limite",
@@ -155,9 +159,11 @@ const criacaoDoGrafico = new Chart(grafico,{
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];
 let campoDeSaudacao = document.getElementById('campoDeSaudacao')
+let campoNameUser = document.getElementById('campoNameUser')
 let posicao
 let cariha
 function saudacoesUsuario(){
+  campoNameUser.innerHTML= ', '+dadosUser[0].nome;
   let saudacoes = ['Olá','Bem-Vindo','Hi','Hellou','Oi','Ei']
   posicao = Math.floor(Math.random() * 5)
   carinha = Math.floor(Math.random() * 13)

@@ -102,13 +102,7 @@ function mostrarCampoLimite(){
   cancelarEditar.classList.toggle('ocultarElemento');
   btnEditar.classList.toggle('ocultarElemento')
 }
-/*Chamando a função atraves do click no botão*/
-btnAdcionarLimite.addEventListener('click',colocarLimite);
-btncolocarDividas.addEventListener('click',colocarDividas);
-btnAddDespesas.addEventListener('click',mostrarCamposDivida);
-btnEditar.addEventListener('click', mostrarCampoLimite);
-cancelarEditar.addEventListener('click',mostrarCampoLimite)
-cancelarDois.addEventListener('click',mostrarCamposDivida)
+
 
 /*Parte onde faz o menu no celular aparecer*/
 let menuCell = document.getElementsByClassName('imgMenuCell');
@@ -169,3 +163,11 @@ function saudacoesUsuario(){
   carinha = Math.floor(Math.random() * 13)
   campoDeSaudacao.innerHTML= saudacoes[posicao]+' '+emojis[carinha]+' ';
 }
+
+/*Chamando a função atraves do click no botão*/
+btnAdcionarLimite.addEventListener('click',colocarLimite);
+btncolocarDividas.addEventListener('click',colocarDividas);
+btnAddDespesas.addEventListener('click',mostrarCamposDivida);
+btnEditar.addEventListener('click', mostrarCampoLimite);
+cancelarEditar.addEventListener('click',mostrarCampoLimite)
+cancelarDois.addEventListener('click',mostrarCamposDivida)

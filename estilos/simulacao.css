@@ -202,6 +202,26 @@ main{
 .elementoMenu:hover #textoSobre{
     visibility: visible;
 }
+.visibilidadeMenuCell{
+    visibility:visible;
+    width: 80vw;
+    float: left;
+    background: rgba(36, 38, 58, 1);
+    height: 100vh;
+    border-radius: 4px 10px 10px 4px;
+    box-shadow:  1px 1px 1px 1px #000;
+    z-index: 1;
+    transition-duration: 0.8s;
+    transition-delay: 0.1s;
+}.textoMenucelular{
+    visibility: visible;
+    position: relative;
+    left: 22vw;
+    top: 7vh;
+    color: #fff;
+    transition-duration: 0.8s;
+    transition-delay: 0.1s;
+}
 /*Parte da responsividade*/
 @media only screen and (min-width: 900px) and (max-width:1800px){
     .menu{
@@ -232,9 +252,6 @@ main{
         left: 57%;
         visibility: visible;
      }
-     #financas{
-        width: 89vw;
-     }
      #caminhosMenus>a{
         visibility: hidden;
     }
@@ -249,24 +266,6 @@ main{
     }
     .menuCell{
         width: 30vw;
-    }
-    #limites{
-        width: 40vw;
-    }
-    #rendas{
-        left: 22vw;
-        width: 46vw;   
-    }
-    .posicaoLegenda{
-        left: 815vw;
-    }
-    #desenhodografico {
-        width: 30%;
-        justify-content: space-around;
-        flex-direction: row;
-        left: 50%;
-        position: relative;
-        bottom: 23vh;
     }
     .textoMenucelular{
         left: 13vw;
@@ -289,25 +288,8 @@ main{
     }
     #caminhosMenus>a{
         visibility: hidden;
-    }
-    #financas{
-        left: -56vw;
-        width: 95vw;
-    }
-    #limites{
-        right: 56vw;
-        width: 95vw;
-    }
-    #rendas{
-        top: 111%;
-        right: -1vh;
-        width: 94vw;
-        position: absolute;
-        z-index: 0;
-    }
 
-
-     }
+    }
      .imgMenuCell{
          visibility: visible;
          z-index: 1;
@@ -318,4 +300,9 @@ main{
         top: -49%;
         left: 78%;
     
-     }
+
+    }
+    
+ 
+}
+

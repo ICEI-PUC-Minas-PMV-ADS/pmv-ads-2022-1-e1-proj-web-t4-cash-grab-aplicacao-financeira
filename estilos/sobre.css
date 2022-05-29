@@ -130,7 +130,8 @@ p{
     font-size: medium;
 font-family: arial;
     color: white;
-    text-align: center;
+   position: relative;
+   left: 10vw;
     
 }
 
@@ -140,8 +141,8 @@ border-radius: 10px 10px 10px 10px;
 #programadores {
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
-    height: 400px;
-    max-width: 400px;
+    height: 300px;
+    max-width: 300px;
     background: rgba(36, 38, 58, 1);
     top: 10px;
     position: relative;
@@ -152,7 +153,7 @@ border-radius: 10px 10px 10px 10px;
 display: flex;
 justify-content: space-around;
 flex-direction: row;
-left: 10%;
+left: 5%;
 position: relative;
 }
 h3{
@@ -170,4 +171,13 @@ a{
 .tituloprogramadores {
 font-size:smaller;
 color: aliceblue;
+}
+footer{
+   position: relative;
+    color: white;
+    font-family: italic;
+    left: 15vw;
+    font-size: medium;
+    
+    
 }

@@ -1,28 +1,51 @@
 //Definindo variavel 
 //Let nome da variavel = document.getElementById (nome do Id)
-    let Input_campoDescricao = document.getElementById ("campoDescricao") 
+    let Input_campoData = document.getElementById ("campoData") 
     let butoon_adicionar = document.getElementById ("adicionar")
-    let descricao = document.getElementById ("Descrição")
+    let Data = document.getElementById ("Data")
 
-    let Input_campoData = document.getElementById ("campoData")
-    let Data = document.getElementById ("data")
+    let Input_campoTipo = document.getElementById ("campoTipo")
+    let Tipo = document.getElementById ("campoTipo")
+
+    let Input_campoDescricao = document.getElementById ("campoDescricao")
+    let Descricão = document.getElementById ("campoDecricao")
+
+    let Input_campoValor = document.getElementById ("campoValor")
+    let Valor = document.getElementById ("campoValor")
 
 
 function colocarExtrato( ) { 
-    let textDescricao = document.createElement ("p") //variavel para criacao de elemento
-    textDescricao.innerHTML = Input_campoDescricao.value
-    descricao.appendChild (textDescricao)
-    console.log("entrei")
-
-    let textData = document.createElement ("p")
+    let textData = document.createElement ("p") //variavel para criacao de elemento
     textData.innerHTML = Input_campoData.value
     Data.appendChild (textData)
-    console.log("estouaquiagora")
 
+    let texTipo = document.createElement ("p")
+    texTipo.innerHTML = Input_campoTipo.value
+    Tipo.appendChild (texTipo)
+
+    let textDescrição = document.createElement ("p")
+    textDescrição.innerHTML = Input_campoDescricao.value
+    Descricão.appendChild (textDescrição)
+
+    let textValor = document.createElement ("p")
+    textValor.innerHTML = Input_campoValor.value
+    Valor.appendChild (textValor)
 }
 
 
 butoon_adicionar.addEventListener ("click",colocarExtrato)
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];

@@ -36,7 +36,7 @@ main{
     justify-content: center;
     left: -10%;
 }
-#data
+#Data
 {
     position: relative;
     top: 12%;
@@ -91,9 +91,9 @@ main{
     display: flex;
     justify-content: center;
     left: 50%; 
-    
+
 }
-/*TEXTO DO EXTRATO BÁNCARIO*/ 
+/*TEXTO TITULO*/ 
 #despesas>h3{
     text-align: center;
 position: relative;
@@ -105,19 +105,10 @@ position: relative;
     color: #fff;
     box-shadow:  1px 1px 1px 1px #000;
 }
-.ocultarElemento{
-    visibility: hidden;
-}
-.mostrarELemento{
-    visibility: visible;
-}
-#cancelarEditar{
-    visibility: hidden;
-}
 .estiloInputs{
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 0% auto;
     border-top: none;
     border-right: none;
     border-bottom-color: #fff;
@@ -131,7 +122,7 @@ position: relative;
     border-radius: 10px 10px 10px 10px;
     text-shadow: none;
     color: aliceblue;
-    background: rgba(36, 38, 58, 1);;
+    background: rgba(36, 38, 58, 1);
 }
 /*Estilo do menu*/
 #caminhosMenu{
@@ -347,8 +338,6 @@ position: relative;
         top: -49%;
         left: 78%;
     
+     }
 
-    }
-    
- 
 }

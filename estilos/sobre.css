@@ -10,13 +10,13 @@
 #caminhosMenu{
     position: relative;
     top:2%;
-    right: 15%;
+    right: 50%;
     
 }
 #nameUser>h1{
     font-size: 1.5rem;
     position: relative; 
-    right: 10%;
+    right: 20%;
 }
 #menu{
     width: 10%;
@@ -133,6 +133,7 @@ font-family: arial;
     color: white;
    position: relative;
    left: 10vw;
+
     
 }
 
@@ -142,12 +143,13 @@ border-radius: 10px 10px 10px 10px;
 #programadores {
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
-    height: 300px;
-    max-width: 300px;
+    height: 350px;
+    max-width: 350px;
     background: rgba(36, 38, 58, 1);
     top: 10px;
     position: relative;
     margin: 10px;
+    padding: 10px;
    
 }
 .conteiner{
@@ -162,6 +164,7 @@ h3{
 font-family: arial;
     color: white;
     text-align: center;
+    
 }
 a{
     font-size: medium;
@@ -181,4 +184,12 @@ footer{
     font-size: medium;
     
     
+}
+#paragrafo {
+width: 50%;
+left: 20%;
+}
+#sociais{
+    left: 25%;
+    position: relative;
 }

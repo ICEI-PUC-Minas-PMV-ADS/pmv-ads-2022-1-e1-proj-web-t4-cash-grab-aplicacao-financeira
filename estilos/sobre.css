@@ -10,7 +10,8 @@
 #caminhosMenu{
     position: relative;
     top:2%;
-    right: 30%;
+    right: 15%;
+    
 }
 #nameUser>h1{
     font-size: 1.5rem;

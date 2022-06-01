@@ -1,6 +1,6 @@
 function cadastroUsuario(){
     //pegando informações e transformando em JSON
-    var nomeUsuario = document.getElementById("nome");
+    var nomeUsuario =document.getElementById("nome");
     var email = document.getElementById("email");
     var senha = document.getElementById("password");
 
@@ -17,12 +17,12 @@ function cadastroUsuario(){
         email: email.value,
         senha: senha.value
     }
-  
+    
 
     if (nomeUsuario.value.length == 0 || email.value.length == 0 || senha.value.length == 0){
         alert('Preencha os campos vazios');
-        }
-        else{
+    }
+    else{
         dados.push(auxUsuario);
         localStorage.setItem("dadosUsuario", JSON.stringify(dados));
         // alerta e limpando dados dos campos
@@ -31,6 +31,6 @@ function cadastroUsuario(){
         email.value = "";
         senha.value = "";
         window.location.href = "index.html"
-        }
+    }
 
 }

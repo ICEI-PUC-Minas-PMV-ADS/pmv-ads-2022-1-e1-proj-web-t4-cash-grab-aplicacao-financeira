@@ -17,14 +17,20 @@ function cadastroUsuario(){
         email: email.value,
         senha: senha.value
     }
+  
 
-    dados.push(auxUsuario);
+    if (nomeUsuario.value.length == 0 || email.value.length == 0 || senha.value.length == 0){
+        alert('Preencha os campos vazios');
+        }
+        else{
+        dados.push(auxUsuario);
+        localStorage.setItem("dadosUsuario", JSON.stringify(dados));
+        // alerta e limpando dados dos campos
+        alert("Usuário Cadastrado com Sucesso!");
+        nomeUsuario.value = "";
+        email.value = "";
+        senha.value = "";
+        window.location.href = "index.html"
+        }
 
-    localStorage.setItem("dadosUsuario", JSON.stringify(dados));
-
-    // alerta e limpando dados dos campos
-    alert("Usuário Cadastrado no Sistema");
-    nomeUsuario.value = "";
-    email.value = "";
-    senha.value = "";
 }

@@ -42,7 +42,6 @@ main{
     height: 582px;
     padding: 12px; 
     width: 70%;
-    display: flex;
     justify-content: center;
     left: -110%;
 } 
@@ -52,7 +51,6 @@ main{
     height: 580px;
     padding: 12px; 
     width: 70%;
-    display:flex;
     justify-content: center;
     left: -129%;
 }
@@ -62,7 +60,6 @@ main{
    height: 580px;
    padding: 12px;
    width: 70%;
-   display: flex;
    justify-content: center;
     left: 150%;
 }
@@ -72,7 +69,6 @@ main{
     height: 580px;
     padding: 12px;
     width: 70%;
-    display: flex;
     justify-content: center;
     left: 130%; 
 }
@@ -82,7 +78,6 @@ main{
     height: 84px;
     padding: 12px;
     width: 70%;
-    display: flex;
     justify-content: center;
     left: 30%; 
 }

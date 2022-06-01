@@ -36,8 +36,7 @@ main{
     justify-content: center;
     left: -10%;
 }
-#Data
-{
+#Data{
     position: relative;
     top: 12%;
     height: 582px;
@@ -47,8 +46,7 @@ main{
     justify-content: center;
     left: -110%;
 } 
-#Tipo
-{
+#Tipo{
     position: relative;
     top: 12%;
     height: 580px;
@@ -57,10 +55,8 @@ main{
     display:flex;
     justify-content: center;
     left: -129%;
-
 }
-#Descrição
-{
+#Descrição{
    position: relative;
    top: -88%;
    height: 580px;
@@ -70,8 +66,7 @@ main{
    justify-content: center;
     left: 150%;
 }
-#Valor
-{   
+#Valor{   
     position: relative;
     top: -88%;
     height: 580px;
@@ -81,17 +76,15 @@ main{
     justify-content: center;
     left: 130%; 
 }
-#SaldoAtual
-{
+#SaldoAtual{
     position: relative;
-    top: 14%;
+    top: 15%;
     height: 84px;
     padding: 12px;
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
-    left: 50%; 
-
+    left: 30%; 
 }
 /*TEXTO TITULO*/ 
 #despesas>h3{
@@ -108,14 +101,14 @@ position: relative;
 .estiloInputs{
     display: block;
     position: relative;
-    margin: 0% auto;
+    margin: 0 auto;
     border-top: none;
     border-right: none;
     border-bottom-color: #fff;
     border-left-color:#fff ;
     background-color: transparent;
     color: #fff;
-    bottom: 1%;
+    bottom: 1%;;
 }
 .estiloBotao{
     border-color: #fff;
@@ -124,6 +117,19 @@ position: relative;
     color: aliceblue;
     background: rgba(36, 38, 58, 1);
 }
+#campoData{
+position: relative;
+top: -65vh;
+left: -30%;
+
+}
+.teste {
+    position: relative;
+    top: 10vh;
+    display: block;
+    word-break: normal;
+}
+
 /*Estilo do menu*/
 #caminhosMenu{
     position: relative;
@@ -150,7 +156,6 @@ position: relative;
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
 }
-
 .menu>ul>li>a{
     color: #fff;
 }

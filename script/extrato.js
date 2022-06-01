@@ -5,18 +5,21 @@
     let Data = document.getElementById ("Data")
 
     let Input_campoTipo = document.getElementById ("campoTipo")
-    let Tipo = document.getElementById ("campoTipo")
+    let Tipo = document.getElementById ("Tipo")
 
     let Input_campoDescricao = document.getElementById ("campoDescricao")
-    let Descricão = document.getElementById ("campoDecricao")
+    let Descricao = document.getElementById ("Descrição")
 
     let Input_campoValor = document.getElementById ("campoValor")
-    let Valor = document.getElementById ("campoValor")
+    let Valor = document.getElementById ("Valor")
 
 
 function colocarExtrato( ) { 
     let textData = document.createElement ("p") //variavel para criacao de elemento
+    let pularLinha = document.createElement ("br") 
     textData.innerHTML = Input_campoData.value
+    textData.classList.add ("teste")
+    Data.appendChild (pularLinha)
     Data.appendChild (textData)
 
     let texTipo = document.createElement ("p")
@@ -25,7 +28,7 @@ function colocarExtrato( ) {
 
     let textDescrição = document.createElement ("p")
     textDescrição.innerHTML = Input_campoDescricao.value
-    Descricão.appendChild (textDescrição)
+    Descricao.appendChild (textDescrição)
 
     let textValor = document.createElement ("p")
     textValor.innerHTML = Input_campoValor.value

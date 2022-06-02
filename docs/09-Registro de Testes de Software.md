@@ -1,12 +1,11 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+## Caso de teste 01 - Criação de um controlador de gastos
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+1- Caso de sucesso: Dados aparecem na tela.
 
-## Avaliação
+![Tela 7](img/caso_de_sucesso_telaDeDespesas.png)
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+2- Caso de Insucesso: Mensagem de erro com o campo vazio.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+![Tela 8](img/caso_de_insucesso_tela_de_despesas.png)

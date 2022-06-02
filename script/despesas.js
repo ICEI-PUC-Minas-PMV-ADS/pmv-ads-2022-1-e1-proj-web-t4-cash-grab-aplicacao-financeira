@@ -56,6 +56,8 @@ function limiteUser(){
         barraProgesso.style.background='#C71F16'
         enviarEmail(porcetagemDivida)
       }
+   }else{
+     alert('Campo vazio')
    }
       
 }
@@ -79,12 +81,14 @@ function somaDivida(){
     return soma
 }
 function colocarDividas(){
-    let b= parseFloat(gastoInput.value,10)
-      vetor[cont] = b
-      cont+=1
-     somaDividas.innerHTML='R$ '+somaDivida();
+  // somaDividas.innerHTML='R$ '+somaDivida();
+  let b= parseFloat(gastoInput.value,10)
+    vetor[cont] = b
+    cont+=1
      somaDividas.value=somaDivida();
-     limiteUser()
+       somaDividas.innerHTML='R$ '+somaDividas.value
+       limiteUser()
+    
   
 }
 /*Parte onde faz o campos aparecer*/

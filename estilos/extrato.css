@@ -39,7 +39,7 @@ main{
 #Data{
     position: relative;
     top: 12%;
-    height: 470px;
+    height: 600px;
     padding: 12px; 
     width: 70%;
     justify-content: center;
@@ -48,7 +48,7 @@ main{
 #Tipo{
     position: relative;
     top: 12%;
-    height: 470px;
+    height: 600px;
     padding: 12px; 
     width: 70%;
     justify-content: center;
@@ -57,7 +57,7 @@ main{
 #Descrição{
    position: relative;
    top: -88%;
-   height: 470px;
+   height: 600px;
    padding: 12px;
    width: 70%;
    justify-content: center;
@@ -66,7 +66,7 @@ main{
 #Valor{   
     position: relative;
     top: -88%;
-    height: 470px;
+    height: 600px;
     padding: 12px;
     width: 70%;
     justify-content: center;

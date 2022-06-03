@@ -29,7 +29,7 @@ main{
 }
 #financas{
     position: relative;
-    height: 55px;
+    height: 45px;
     padding: 12px; 
     width: 310%;
     display: flex;
@@ -39,7 +39,7 @@ main{
 #Data{
     position: relative;
     top: 12%;
-    height: 582px;
+    height: 470px;
     padding: 12px; 
     width: 70%;
     justify-content: center;
@@ -48,7 +48,7 @@ main{
 #Tipo{
     position: relative;
     top: 12%;
-    height: 580px;
+    height: 470px;
     padding: 12px; 
     width: 70%;
     justify-content: center;
@@ -57,7 +57,7 @@ main{
 #Descrição{
    position: relative;
    top: -88%;
-   height: 580px;
+   height: 470px;
    padding: 12px;
    width: 70%;
    justify-content: center;
@@ -66,7 +66,7 @@ main{
 #Valor{   
     position: relative;
     top: -88%;
-    height: 580px;
+    height: 470px;
     padding: 12px;
     width: 70%;
     justify-content: center;
@@ -74,8 +74,8 @@ main{
 }
 #SaldoAtual{
     position: relative;
-    top: 15%;
-    height: 84px;
+    top: 14%;
+    height: 50px;
     padding: 12px;
     width: 70%;
     justify-content: center;
@@ -112,18 +112,38 @@ position: relative;
     color: aliceblue;
     background: rgba(36, 38, 58, 1);
 }
-#campoData{
-position: relative;
-top: -65vh;
-left: -30%;
-
+#adicionar{
+    position: relative;
+    top: -88vh;
+    left: 22%;
 }
+#campoData{
+    position: relative;
+    top: -66vh;
+    left: -25%;
+}
+#campoTipo{
+    position: relative;
+    top: -74vh;
+    left: -5%;
+}
+#campoDescricao{
+    position: relative;
+    top: -82vh;
+    left: 14%;
+}
+#campoValor{
+    position: relative;
+    top: -90vh;
+    left: 33%;
+    }
 .teste {
     position: relative;
     top: 10vh;
     display: block;
     word-break: normal;
 }
+
 
 /*Estilo do menu*/
 #caminhosMenu{

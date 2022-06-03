@@ -60,11 +60,14 @@ main{
 
 }
 #rendas{
-    width: 81%;
+    width: 100vh;
     height: 250px;
     position: relative;
     top: 50px;
     padding: 12px;
+}
+#linhaDivisoria {
+transform: rotate  (45deg);
 }
 #rendas>button{
     position: relative;

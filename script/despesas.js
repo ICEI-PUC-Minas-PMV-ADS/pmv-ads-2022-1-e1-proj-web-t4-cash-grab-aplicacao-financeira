@@ -25,7 +25,7 @@ function enviarEmail(e){
       To:dadosUser[0].email,
       From:"cashgrap@gmail.com",
       Subject: "Alerta.... Limite",
-      Body: "Olá, Vimos aquie seus gastos estão a "+e+"% do valor estibulado por você.",
+      Body: "Olá, Vimos aqui e seus gastos estão a "+e+"% do valor estibulado por você.",
     }).then(message => console.log(message));
   }else if(e>=100){
     Email.send({
@@ -161,12 +161,36 @@ let campoNameUser = document.getElementById('campoNameUser')
 let posicao
 let cariha
 function saudacoesUsuario(){
-  campoNameUser.innerHTML= ', '+dadosUser[0].nome;
+  //campoNameUser.innerHTML= ', '+dadosUser[0].nome;
   let saudacoes = ['Olá','Bem-Vindo','Hi','Hellou','Oi','Ei']
   posicao = Math.floor(Math.random() * 5)
   carinha = Math.floor(Math.random() * 13)
   campoDeSaudacao.innerHTML= saudacoes[posicao]+' '+emojis[carinha]+' ';
 }
+/* função das despesas futuras*/
+let atual=document.getElementById("atual");
+let futuro=document.getElementById("futuro");
+let teste= "6/2022";
+let date=new Date()
+let dia = date.getDate();
+let mes = (date.getMonth() + 1);
+let ano = date.getFullYear();
+let validacaoData=  String(mes) + "/"+ String(ano);
+let proxima= mes+1;
+function  mostrardespesas () {
+  /* mostrar a despesa atual com base no mês*/
+  if (validacaoData==teste){
+    atual.innerHTML=validacaoData + " a vencer "+ "valor: um rim";
+    console.log("sucesso");
+  }
+  else {
+    atual.innerHTML= "Não a dividas pendentes!"
+
+  }
+ futuro.innerHTML= "valor";
+}
+
+
 
 /*Chamando a função atraves do click no botão*/
 btnAdcionarLimite.addEventListener('click',colocarLimite);

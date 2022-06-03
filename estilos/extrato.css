@@ -75,7 +75,7 @@ main{
 #SaldoAtual{
     position: relative;
     top: 14%;
-    height: 50px;
+    height: 45px;
     padding: 12px;
     width: 70%;
     justify-content: center;
@@ -83,12 +83,12 @@ main{
 }
 #Incluir{   
     position: relative;
-    top: -808%;
-    height: 50px;
+    top: -900%;
+    height: 45px;
     padding: 12px;
     width: 70%;
     justify-content: center;
-    left: 150%; 
+    left: 150%;
 }
 
 /*TEXTO TITULO*/ 
@@ -113,7 +113,7 @@ position: relative;
     border-left-color:#fff ;
     background-color: transparent;
     color: #fff;
-    bottom: 1%;;
+    bottom: 1%;
 }
 .estiloBotao{
     border-color: #fff;
@@ -122,30 +122,36 @@ position: relative;
     color: aliceblue;
     background: rgba(36, 38, 58, 1);
 }
-#adicionar{
-    position: relative;
-    top: -88vh;
-    left: 22%;
-}
+
 #campoData{
     position: relative;
-    top: -66vh;
+    top: -75vh;
     left: -25%;
 }
 #campoTipo{
     position: relative;
-    top: -74vh;
+    top: -83vh;
     left: -5%;
 }
 #campoDescricao{
     position: relative;
-    top: -82vh;
+    top: -90vh;
     left: 14%;
 }
 #campoValor{
     position: relative;
-    top: -90vh;
+    top: -98vh;
     left: 33%;
+}
+#adicionar{
+    position: relative;
+    top: -96vh;
+    left: 56%;
+    width: 209px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px;
+    color: aliceblue;
+    background: rgba(36, 38, 58, 1);
 }
 .teste{
     position: relative;
@@ -153,6 +159,7 @@ position: relative;
     display: block;
     word-break: normal;
 }
+
 
 
 /*Estilo do menu*/

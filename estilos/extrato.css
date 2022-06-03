@@ -81,7 +81,7 @@ main{
     justify-content: center;
     left: 30%; 
 }
-#Incluir{   
+#Incluir{
     position: relative;
     top: -900%;
     height: 45px;
@@ -150,8 +150,8 @@ position: relative;
     width: 209px;
     height: 35px;
     border-radius: 10px 10px 10px 10px;
-    color: aliceblue;
-    background: rgba(36, 38, 58, 1);
+    color: rgb(10, 10, 10);
+ 
 }
 .teste{
     position: relative;

@@ -10,7 +10,7 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Desepesas</title>
 </head>
-<body onload="saudacoesUsuario()"id="corpo">
+<body onload="saudacoesUsuario(), mostrardespesas ()"id="corpo">
      <!--Menu-->
      <nav  id="teste"class=" menu navbar navbar-expand-lg ">
         <img id="logo" src="imgsite/Logo_Principal.png" alt="">
@@ -84,9 +84,20 @@
                 <button class="ocultarElemento estiloBotao" id="colocarDividas" type="submit" >+</button>
         </div>
     
-        <!--Parte das rendas-->
+        <!--Parte de despesas futuras-->
         <div id="rendas" class="campos">
-            <h3>Suas rendas</h3>
+            <h3>Suas Despesas</h3>
+            
+          <section id="despesasAtuais">
+              <h6> Despesas atuais </h6>
+              <p id="atual"></p>
+          </section>
+          <hr id="linhaDivisoria">
+          <section id="despesasFuturas">
+            <h6> Despesas futuras </h6>
+            <p id="futuro"></p>
+          </section>
+
             <button class="estiloBotao"type="submit">+</button>
         </div>
 

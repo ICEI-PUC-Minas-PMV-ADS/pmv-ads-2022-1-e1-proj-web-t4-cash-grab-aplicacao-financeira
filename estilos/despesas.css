@@ -60,14 +60,22 @@ main{
 
 }
 #rendas{
-    width: 100vh;
+    width: 80vh;
     height: 250px;
     position: relative;
     top: 50px;
     padding: 12px;
 }
 #linhaDivisoria {
-transform: rotate  (45deg);
+    position: relative;
+    transform: rotate(90deg);
+    width: 10vh;
+    left: 15vw;
+}
+#despesasFuturas{
+    position: relative;
+    left: 20vw;
+    top: -10vh;
 }
 #rendas>button{
     position: relative;
@@ -156,9 +164,11 @@ transform: rotate  (45deg);
 /*Estilo do menu*/
 #caminhosMenu{
     position: relative;
-    top: 0;
-    right: 40%;
+    top: -38px;
+    right: 20%;
     padding: 11px;
+}
+#teste{
     height: 100vh;
 }
 #nameUser>h1{
@@ -185,10 +195,10 @@ transform: rotate  (45deg);
 }
 #logo{
     position: relative;
-    width: 50px;
-    height: 50px;
-    top:-45%;
-    left: 20%;
+    width: 32px;
+    height: 26px;
+    top: -331px;
+    left: 133%;
 }
 .imgsMenu{
     width: 40px;
@@ -339,6 +349,13 @@ canvas{
     .menu{
         height: 100vh;
     }
+    #logo{
+    position: relative;
+    width: 32px;
+    height: 26px;
+    top: -410px;
+    left: 133%;
+}
 
 }
 @media only screen and (width:820px){

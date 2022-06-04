@@ -165,7 +165,7 @@ main{
 #caminhosMenu{
     position: relative;
     top: -38px;
-    right: 20%;
+    right: 10%;
     padding: 11px;
 }
 #teste{
@@ -353,8 +353,8 @@ canvas{
     position: relative;
     width: 32px;
     height: 26px;
-    top: -410px;
-    left: 133%;
+    top: 10px;
+    left: 53%;
 }
 
 }
@@ -433,8 +433,8 @@ canvas{
         left: -2vh;
     }
     #caminhosMenu{
-        right: 54vw;
-        top: 5vh;
+        right: -6vw;
+        top: -6vh;
     }
     #caminhosMenus>a{
         visibility: hidden;
@@ -470,6 +470,18 @@ canvas{
          visibility: visible;
          z-index: 1;
      }
+     #despesasFuturas {
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+    
+     }
+     #linhaDivisoria {
+        position: relative;
+        transform: rotate(0deg);
+        width: 43vh;
+        left: -2vw;
+    }
      #logo{
         width: 34px;
         height: 38px;

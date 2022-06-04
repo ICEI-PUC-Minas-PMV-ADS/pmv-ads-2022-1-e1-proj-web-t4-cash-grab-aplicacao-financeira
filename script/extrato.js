@@ -35,16 +35,11 @@ function colocarExtrato( ) {
     Valor.appendChild (textValor)
 }
 
-
 butoon_adicionar.addEventListener ("click",colocarExtrato)
 
 
-
-
-
-
-
-
+/*dados do localStorage*/
+localStorage 
 
 
 

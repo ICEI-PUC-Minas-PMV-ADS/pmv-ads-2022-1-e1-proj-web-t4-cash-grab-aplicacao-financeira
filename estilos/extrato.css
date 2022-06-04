@@ -31,7 +31,7 @@ main{
     position: relative;
     height: 45px;
     padding: 12px; 
-    width: 310%;
+    width: 311%;
     display: flex;
     justify-content: center;
     left: -10%;
@@ -81,15 +81,6 @@ main{
     justify-content: center;
     left: 30%; 
 }
-#Incluir{
-    position: relative;
-    top: -900%;
-    height: 45px;
-    padding: 12px;
-    width: 70%;
-    justify-content: center;
-    left: 150%;
-}
 
 /*TEXTO TITULO*/ 
 #despesas>h3{
@@ -125,33 +116,34 @@ position: relative;
 
 #campoData{
     position: relative;
-    top: -75vh;
-    left: -25%;
+    top: -65vh;
+    left: -30%;
 }
 #campoTipo{
     position: relative;
-    top: -83vh;
-    left: -5%;
+    top: -75vh;
+    left: -8%;
 }
 #campoDescricao{
     position: relative;
-    top: -90vh;
-    left: 14%;
+    top: -82vh;
+    left: 12%;
 }
 #campoValor{
     position: relative;
-    top: -98vh;
-    left: 33%;
+    top: -88vh;
+    left: 31%;
 }
 #adicionar{
     position: relative;
-    top: -96vh;
-    left: 56%;
-    width: 209px;
-    height: 35px;
+    top: -69vh;
+    left: 53%;
+    width: 328px;
+    height: 46px;
     border-radius: 10px 10px 10px 10px;
-    color: rgb(10, 10, 10);
- 
+    color: #fff;
+    background-color: rgba(36, 38, 58, 1);
+
 }
 .teste{
     position: relative;
@@ -179,7 +171,7 @@ position: relative;
     top:10px;
 }
 .menu{
-    width: 10%;
+    width:10%;
     float: left;
     background: rgba(36, 38, 58, 1);
     height: 713px;

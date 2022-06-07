@@ -39,8 +39,11 @@ butoon_adicionar.addEventListener ("click",colocarExtrato)
 
 
 /*dados do localStorage*/
-localStorage 
 
+localStorage.setItem ("Data", "campoData")
+console.log(Data); 
+
+localStorage.clear
 
 
 

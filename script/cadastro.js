@@ -3,6 +3,7 @@ function cadastroUsuario(){
     var nomeUsuario =document.getElementById("nome");
     var email = document.getElementById("email");
     var senha = document.getElementById("password");
+    let colocarDividas = [];
 
     var dados = JSON.parse(localStorage.getItem("dadosUsuario"));
 
@@ -15,7 +16,8 @@ function cadastroUsuario(){
     var auxUsuario = {
         nome: nomeUsuario.value,
         email: email.value,
-        senha: senha.value
+        senha: senha.value,
+        colocarDividas: " "
     }
     
 
@@ -25,6 +27,7 @@ function cadastroUsuario(){
     else{
         dados.push(auxUsuario);
         localStorage.setItem("dadosUsuario", JSON.stringify(dados));
+        nome =
         // alerta e limpando dados dos campos
         alert("Usuário Cadastrado com Sucesso!");
         nomeUsuario.value = "";

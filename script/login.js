@@ -3,18 +3,41 @@ function ValidaLogin(){
     var emailLogin = document.getElementById("exampleInputEmail");
     var senhaLogin = document.getElementById("exampleInputSenha");
 
-    var verif_email = localStorage.getItem("dadosUsuario").split("email");
-    var verif_senha = localStorage.getItem("dadosUsuario").split("senha");
+    let listaUsuario = []
 
-    console.log(verif_email);
+    var validaUsuario = {
+        validaNome: '',
+        validaEmail: '',
+        validaSenha: ''
+    }
 
-    if(emailLogin == verif_email && senhaLogin == verif_senha){
-        alert(`Bem Vindo ${localStorage.getItem[nome]}`)
-        window.location.href = "despesas.html"
+    listaUsuario = JSON.parse(localStorage.getItem('dadosUsuario'))
+
+    console.log(listaUsuario)
+
+    listaUsuario.forEach((item) => {
+        if(emailLogin.value == item.email && senhaLogin.value == item.senha){
+            validaUsuario ={
+                 validaNome: item.nome,
+                 validaEmail: item.email,
+                 validaSenha: item.senha                
+            }
+        }
+    })
+
+    if(emailLogin.value != '' && senhaLogin.value != ''){
+        if(emailLogin.value == validaUsuario.validaEmail && senhaLogin.value == validaUsuario.validaSenha){
+            alert("Seja Bem Vindo!")
+            window.location.href = "despesas.html"
+        }
+        else{
+            alert("Usuário não cadastrado. \nCadastre-se para acessar o sistema!")
+        }
     }
     else{
-        alert("Usuário não cadastrado \nVolte e realize um cadastro.");
+        alert("Preencha os campos para realizar o login!")
     }
 
+    
 }
 

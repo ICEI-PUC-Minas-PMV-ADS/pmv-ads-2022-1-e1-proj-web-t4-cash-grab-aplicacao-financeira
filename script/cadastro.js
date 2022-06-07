@@ -3,7 +3,7 @@ function cadastroUsuario(){
     var nomeUsuario =document.getElementById("nome");
     var email = document.getElementById("email");
     var senha = document.getElementById("password");
-    let colocarDividas = [];
+    let dividas = [];
 
     var dados = JSON.parse(localStorage.getItem("dadosUsuario"));
 

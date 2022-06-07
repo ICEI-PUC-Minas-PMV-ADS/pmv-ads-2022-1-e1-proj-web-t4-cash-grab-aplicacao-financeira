@@ -13,7 +13,7 @@
     let Input_campoValor = document.getElementById ("campoValor")
     let Valor = document.getElementById ("Valor")
 
-
+    let dadosDescritivos = JSON.parse (localStorage.getItem("dadosUsuario"));
 function colocarExtrato( ) { 
     let textData = document.createElement ("p") //variavel para criacao de elemento
     let pularLinha = document.createElement ("br") 
@@ -33,17 +33,22 @@ function colocarExtrato( ) {
     let textValor = document.createElement ("p")
     textValor.innerHTML = Input_campoValor.value
     Valor.appendChild (textValor)
-}
+
+        let extratos = {
+      data: Input_campoData.value, 
+      tipo: Input_campoTipo.value,
+      descricao: Input_campoDescricao.value,
+      valor: Input_campoValor.value,
+    }
+    dadosDescritivos [0].colocarDividas.push(extratos)
+  }
 
 butoon_adicionar.addEventListener ("click",colocarExtrato)
 
 
 /*dados do localStorage*/
 
-localStorage.setItem ("Data", "campoData")
-console.log(Data); 
 
-localStorage.clear
 
 
 

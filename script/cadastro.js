@@ -17,7 +17,7 @@ function cadastroUsuario(){
         nome: nomeUsuario.value,
         email: email.value,
         senha: senha.value,
-        colocarDividas: " "
+        colocarDividas: dividas
     }
     
 

@@ -1,11 +1,14 @@
 function ValidaLogin(){
 
-    var emailLogin = document.getElementById("exampleInputEmail").value;
+    var emailLogin = document.getElementById("exampleInputEmail");
     var senhaLogin = document.getElementById("exampleInputSenha");
 
-    console.log();
+    var verif_email = localStorage.getItem("dadosUsuario").split("email");
+    var verif_senha = localStorage.getItem("dadosUsuario").split("senha");
 
-    if(emailLogin == localStorage.getItem("dadosUsuario.name") && senhaLogin == localStorage.getItem("dadosUsuario")){
+    console.log(verif_email);
+
+    if(emailLogin == verif_email && senhaLogin == verif_senha){
         alert(`Bem Vindo ${localStorage.getItem[nome]}`)
         window.location.href = "despesas.html"
     }

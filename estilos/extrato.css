@@ -29,12 +29,12 @@ main{
 }
 #financas{
     position: relative;
-    height: 45px;
-    padding: 12px; 
-    width: 311%;
     display: flex;
     justify-content: center;
-    left: -10%;
+    margin-left:8%;
+    height: 45px;
+    width: 311%;
+
 }
 #Data{
     position: relative;
@@ -43,7 +43,7 @@ main{
     padding: 12px; 
     width: 70%;
     justify-content: center;
-    left: -110%;
+    left: -95%;
 }
 #Tipo{
     position: relative;
@@ -132,8 +132,8 @@ position: relative;
 }
 #adicionar{
     position: relative;
-    top: -56vh;
-    left: 53%;
+    top: -38vh;
+    left: 45%;
     width: 328px;
     height: 46px;
     border-radius: 10px 10px 10px 10px;

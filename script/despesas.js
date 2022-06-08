@@ -11,33 +11,33 @@ let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
 
 /*Recuperando dados do localStorage*/
-let dadosUser = JSON.parse(localStorage.getItem('dadosUsuario'));
-console.log(dadosUser)
+let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+
 
 /*Função que envia email com alerta do limite*/
 function enviarEmail(e){
-  /*Falta nessa função integrar o nome e email do usuario logado*/
-  if(e>=60 && e<100){
-    Email.send({
-      Host:"smtp.elasticemail.com",
-      Username:"cashgrap@gmail.com",
-      Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-      To:dadosUser[0].email,
-      From:"cashgrap@gmail.com",
-      Subject: "Alerta.... Limite",
-      Body: "Olá, Vimos aqui e seus gastos estão a "+e+"% do valor estibulado por você.",
-    }).then(message => console.log(message));
-  }else if(e>=100){
-    Email.send({
-      Host:"smtp.elasticemail.com",
-      Username:"cashgrap@gmail.com",
-      Password:"FB6AA04E07E13FA408FD3D05B43D7E767753",
-      To:dadosUser[0].email,
-      From:"cashgrap@gmail.com",
-      Subject: "Limite estourado",
-      Body: "Ops, verificamos aqui seu gasto utrapassaram o seu limite",
-    }).then(message => console.log(message));
-  }
+    if(e>=60 && e<100){
+      let params ={
+        assunto:'Gastos passaram de 50%...'+'👀',
+        from_name:usuarioLogado.validaNome,
+        email_id: usuarioLogado.validaEmail,
+        message: 'Verificamos que seu seus gastos já utrapassaram 50% do que foi proposto por você. Recomendamos que verifique os gastos'
+      }
+      emailjs.send('service_lg7h273','template_6q503gl',params).then(function(res){
+        console.log('Enviado'+res.status)
+      })
+    }
+  else if(e>=100){
+    let params ={
+      assunto:'Limite estourado...'+'😬',
+      from_name:usuarioLogado.validaNome,
+      email_id: usuarioLogado.validaEmail,
+      message:'Nosso sistema verificou que seus gastos passaram do limite estipulador por vc. Por favor revise seus limites'
+    }
+    emailjs.send('service_lg7h273','template_6q503gl',params).then(function(res){
+      console.log('Enviado'+res.status)
+    })
+    }
 }
 /*Função para modificar a barra de progresso*/
 
@@ -161,7 +161,7 @@ let campoNameUser = document.getElementById('campoNameUser')
 let posicao
 let cariha
 function saudacoesUsuario(){
-  //campoNameUser.innerHTML= ', '+dadosUser[0].nome;
+  campoNameUser.innerHTML= ', '+usuarioLogado.validaNome;
   let saudacoes = ['Olá','Bem-Vindo','Hi','Hellou','Oi','Ei']
   posicao = Math.floor(Math.random() * 5)
   carinha = Math.floor(Math.random() * 13)

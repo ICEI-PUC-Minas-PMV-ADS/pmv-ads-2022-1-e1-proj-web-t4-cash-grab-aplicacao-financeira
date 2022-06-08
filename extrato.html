@@ -14,10 +14,10 @@
 </head>
 
 
-<body onload="saudacoesUsuario()"id="corpo">
+<body onload="saudacoesUsuario(), view() "id="corpo">
      <!--Menu-->
      <nav  id="teste"class=" menu navbar navbar-expand-lg ">
-        <img id="logo" src="imgsite/Logo_Principal.png" alt="">
+        
         <ul class="nav flex-column" id="caminhosMenu">
             <li class="nav-item">
             </li>
@@ -45,13 +45,16 @@
                 <a class="nav-link" href="sobre.html"><p id="textoSobre" class="textoSobre">Sobre</p></a>
                 <a class="nav-link" href="sobre.html"><img src="imgsite/grupo.png" class="imgsMenu" alt=""></a>
             </li>
-
+          <!--  <li class="nav-item elementoMenu">
+                <img id="logo" src="imgsite/Logo_Principal.png" alt="">
+            </li>-->
           </ul>
       </nav>
 
+
     <!--Parte onde vai ficar o nome de usaurio-->
     <nav id="nameUser">
-        <h2> <span id="campoDeSaudacao"></span><span>  Pedro Almeida </span></h2>
+        <h2> <span id="campoDeSaudacao"></span><span id="campoNameUser"> !  Vitor Hugo</span></h2>
         <img src="imgsite/menu.png"  onclick="aparecerMenu()"class="imgMenuCell" alt="">
     </nav>
 
@@ -65,22 +68,26 @@
 
     <!--Data-->
         <div id="Data" class="campos">
-            <h3>Data</h3>   
+            <h3>Data</h3>
+            <input type="text"id="campoData"class="ocultarElemento estiloInputs number" placeholder="DIGITE A DATA"> 
         </div>
 
     <!--Tipo-->
         <div id="Tipo" class="campos">
             <h3>Tipo</h3>
+            <input type="text"id="campoTipo"class="ocultarElemento estiloInputs number" placeholder="DIGITE O TIPO">
         </div>
 
     <!--Descrição-->
         <div id="Descrição" class="campos">
             <h3>Descrição</h3>
+            <input type="text"id="campoDescricao"class="ocultarElemento estiloInputs number" placeholder="DIGITE A DESCRIÇÃO">
         </div>
 
     <!--Valor-->
         <div id="Valor" class="campos">
             <h3>Valor</h3>
+            <Input type="text"id="campoValor"class="ocultarElemento estiloInputs number" placeholder="DIGITE O VALOR">
         </div>
 
      <!--Saldo Atual-->
@@ -91,11 +98,10 @@
     </main>
 
     <!--Inputs-->
-    <input type="text"id="campoData"class="ocultarElemento estiloInputs number" placeholder="DIGITE A DATA">
-    <input type="text"id="campoTipo"class="ocultarElemento estiloInputs number" placeholder="DIGITE O TIPO">
-    <input type="text"id="campoDescricao"class="ocultarElemento estiloInputs number" placeholder="DIGITE A DESCRIÇÃO">
-    <Input type="text"id="campoValor"class="ocultarElemento estiloInputs number" placeholder="DIGITE O VALOR">
 
+   
+    
+    
 
     <button id="adicionar"> <h5>INCLUIR</h5> </button>
 

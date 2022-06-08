@@ -10,11 +10,10 @@ function ValidaLogin(){
         validaEmail: '',
         validaSenha: ''
     }
-
+//Colocando dados do localstorage em uma variável
     listaUsuario = JSON.parse(localStorage.getItem('dadosUsuario'))
 
-    console.log(listaUsuario)
-
+//Colocando os dados 
     listaUsuario.forEach((item) => {
         if(emailLogin.value == item.email && senhaLogin.value == item.senha){
             validaUsuario ={
@@ -25,10 +24,14 @@ function ValidaLogin(){
         }
     })
 
+// Validando os campos vazios para comprar as informações do localstorage
     if(emailLogin.value != '' && senhaLogin.value != ''){
         if(emailLogin.value == validaUsuario.validaEmail && senhaLogin.value == validaUsuario.validaSenha){
             alert("Seja Bem Vindo!")
             window.location.href = "despesas.html"
+            //Criando outro localstorage para pegar informações em outras páginas
+            localStorage.setItem('usuarioLogado', JSON.stringify(validaUsuario))            
+            
         }
         else{
             alert("Usuário não cadastrado. \nCadastre-se para acessar o sistema!")

@@ -27,7 +27,6 @@ function cadastroUsuario(){
     else{
         dados.push(auxUsuario);
         localStorage.setItem("dadosUsuario", JSON.stringify(dados));
-        nome =
         // alerta e limpando dados dos campos
         alert("Usuário Cadastrado com Sucesso!");
         nomeUsuario.value = "";

@@ -4,6 +4,7 @@ function capturar() {
     valor = document.getElementById("valorEmprestimo").value;
     meses = document.getElementById("mesesEmprestimo").value;
     juros = 1/100;
+    var valor = parseFloat(valor.replace(',', '.'));
     document.getElementById("parcelas").innerHTML = (valor*Math.pow((1+juros),meses)/meses).toFixed(2);
     document.getElementById("jurosemp").innerHTML = (valor*Math.pow((1+juros),meses)-(valor)).toFixed(2);
     document.getElementById("montante").innerHTML = (valor*Math.pow((1+juros),meses)).toFixed(2);
@@ -15,9 +16,11 @@ function capturar() {
     valorinv = document.getElementById("valorInvestimento").value;
     mesesinv = document.getElementById("mesesInvestimento").value;
     aporte = document.getElementById("aporteMes").value;
-    
+    var valorinv = parseFloat(valorinv.replace(',', '.'));
+    var aporte = parseFloat(aporte.replace(',', '.'));
     var select = document.getElementById("investimentos");
     jurosinv = (select.options[select.selectedIndex].value)/100;
+
     var retornoInicial = document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
     var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
     var retornoTotal = parseFloat(retornoInicial) + parseFloat(retornoMensal);

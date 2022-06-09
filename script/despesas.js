@@ -12,6 +12,7 @@ let porcetagemDivida;
 
 /*Recuperando dados do localStorage*/
 let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+let dividasUser = JSON.parse(localStorage.getItem(usuarioLogado.validaNome))
 
 
 /*Função que envia email com alerta do limite*/
@@ -136,6 +137,24 @@ function aparecerMenu(){
 }
 
 /*Criação do grafico de pizza*/
+let saude=0;
+let educacao = 0
+let lazer =0
+let outros = 0
+ for(let j in dividasUser){
+  if(dividasUser[j].tipo=='saude'){
+      saude+=parseFloat(dividasUser[j].valor,10)
+  }
+  else if(dividasUser[j].tipo=='educacao'){
+      educacao+=parseFloat(dividasUser[j].valor,10)
+  }
+  else if(dividasUser[j].tipo=='lazer'){
+    lazer+=parseFloat(dividasUser[j].valor,10)
+  }
+  else if(dividasUser[j].tipo=='outros'){
+    outros+=parseFloat(dividasUser[j].valor,10)
+  }
+ }
 const grafico = document.getElementsByClassName('line-chart')
 const criacaoDoGrafico = new Chart(grafico,{
   type: 'doughnut',
@@ -143,7 +162,7 @@ const criacaoDoGrafico = new Chart(grafico,{
  
   datasets: [{
     label: 'My First Dataset',
-    data: [50, 50, 50,50],
+    data: [saude,educacao,lazer,outros],
     backgroundColor: [
       '#D4CD08',//saude
       '#11BD2E',//educacao

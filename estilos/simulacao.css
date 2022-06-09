@@ -216,11 +216,31 @@ main{
     transition-duration: 0.8s;
     transition-delay: 0.1s;
 }
+canvas{
+    position: relative;
+}
+.textoMenucelular{
+    visibility: visible;
+    position: relative;
+    left: 22vw;
+    top: 7vh;
+    color: #fff;
+    transition-duration: 0.8s;
+    transition-delay: 0.1s;
+}
+
 /*Parte da responsividade*/
 @media only screen and (min-width: 900px) and (max-width:1800px){
     .menu{
         height: 100vh;
     }
+    #logo{
+    position: relative;
+    width: 32px;
+    height: 26px;
+    top: 10px;
+    left: 53%;
+}
 
 }
 @media only screen and (width:820px){
@@ -277,16 +297,21 @@ main{
         left: -2vh;
     }
     #caminhosMenu{
-        right: 54vw;
-        top: 5vh;
+        right: -6vw;
+        top: -6vh;
     }
     #caminhosMenus>a{
         visibility: hidden;
-
     }
      .imgMenuCell{
          visibility: visible;
          z-index: 1;
+     }
+     #despesasFuturas {
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+    
      }
      #logo{
         width: 34px;
@@ -294,9 +319,5 @@ main{
         top: -49%;
         left: 78%;
     
-
-    }
-    
- 
+     }
 }
-

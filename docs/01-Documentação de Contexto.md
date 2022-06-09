@@ -1,10 +1,12 @@
 # Introdução
 
-O presente relatório tem por principal eficaz em realizar planejamento, controle financeiro e demostrar a importância da utilização da ferramenta gerencial financeira.  
+De forma geral as pessoas tem muita dificuldade em gerenciar sua vida financeira de acordo com a pesquisa publicada pela Vanessa Ferreira no Portal Serasa Score. 
 
-Observando-se o aumento do descontrole financeiro percebemos que, usamos cartões de crédito, cheques especiais ou até mesmo realizamos empréstimos para diversos pagamentos das contas mensais. 
+Motivo de problemas financeiros e até psicológicos, o descontrole financeiro é mais comum do que parece. Esta situação acontece quando uma pessoa não é capaz de controlar seus gastos pessoais e corre risco de ficar superendividada. 
 
-Para isso, desenvolvemos uma aplicação Web Front-End, que ofereça ao usuário soluções, segurança, navegação simples e intuitiva, para a auxilio no planejamento de suas finanças. 
+Em maio de 2021 haviam mais de 62 milhões de endividados no Brasil, segundo o Mapa de Inadimplência da Serasa. Isso indica que muitas pessoas podem estar nessa situação. 
+
+Continue lendo para saber o que causa esse problema e como prevenir o descontrole financeiro, mantendo suas finanças em dia.
 
 ## Problema
 O problema que vamos abordar nesse trabalho e o super endividamento das pessoas pela falta de gestão financeira. 
@@ -33,4 +35,4 @@ De acordo com uma pesquisa feita pelo serviço de proteção ao crédito e pela 
 “Muitas pessoas poderiam, facilmente, ter acesso às informações necessárias para ter um orçamento mais equilibrado, mas não parecem conseguir. Elas pensam que dá trabalho, ou que é muito difícil manter o controle sobre as despesas, e se esquecem de que trabalhoso mesmo é encarar o endividamento e a restrição ao crédito. Lidar com o dinheiro exige disciplina e comprometimento para viver dentro da sua realidade financeira e não tomar decisões equivocadas”, Afirmou Vignoli.  
 
 ## Público-Alvo
-Observando-se um grande aumento na taxa de desempregos, e no aumento do endividamento o público foco do nosso trabalho, são pessoas que tem renda entre 1 e 3 salários-mínimos, aposentados e jovem que estão começando a vida adulta. a. 
+Observando-se um grande aumento na taxa de desempregos, e no aumento do endividamento o público foco do nosso trabalho, são pessoas que tem renda entre 1 e 3 salários-mínimos, aposentados e jovem que estão começando a vida adulta.

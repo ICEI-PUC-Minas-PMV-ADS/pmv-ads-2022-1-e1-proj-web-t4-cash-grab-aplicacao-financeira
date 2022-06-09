@@ -115,7 +115,7 @@
              abaixo para que possamos melhorar<br>
              cada vez mais sua experiência.
           </p>
-          <div id="envia_sugest">
+          <div id="envia_sugest"> 
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="labelsugest form-label">Seu e-mail</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -125,7 +125,7 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="mb-3">
-            <button class="btn btn-primary" type="submit">Enviar Sugestão</button>
+            <button onclick="emailSugest()" class="btn btn-primary" type="submit">Enviar Sugestão</button>
             </div>
           </div>
           <div id="inf_final">
@@ -134,7 +134,9 @@
         </div>
       </div>
       </main>
-     
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="/script/index.js"></script>
       <script src="/script/login.js"></script>
     
 </body>

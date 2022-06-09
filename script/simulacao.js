@@ -25,7 +25,10 @@ function capturar() {
     var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
     var retornoTotal = parseFloat(retornoInicial) + parseFloat(retornoMensal);
     document.getElementById("retornoTotal").innerHTML = parseFloat(retornoTotal.toFixed(2));
-  } 
+  }
+
+/*Recuperando dados do localStorage*/
+let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];

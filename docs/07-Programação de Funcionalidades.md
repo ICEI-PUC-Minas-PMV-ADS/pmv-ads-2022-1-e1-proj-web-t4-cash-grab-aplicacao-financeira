@@ -7,15 +7,23 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ## Tela de despesas (RF-01)
-
-    Na tela de despesas o usuario do site poderar ver sua vida finaceira de forma mais ampla. Nessa tela fica seus limites, suas despesas, suas fontes de renda.
+Na tela de despesas o usuario do site poderar ver sua vida finaceira de forma mais ampla. Nessa tela fica seus limites, suas despesas, suas fontes de renda.
 
 ![Template](img/template.png)
 
 ### Funcionalidade RF-01
-    Essa funcionalidade permite que o usuario crie um controle de gastos com o limite pré estabelecido pelo mesmo, e quando vai acresentando novas dividas a barra de status mostra a situação como está. Uma ilustração da funionalidade na imagem abaixo
+Essa funcionalidade permite que o usuario crie um controle de gastos com o limite pré estabelecido pelo mesmo, e quando vai acresentando novas dividas a barra de status mostra a situação como está. Uma ilustração da funionalidade na imagem abaixo
 
 ![RF-01](img/RF-01.png)
+
+### Despesas em formato de grafico (RF-02)
+Nessa funcionalidade o usuario consigará ter uma grande noção de onde seu dinheiro esta sendo aplicao
+
+![RF-02](img/rf-02.png)
+
+### Notificação do usuario (RF-03)
+Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto. Abaixo uma imagem do algoritimo implementado.
+![RF-03](img/rf-03.png)
 
 ## Tela de Simulacoes (RF-05) e (RF-07)
     A tela de simulações permitirá ao usuário acessar e simular juros de empréstimos e rendimentos de investimentos a sua escolha.

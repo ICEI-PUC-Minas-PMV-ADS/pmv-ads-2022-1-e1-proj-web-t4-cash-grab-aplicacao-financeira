@@ -20,12 +20,15 @@ function capturar() {
     var aporte = parseFloat(aporte.replace(',', '.'));
     var select = document.getElementById("investimentos");
     jurosinv = (select.options[select.selectedIndex].value)/100;
-
+    
     var retornoInicial = document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
     var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
     var retornoTotal = parseFloat(retornoInicial) + parseFloat(retornoMensal);
     document.getElementById("retornoTotal").innerHTML = parseFloat(retornoTotal.toFixed(2));
-  } 
+  }
+
+/*Recuperando dados do localStorage*/
+let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];
@@ -33,6 +36,7 @@ let campoDeSaudacao = document.getElementById('campoDeSaudacao')
 let posicao
 let cariha
 function saudacoesUsuario(){
+  campoNameUser.innerHTML= ', '+usuarioLogado.validaNome;
   let saudacoes = ['Olá!','Bem-Vindo!','Hi!','Hellou!','Oi!','Ei!']
   posicao = Math.floor(Math.random() * 5)
   carinha = Math.floor(Math.random() * 13)

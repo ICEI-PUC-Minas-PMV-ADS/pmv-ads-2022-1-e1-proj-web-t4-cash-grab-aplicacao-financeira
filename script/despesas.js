@@ -41,10 +41,10 @@ function enviarEmail(e){
     }
 }
 /*Função para modificar a barra de progresso*/
-
+let limitee = JSON.parse(localStorage.getItem(usuarioLogado.validaNome+'limite'));
 function limiteUser(){
-    if(somaDividas.value!=undefined & limiteProposto.value!=''){
-      porcetagemDivida= (somaDividas.value*1)/limiteProposto.value; 
+    if(limitee[0].limite!=undefined && somaDividas.value!=undefined ){
+      porcetagemDivida= (somaDividas.value*1)/limitee[0].limite; 
       porcetagemDivida = Math.round(porcetagemDivida*100);
       barraProgesso.style.width=porcetagemDivida+'%';
       barraProgesso.innerHTML=porcetagemDivida+'%';
@@ -57,8 +57,6 @@ function limiteUser(){
         barraProgesso.style.background='#C71F16'
         enviarEmail(porcetagemDivida)
       }
-   }else{
-     alert('Campo vazio')
    }
       
 }
@@ -66,11 +64,30 @@ function limiteUser(){
 let cont=0
 let vetor = [];
 let i=0
+
+let limite = JSON.parse(localStorage.getItem(usuarioLogado.validaNome+'limite'));
+
+
+function mostrarLimite(){
+  valorLimiteEl.innerHTML= 'R$ '+limite[0].limite;
+  limiteUser()
+}
+
 function colocarLimite(){
-    /*Colocar o limite do usario na tela*/
+  localStorage.removeItem(usuarioLogado.validaNome+'limite') 
+  let limite = JSON.parse(localStorage.getItem(usuarioLogado.validaNome+'limite'));
+      if(limite == null){
+          localStorage.setItem(usuarioLogado.validaNome+'limite',"[]");
+          limite = [];
+      }
     valorLimiteEl.value=limiteProposto.value;
+    let limiteDefinido = {
+      limite:limiteProposto.value,
+    }
+    limite.push(limiteDefinido);
+   localStorage.setItem(usuarioLogado.validaNome+'limite', JSON.stringify(limite));
     valorLimiteEl.innerHTML= 'R$ '+limiteProposto.value;
-    limiteUser()      
+    limiteUser()  
 }
 
 function somaDivida(){
@@ -82,7 +99,6 @@ function somaDivida(){
     return soma
 }
 function colocarDividas(){
-  // somaDividas.innerHTML='R$ '+somaDivida();
   let b= parseFloat(gastoInput.value,10)
     vetor[cont] = b
     cont+=1
@@ -90,7 +106,6 @@ function colocarDividas(){
        somaDividas.innerHTML='R$ '+somaDividas.value
        limiteUser()
     
-  
 }
 /*Parte onde faz o campos aparecer*/
 let cancelarEditar = document.getElementById('cancelarEditar');
@@ -141,25 +156,32 @@ let saude=0;
 let educacao = 0
 let lazer =0
 let outros = 0
- for(let j in dividasUser){
-  if(dividasUser[j].tipo=='saude'){
-      saude+=parseFloat(dividasUser[j].valor,10)
+if(dividasUser==undefined){
+ saude=50;
+ educacao = 50
+  lazer =50
+  outros = 50
+}
+else{
+  for(let j in dividasUser){
+   if(dividasUser[j].tipo=='saude'){
+       saude+=parseFloat(dividasUser[j].valor,10)
+   }
+   else if(dividasUser[j].tipo=='educacao'){
+       educacao+=parseFloat(dividasUser[j].valor,10)
+   }
+   else if(dividasUser[j].tipo=='lazer'){
+     lazer+=parseFloat(dividasUser[j].valor,10)
+   }
+   else if(dividasUser[j].tipo=='outros'){
+     outros+=parseFloat(dividasUser[j].valor,10)
+   }
   }
-  else if(dividasUser[j].tipo=='educacao'){
-      educacao+=parseFloat(dividasUser[j].valor,10)
-  }
-  else if(dividasUser[j].tipo=='lazer'){
-    lazer+=parseFloat(dividasUser[j].valor,10)
-  }
-  else if(dividasUser[j].tipo=='outros'){
-    outros+=parseFloat(dividasUser[j].valor,10)
-  }
- }
+}
 const grafico = document.getElementsByClassName('line-chart')
 const criacaoDoGrafico = new Chart(grafico,{
   type: 'doughnut',
   data: {
- 
   datasets: [{
     label: 'My First Dataset',
     data: [saude,educacao,lazer,outros],
@@ -208,9 +230,6 @@ function  mostrardespesas () {
   }
  futuro.innerHTML= "valor";
 }
-
-
-
 /*Chamando a função atraves do click no botão*/
 btnAdcionarLimite.addEventListener('click',colocarLimite);
 btncolocarDividas.addEventListener('click',colocarDividas);

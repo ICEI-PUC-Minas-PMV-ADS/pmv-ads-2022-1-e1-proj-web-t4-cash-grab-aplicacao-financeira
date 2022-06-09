@@ -16,25 +16,28 @@ main{
 }
 #corpo{
     background-color:rgba(29, 30, 44, 1);
+    overflow: hidden;
 }
+
+
 /*Mexendo com os IDs*/
 #nameUser{
     display: flex;
     justify-content: end;
-    margin-left: 12%;
+    margin-left: 16%;
     border-radius: 10px 0px 0px 10px;
     background: rgba(36, 38, 58, 1);
     color: #fff;
     box-shadow:  1px 1px 1px 1px #000;
 }
 #financas{
-    position: relative;
-    height: 45px;
-    padding: 12px; 
-    width: 311%;
     display: flex;
     justify-content: center;
-    left: -10%;
+    position: relative;
+    height: 45px;
+    padding: 12px;
+    width: 311%;
+    left: 8%;
 }
 #Data{
     position: relative;
@@ -43,7 +46,7 @@ main{
     padding: 12px; 
     width: 70%;
     justify-content: center;
-    left: -110%;
+    left: -90%;
 }
 #Tipo{
     position: relative;
@@ -52,7 +55,7 @@ main{
     padding: 12px; 
     width: 70%;
     justify-content: center;
-    left: -129%;
+    left: -110%;
 }
 #Descrição{
    position: relative;
@@ -61,7 +64,7 @@ main{
    padding: 12px;
    width: 70%;
    justify-content: center;
-    left: 150%;
+    left: 170%;
 }
 #Valor{   
     position: relative;
@@ -70,7 +73,7 @@ main{
     padding: 12px;
     width: 70%;
     justify-content: center;
-    left: 130%; 
+    left: 150%; 
 }
 #SaldoAtual{
     position: relative;

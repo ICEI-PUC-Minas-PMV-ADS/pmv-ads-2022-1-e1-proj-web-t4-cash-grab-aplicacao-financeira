@@ -45,10 +45,9 @@ function colocarExtrato( ) {
 function view(){
 for(i=0;i<dados.length;i++){
 let textData = document.createElement ("p") //variavel para criacao de elemento
-let pularLinha = document.createElement ("br") 
+
   textData.innerHTML = dados[i].data
     textData.classList.add ("teste")
-    Data.appendChild (pularLinha)
     Data.appendChild (textData)
 
     let texTipo = document.createElement ("p")

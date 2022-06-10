@@ -36,12 +36,16 @@ function colocarExtrato( ) {
    localStorage.setItem(nomeUser.validaNome, JSON.stringify(dados));
    location.reload()
   }else{
-
   
 
 }
 
 }
+let total = 0
+
+let saldo = document.getElementById ("total")
+
+
 function view(){
 for(i=0;i<dados.length;i++){
 let textData = document.createElement ("p") //variavel para criacao de elemento
@@ -62,6 +66,11 @@ let textData = document.createElement ("p") //variavel para criacao de elemento
     textValor.innerHTML = dados[i].valor
     Valor.appendChild (textValor)
 }
+/*Soma dos valores*/
+    for(let i in dados) {
+      total+=parseFloat(dados[i].valor)
+    }
+    saldo.innerHTML = total
 
 }
 butoon_adicionar.addEventListener ("click",colocarExtrato)

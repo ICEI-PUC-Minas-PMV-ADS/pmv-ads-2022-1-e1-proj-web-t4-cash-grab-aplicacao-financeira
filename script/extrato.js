@@ -34,7 +34,7 @@ function colocarExtrato( ) {
     }
     dados.push(extratos);
    localStorage.setItem(nomeUser.validaNome, JSON.stringify(dados));
-  view();
+   location.reload()
   }else{
 
   
@@ -66,14 +66,6 @@ let pularLinha = document.createElement ("br")
 
 }
 butoon_adicionar.addEventListener ("click",colocarExtrato)
-
-
-/*dados do localStorage*/
-
-
-
-
-
 
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];

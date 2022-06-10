@@ -13,7 +13,7 @@ function ValidaLogin(){
 //Colocando dados do localstorage em uma variável
     listaUsuario = JSON.parse(localStorage.getItem('dadosUsuario'))
 
-//Colocando os dados 
+//Colocando os dados na variável par realizar a comparação
     listaUsuario.forEach((item) => {
         if(emailLogin.value == item.email && senhaLogin.value == item.senha){
             validaUsuario ={

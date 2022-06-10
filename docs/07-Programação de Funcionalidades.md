@@ -6,6 +6,17 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
+## Tela de cadastro de usuário
+Nesta tela o usuário podera realizar o seu cadastro para acessar o sistema.
+
+![Cadastro](img/Cadastro_template.png)
+
+### Funcionalidade cadastro
+Essa funcionalidade irá captar os dados inseridos pelo usuário como nome, e-mail e senha, para incluir no localstorage e assim podemos ter o controle de qual usuário está acessando no sistema.
+
+![CodigoCadastro](img/C%C3%B3digo_Cadastro.png)
+
+
 ## Tela de despesas (RF-01)
 Na tela de despesas o usuario do site poderar ver sua vida finaceira de forma mais ampla. Nessa tela fica seus limites, suas despesas, suas fontes de renda.
 

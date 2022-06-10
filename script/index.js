@@ -1,8 +1,12 @@
+
+
 function emailSugest(){
     let sugest = document.getElementById("exampleFormControlTextarea1")
     let sugestEmail = document.getElementById("exampleFormControlInput1")
 
     console.log(sugestEmail)
+
+
 
     if(sugestEmail.value!= ''){
         Email.send({

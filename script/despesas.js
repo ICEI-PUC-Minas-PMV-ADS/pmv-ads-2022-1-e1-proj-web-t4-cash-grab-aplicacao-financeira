@@ -10,6 +10,7 @@ let btnAddDespesas = document.getElementById('btnAddDespesas');
 let btnEditar = document.getElementById('btnEditar');
 let porcetagemDivida;
 
+
 /*Recuperando dados do localStorage*/
 let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 let dividasUser = JSON.parse(localStorage.getItem(usuarioLogado.validaNome))
@@ -44,7 +45,7 @@ function enviarEmail(e){
 let limitee = JSON.parse(localStorage.getItem(usuarioLogado.validaNome+'limite'));
 function limiteUser(){
     if(limitee[0].limite!=undefined && somaDividas.value!=undefined ){
-      porcetagemDivida= (somaDividas.value*1)/limitee[0].limite; 
+      porcetagemDivida= (somaDividas.value*1)/parseFloat(limitee[0].limite,10); 
       porcetagemDivida = Math.round(porcetagemDivida*100);
       barraProgesso.style.width=porcetagemDivida+'%';
       barraProgesso.innerHTML=porcetagemDivida+'%';
@@ -57,6 +58,8 @@ function limiteUser(){
         barraProgesso.style.background='#C71F16'
         enviarEmail(porcetagemDivida)
       }
+   }else{
+     console.log(porcetagemDivida)
    }
       
 }
@@ -66,10 +69,13 @@ let vetor = [];
 let i=0
 
 let limite = JSON.parse(localStorage.getItem(usuarioLogado.validaNome+'limite'));
+let recuperandoDivida = document.getElementById('atual');
 
 
 function mostrarLimite(){
   valorLimiteEl.innerHTML= 'R$ '+limite[0].limite;
+  console.log(recuperandoDivida.value)
+  somaDividas.innerHTML='R$ '+recuperandoDivida.value
   limiteUser()
 }
 
@@ -88,7 +94,8 @@ function colocarLimite(){
    localStorage.setItem(usuarioLogado.validaNome+'limite', JSON.stringify(limite));
     valorLimiteEl.innerHTML= 'R$ '+limiteProposto.value;
     limiteUser()  
-}
+    location.reload(); 
+  }
 
 function somaDivida(){
   /*Função para somar as dividas*/
@@ -99,11 +106,11 @@ function somaDivida(){
     return soma
 }
 function colocarDividas(){
-  let b= parseFloat(gastoInput.value,10)
-    vetor[cont] = b
-    cont+=1
-     somaDividas.value=somaDivida();
-       somaDividas.innerHTML='R$ '+somaDividas.value
+ // let b= parseFloat(gastoInput.value,10)
+   // vetor[cont] = b
+    //cont+=1
+     //somaDividas.value=somaDivida();
+       somaDividas.innerHTML='R$ '+atual
        limiteUser()
     
 }
@@ -209,9 +216,9 @@ function saudacoesUsuario(){
   campoDeSaudacao.innerHTML= saudacoes[posicao]+' '+emojis[carinha]+' ';
 }
 /* função das despesas futuras*/
+
 let atual=document.getElementById("atual");
 let futuro=document.getElementById("futuro");
-
 let date=new Date()
 let dia = date.getDate();
 let mes =  (date.getMonth() + 1);
@@ -239,6 +246,8 @@ function  mostrardespesas () {
    }
  }
  atual.innerHTML=dividames;
+ atual.value = dividames
+ somaDividas.value =dividames;
  futuro.innerHTML=dividaproxmes;
 }
 

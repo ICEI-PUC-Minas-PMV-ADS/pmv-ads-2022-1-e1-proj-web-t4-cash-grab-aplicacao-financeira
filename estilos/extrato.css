@@ -35,14 +35,14 @@ main{
     justify-content: center;
     position: relative;
     height: 45px;
-    padding: 12px;
+    padding: 10px;
     width: 311%;
-    left: 8%;
+    left: -9%;
 }
 #Data{
     position: relative;
     top: 12%;
-    height: 580px;
+    height: 480px;
     padding: 12px; 
     width: 70%;
     justify-content: center;
@@ -51,7 +51,7 @@ main{
 #Tipo{
     position: relative;
     top: 12%;
-    height: 580px;
+    height: 480px;
     padding: 12px; 
     width: 70%;
     justify-content: center;
@@ -59,8 +59,8 @@ main{
 }
 #Descrição{
    position: relative;
-   top: -85%;
-   height: 580px;
+   top: -88%;
+   height: 480px;
    padding: 12px;
    width: 70%;
    justify-content: center;
@@ -68,8 +68,8 @@ main{
 }
 #Valor{   
     position: relative;
-    top: -85%;
-    height: 600px;
+    top: -88%;
+    height: 480px;
     padding: 12px;
     width: 70%;
     justify-content: center;
@@ -77,12 +77,12 @@ main{
 }
 #SaldoAtual{
     position: relative;
-    top: 15%;
-    height: 45px;
+    top: 10vh;
+    height: 42px;
     padding: 12px;
-    width: 70%;
+    width:70%;
     justify-content: center;
-    left: 30%; 
+    left: 50%; 
 }
 
 /*TEXTO TITULO*/ 
@@ -135,10 +135,10 @@ position: relative;
 }
 #adicionar{
     position: relative;
-    top: -38vh;
-    left: 45%;
-    width: 328px;
-    height: 46px;
+    top: -60vh;
+    left: 60%;
+    width: 235px;
+    height: 45px;
     border-radius: 10px 10px 10px 10px;
     color: #fff;
     background-color: rgba(36, 38, 58, 1);

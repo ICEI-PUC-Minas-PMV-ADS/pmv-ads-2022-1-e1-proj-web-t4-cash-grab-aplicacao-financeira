@@ -211,25 +211,37 @@ function saudacoesUsuario(){
 /* função das despesas futuras*/
 let atual=document.getElementById("atual");
 let futuro=document.getElementById("futuro");
-let teste= "6/2022";
+
 let date=new Date()
 let dia = date.getDate();
-let mes = (date.getMonth() + 1);
+let mes =  (date.getMonth() + 1);
+if(mes<10){
+   mes ='0' + (date.getMonth() + 1);
+}
 let ano = date.getFullYear();
 let validacaoData=  String(mes) + "/"+ String(ano);
-let proxima= mes+1;
+let proxima= parseFloat(mes,10)+1;
+let dividames=0;
+let dividaproxmes=0;
 function  mostrardespesas () {
   /* mostrar a despesa atual com base no mês*/
-  if (validacaoData==teste){
-    atual.innerHTML=validacaoData + " a vencer "+ "valor: um rim";
-    console.log("sucesso");
-  }
-  else {
-    atual.innerHTML= "Não a dividas pendentes!"
-
-  }
- futuro.innerHTML= "valor";
+ for (let i in dividasUser){
+   let buscarmes= dividasUser[i].data[5] + dividasUser[i].data[6]
+   if(buscarmes ==mes ){
+      dividames+=parseFloat(dividasUser[i].valor,10)
+   }
+   if(buscarmes==proxima){
+       dividaproxmes+=parseFloat(dividasUser[i].valor,10)
+   }
+   else{
+     atual.innerHTML="Não a dividas pendentes!";
+     futuro.innerHTML="Não a dividas pendentes!";
+   }
+ }
+ atual.innerHTML=dividames;
+ futuro.innerHTML=dividaproxmes;
 }
+
 /*Chamando a função atraves do click no botão*/
 btnAdcionarLimite.addEventListener('click',colocarLimite);
 btncolocarDividas.addEventListener('click',colocarDividas);

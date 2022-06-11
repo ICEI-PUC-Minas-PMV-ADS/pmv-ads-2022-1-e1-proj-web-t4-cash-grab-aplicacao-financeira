@@ -93,6 +93,4 @@ Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e fu
 
     Observando se que o usário precisará conferir se todos os campos estão preenchidos e conforme desejado, após isso poderá selecionar o campo "Incluir" para armazenar suas informações.
 
-![Funcionalide Incluir](img/funcionalidade.incuir.jpg)   
-
-
+![Funcionalide Incluir](img/funcionalidade.incuir.jpg)

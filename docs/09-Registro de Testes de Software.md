@@ -29,3 +29,13 @@
 2- Caso de insucesso: Valor das Dividas aparecendo zerado.
 
 ![tela 7](img/caso%20insucesso%20teste%2003.png) 
+
+## Caso de teste 04 - Mostra Grafico em formato de pizza 
+
+1- Caso de Sucesso: Grafico apresenta as cores e seus respectivos valores
+
+![Tela 8](img/caso_de_sucesso_grafico.png)
+
+2 - Caso de insucesso:  Grafico de uma única cor
+
+![Tela 9](img/caso%20de%20insucesso%20grafico.png)

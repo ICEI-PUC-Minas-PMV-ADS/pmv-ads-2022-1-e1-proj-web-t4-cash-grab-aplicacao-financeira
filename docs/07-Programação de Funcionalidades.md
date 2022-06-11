@@ -52,10 +52,14 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
  ![EXTRATO](img/tela.extratos.jpg)
 
 ## Funcionalidades do Extrato
-### Funcionalidade Data
+### Funcionalidade Data (RF-4)
     Essa funcionalidade possibilita ao usuário incluir as datas das suas compras para um controle pessoal dinâmico. 
 
 ![Funcionalide Data](img/funcionalidade.data.jpg)
+
+A seguinte segue código implementado para o funcionamento das principais funcionalidades aplicadas.
+
+![Código](img/Codigo.Variaveis.jpg)
 
 ### Funcionalidade Tipo
     Na funcionalide tipo implementamos um select pre estabelecido para que o usuário possa selecionar o tipo de despesa que aproxima-se da compra realizada.
@@ -72,6 +76,8 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
 
 ![Funcionalide Valor e Total](img/funcionalidade.valor.jpg)
 
-### Funcionalidade Incluir
+### Funcionalidade Incluir (RF-6)
     Essa funcionalidade está entre as mais inportantes, pois ela e a reponsável pelo envio das informações colocadas pelo usuário.
-![Funcionalide Incluir](img/funcionalidade.incuir.jpg)      
+    Observando se que o usário precisará conferir se todos os campos estão preenchidos e conforme desejado e após isso poderá selecionar o campo Incluir guardar suas informações.
+
+![Funcionalide Incluir](img/funcionalidade.incuir.jpg)   

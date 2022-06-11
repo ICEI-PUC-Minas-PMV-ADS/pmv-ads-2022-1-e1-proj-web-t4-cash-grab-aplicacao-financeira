@@ -35,13 +35,13 @@
 | **Caso de Teste 1**  | Vizualizar despesas futuras através do campo Data  |
 | ------------------- | ------------------- |
 | **Requisitos Associados** |  O sistema deve exibir as datas das compras do usuário.  |
-| **Objetivo do Teste**  | Verificar se o os campos então sendo vizualizados e adcionados pelo usuario.  |
+| **Objetivo do Teste**  | Verificar se o os campos então sendo vizualizados e adcionados pelo usuário.  |
 | **Caso de sucesso**  | As datas são inceridas e vizualizadas pelo usuário na tela.|
-| **Caso de Insucesso** | Se o usuario não tiver incerido a data corretamente não poderá vizualizar e seguir para o próximo preenchimento.|
+| **Caso de Insucesso** | Se o usuario não tiver incluido a data corretamente não poderá vizualizar e seguir para o próximo preenchimento.|
 
 | **Caso de Teste 2**  | Seleção do tipo de compra   |
 | ------------------- | ------------------- |
-| **Requisitos Associados** |  O sistema deve exibir o tipo da compras do usuário.  |
+| **Requisitos Associados** |  O sistema deverá exibir o tipo da compras do usuário.  |
 | **Objetivo do Teste**  | Possibilidade do usuário selecionar e vizualizar o tipo de compra realizada.  |
 | **Caso de sucesso**  | O usuário poderá escolher o tipo de compra que mais se assemelha com o produto comprado.|
 | **Caso de Insucesso** | Caso o usuário não selecione o tipo do porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente limpo e impossibilidado de seguir para o proximo bloco.|
@@ -65,4 +65,4 @@
 | **Requisitos Associados** |  O sistema deve possibilitar ao usuário inserir todas as suas informações.  |
 | **Objetivo do Teste**  | Possibilidade do usuário inserir e vizualizar todas as informações relacionadas a suas despesas.  |
 | **Caso de sucesso**  | O usuário poderá inserir todas as informações referente a seus gastos.|
-| **Caso de Insucesso** | Caso o usuário não ensira todas as informações o dados não poderam ser vizualizados.|
+| **Caso de Insucesso** | Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.|

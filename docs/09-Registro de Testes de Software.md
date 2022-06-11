@@ -48,21 +48,21 @@
 
 1- Caso de sucesso: As datas inceridas pelo usuário aparecem na tela.
 
-![Tela 1](img/caso_de_sucesso_telaDeExtrato.jpg)
+![Tela Data](img/caso_de_sucesso_telaDeExtrato.jpg)
 
 2 - Caso de insucesso:  Caso o usuário não preencha a data de sua compra o envio para o localStorage não poderá ser relizado.
 
-![Tela 9](img/caso_de_insucesso_telaDeData.jpg)
+![Tela Data](img/caso_de_insucesso_telaDeData.jpg)
 
 ## Caso de teste 02 - Vizualizar o tipo de compra
 
-1- Caso de sucesso: O usuário poderá escolher o tipo de compra que mais se asemelha com o produto comprado.
+1- Caso de sucesso: O usuário poderá escolher o tipo de compra que mais se assemelha com o produto comprado.
 
-![Tela 1](img/funcionalidade.tipo.jpg)
+![Tela Tipo](img/funcionalidade.tipo.jpg)
 
-2 - Caso de insucesso:  Caso o usuário não selecione o tipo do porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente limpo. 
+2 - Caso de insucesso:  Caso o usuário não selecione o tipo do porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente e impossibilidado de seguir para o proximo bloco. 
 
-![Tela 9](img/caso_de_insucesso_telaDeTipo.jpg)
+![Tela Tipo](img/caso_de_insucesso_telaDeTipo.jpg)
 
 ## Caso de teste 03 - Vizualização e inclusão das descrições
 
@@ -70,7 +70,7 @@
 
 ![Tela decrição](img/caso_de_sucesso_telaDeDescri%C3%A7%C3%A3o.jpg)
 
-2 - Caso de insucesso:  Caso o usuário não preecha o campo de digitação os dados não poderam ser armazenados, ficado o campo totalmente limpo. 
+2 - Caso de insucesso:  Caso o usuário não preecha o campo de digitação os dados não poderam ser vizualizados e armazenados, ficado o campo totalmente limpo. 
 
 ![Tela descrição](img/funcionalidade.descri%C3%A7%C3%A3o.jpg)
 

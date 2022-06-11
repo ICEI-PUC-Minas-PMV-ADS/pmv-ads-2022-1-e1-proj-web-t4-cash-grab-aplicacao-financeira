@@ -1,5 +1,55 @@
 # Registro de Testes de Software
 
+## Caso de teste 01 - Realizar o cadastro do usuário
+
+1- Caso de sucesso: Usuário cadastrado do sistema.
+
+![TelaCadastro1](img/TesteCadastro1.png)
+
+2- Caso de Insucesso: Mensagem de erro informando para preencher os campos.
+
+![TelaCadastro2](img/TelaCadastro2.png)
+
+## Caso de teste 02 - Validação do e-mail no cadastro
+
+1- Caso de sucesso: Sistema permite prosseguir com a inserção dos dados.
+
+![TelaCadastro3](img/TelaCadastro3.png)
+
+2- Caso de Insucesso: Mensagem de erro informando que o e-mail inserido é inválido.
+
+![TelaCadastro4](img/TelaCadastro4.png)
+
+## Caso de teste 01 - Realizar o login
+
+1- Caso de sucesso: Login permitirá acessar o sistema.
+
+![TelaLogin1](img/TesteLogin1.png)
+
+2- Caso de Insucesso: Mensagem de erro informando que o usuário não está cadastrado.
+
+![TelaLogin2](img/TesteLogin2.png)
+
+## Caso de teste 02 - Preenchimento dos campos
+
+1- Caso de sucesso: Sistema permitirá realizar o login.
+
+![TelaLogin3](img/TesteLogin3.png)
+
+2- Caso de Insucesso: Mensagem de erro informando para o usuário preencher os campos.
+
+![TelaLogin4](img/TesteLogin4.png)
+
+## Caso de teste 03 - Validação do e-mail do login
+
+1- Caso de sucesso: Sistema não apresentará mensagem de erro.
+
+![TelaLogin5](img/TesteLogin5.png)
+
+2- Caso de Insucesso: Mensagem de erro informando que o e-mail é inválido.
+
+![TelaLogin6](img/TesteLogin6.png)
+
 ## Caso de teste 01 - Criação de um controlador de gastos
 
 1- Caso de sucesso: Dados aparecem na tela.

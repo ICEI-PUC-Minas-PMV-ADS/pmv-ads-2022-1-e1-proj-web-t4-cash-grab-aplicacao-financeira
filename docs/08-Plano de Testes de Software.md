@@ -26,7 +26,7 @@
 | **Caso de sucesso**  | Ao clicar no botão de entrar, o sistema irá permitir realizar o login.|
 | **Caso de Insucesso** | Ao clicar no botão entrar, o sistema irá informar os campos não foram preenchidos.|
 
-| **Caso de Teste 2**  | Validação do e-mail do login  |
+| **Caso de Teste 3**  | Validação do e-mail do login  |
 | ------------------- | ------------------- |
 | **Objetivo do Teste**  | Verificar se o e-mail inserido é válido.  |
 | **Caso de sucesso**  | Ao sair do campo de inserção de e-mail, o sistema permitirá prosseguir o login.|

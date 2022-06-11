@@ -39,3 +39,16 @@
 2 - Caso de insucesso:  Grafico de uma única cor
 
 ![Tela 9](img/caso%20de%20insucesso%20grafico.png)
+
+
+## Caso de teste 01 - Vizualizar despesas futuras
+
+1- Caso de sucesso: As datas colocadas pelo usuário aparecem na tela.
+
+![Tela 1](img/caso_de_sucesso_telaDeExtrato.jpg)
+
+## Caso de teste 02 - Soma dos valores inceridos
+
+1- Caso de sucesso: Após a inclusão dos valores gastos pelo Usuário temos uma auto soma dos valores.
+
+![Tela 2](img/caso_de_sucesso_telaDeValor.jpg)

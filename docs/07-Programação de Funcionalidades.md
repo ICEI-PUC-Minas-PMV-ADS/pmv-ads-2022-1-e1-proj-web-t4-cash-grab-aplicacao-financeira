@@ -45,3 +45,14 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
     Essa funcionalidade concederá ao usuário uma simulação de empréstimo, calculando juros ao mês, e lhe informando o valor de cada parcela referente a sua solicitação nos campos de preenchimento como mostra a imagem a seguir.
 
  ![RF-05](img/simulacoes%20func..png)   
+
+### Tela de Extrato
+    Com a tela de extratos o usuario terá todas as informações sobre o movimento dos seus gastos, terá a possibilidade de vizualizar e incluir sua lista de despesas conforme imagem abaixo.
+
+ ![EXTRATO](img/tela.extratos.jpg)
+
+### Funcionalidades do Extrato
+
+Essa funcionalidade possibilita ao usuário incluir a data da sua compra para um controle mais dinâmico. 
+
+![Funcionalide 01](img/funcionalidade.data.jpg)

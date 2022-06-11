@@ -16,8 +16,7 @@ main{
 }
 #corpo{
     background-color:rgba(29, 30, 44, 1);
-    /*overflow: hidden;*/
-    
+    /*overflow: hidden;*/  
 }
 
 /*Mexendo com os IDs*/
@@ -123,7 +122,6 @@ position: relative;
     border-right: none;
     color: #fff;
     background-color: rgb(39, 42, 73);
-    
 }
 #campoTipo{
     position: absolute;
@@ -137,11 +135,9 @@ position: relative;
 }
 #campoDescricao{
     position: absolute;
-  
 }
 #campoValor{
     position: absolute;
-
 }
 #adicionar{
     position: relative;

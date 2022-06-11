@@ -57,12 +57,12 @@ Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e fu
 
 ![Simulacoes](img/Tela%20de%20Simula%C3%A7%C3%A3o1.png)
 
-### Funcionalidade (RF-05)
+### Funcionalidade Simulação de Empréstimos (RF-05)
     Essa funcionalidade concederá ao usuário uma simulação de empréstimo, calculando juros ao mês, e lhe informando o valor de cada parcela referente a sua solicitação nos campos de preenchimento como mostra a imagem a seguir.
 
  ![RF-05](img/simulacoes%20func..png)  
  
- ### Funcionalidade (RF-07) 
+ ### Funcionalidade Simulação de Investimentos (RF-07) 
     Essa funcionalidade permitirá ao usuário simular investimentos diversos a sua escolha, permitindo calcular aportes mensais e rendimentos com valores similares ao que as principais instituições bancárias oferecem.
 
   ![RF-07](img/Tela%20de%20Investimentos.png)  

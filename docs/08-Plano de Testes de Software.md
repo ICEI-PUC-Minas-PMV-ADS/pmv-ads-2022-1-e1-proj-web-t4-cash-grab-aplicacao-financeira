@@ -1,4 +1,38 @@
 # Plano de Testes de Software
+
+## Plano de Testes Cadastro
+| **Caso de Teste 1**  | Realizar o cadastro do usuário  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se o os campos então preenchidos pelo usuário.  |
+| **Caso de sucesso**  | Ao clicar no botão de cadastrar, o usuário será cadastrado no sistema.|
+| **Caso de Insucesso** | Se o usuario não inserir a os dados em algum dos campos,o sistema não permitirá que o cadastro seja concluído.|
+
+| **Caso de Teste 2**  | Validação do e-mail no cadastro  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se o e-mail inserido é válido.  |
+| **Caso de sucesso**  | Ao sair do campo de inserção de e-mail, o sistema permitirá prosseguir o cadastro.|
+| **Caso de Insucesso** | Sistema irá informar que o e-mail inserido é inválido.|
+
+## Plano de Testes Login
+| **Caso de Teste 1**  | Realizar o login  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se as informações estão cadastradas.  |
+| **Caso de sucesso**  | Ao clicar no botão de entrar, o sistema irá apresentar uma mensagem de bem vindo e será direcionado para o sistema.|
+| **Caso de Insucesso** | Ao clicar no botão entrar, o sistema irá informar que o usuário não está cadastrado e irá informar que é necessário o realizar o cadastro.|
+
+| **Caso de Teste 2**  | Preenchimento dos campos  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se os campos de e-mail e senha foram preenchidos.  |
+| **Caso de sucesso**  | Ao clicar no botão de entrar, o sistema irá permitir realizar o login.|
+| **Caso de Insucesso** | Ao clicar no botão entrar, o sistema irá informar os campos não foram preenchidos.|
+
+| **Caso de Teste 2**  | Validação do e-mail do login  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se o e-mail inserido é válido.  |
+| **Caso de sucesso**  | Ao sair do campo de inserção de e-mail, o sistema permitirá prosseguir o login.|
+| **Caso de Insucesso** | Sistema irá informar que o e-mail inserido é inválido e não permitirá realizar o login.|
+
+
 | **Caso de Teste 1**  |   Criação de um controlador de gastos |
 | ------------------- | ------------------- |
 | **Requisitos Associados** |  O sistema deve permitir a criação de um controlador de gastos, com limites pré-estabelecido pelo usuário.   |
@@ -66,3 +100,20 @@
 | **Objetivo do Teste**  | Possibilidade do usuário inserir e vizualizar todas as informações relacionadas a suas despesas.  |
 | **Caso de sucesso**  | O usuário poderá inserir todas as informações referente a seus gastos.|
 | **Caso de Insucesso** | Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.|
+
+
+
+### Plano de Testes Simulações
+| **Caso de Teste 1** | Simulação dos empréstimos |
+| -------------------- | -----------------------|
+| **Requisitos Associados** | O sistema deve calcular os valores e parcelas de empréstimos de acordo com os dados inseridos pelo usuário. |
+| **Objetivo do teste** | Calcular corretamente contendo juros e as parcelas solicitadas. |
+| **Caso de sucesso** | Cálculo das parcelas e valores aparecendo de forma correta. |
+| **Caso de insucesso** | Caso não insira nenhum valor de parcela ou de empréstimo e aperte 'ok' o sistema mostra a mensagem 'NaN' no retorno. |
+
+| **Caso de Teste 2** | Simulação dos investimentos |
+| -------------------- | -----------------------|
+| **Requisitos Associados** | O sistema deve calcular os valores dos aportes iniciais e mensais dos investimentos de acordo com a opção selecionada pelo usuário. |
+| **Objetivo do teste** | Calcular corretamente os valores de acordo com a opção de investimento selecionada. |
+| **Caso de sucesso** | Cálculo dos aportes iniciais e mensais aparecendo de forma correta. |
+| **Caso de insucesso** | Caso o usuário não indique o aporte incial ou mensal como '0' quando não há o retorno total fica como inválido 'NaN'. |

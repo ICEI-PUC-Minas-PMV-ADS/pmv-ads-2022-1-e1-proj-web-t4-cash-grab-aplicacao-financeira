@@ -43,8 +43,7 @@
 
 
 
-
-## Caso de teste 01 - Vizualizar despesas futuras
+## Caso de teste 01 - Vizualização das datas de compra
 
 1- Caso de sucesso: As datas inceridas pelo usuário aparecem na tela.
 

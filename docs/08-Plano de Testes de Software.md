@@ -32,7 +32,7 @@
 
 
 ## Plano de Testes Extrato
-| **Caso de Teste 1**  | Vizualizar despesas futuras através do campo Data  |
+| **Caso de Teste 1**  | Vizualização das datas  |
 | ------------------- | ------------------- |
 | **Requisitos Associados** |  O sistema deve exibir as datas das compras do usuário.  |
 | **Objetivo do Teste**  | Verificar se o os campos então sendo vizualizados e adcionados pelo usuário.  |

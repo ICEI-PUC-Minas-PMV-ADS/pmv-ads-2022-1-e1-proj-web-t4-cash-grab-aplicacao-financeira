@@ -77,7 +77,7 @@ Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e fu
 
 ![Código](img/Codigo.Variaveis.jpg)
 
-### Funcionalidade Data (RF-4)
+### Funcionalidade Data
     Essa funcionalidade possibilita ao usuário incluir as datas das suas compras para um controle pessoal dinâmico. 
 
 ![Funcionalide Data](img/funcionalidade.data.jpg)

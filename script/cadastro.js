@@ -11,28 +11,42 @@ function cadastroUsuario(){
         localStorage.setItem("dadosUsuario","[]");
         dados = [];
     }
-
-    // Colocando os valores em uma variável e colocando no localstorage
-    var auxUsuario = {
-        nome: nomeUsuario.value,
-        email: email.value,
-        senha: senha.value,
-        colocarDividas: dividas
-    }
     
-
-    if (nomeUsuario.value.length == 0 || email.value.length == 0 || senha.value.length == 0){
-        alert('Preencha os campos vazios');
+    if(!email.checkValidity()){
+        alert("Email inválido")
     }
     else{
-        dados.push(auxUsuario);
-        localStorage.setItem("dadosUsuario", JSON.stringify(dados));
-        // alerta e limpando dados dos campos
-        alert("Usuário Cadastrado com Sucesso!");
-        nomeUsuario.value = "";
-        email.value = "";
-        senha.value = "";
-        window.location.href = "index.html"
+        // Colocando os valores em uma variável e colocando no localstorage
+        var auxUsuario = {
+            nome: nomeUsuario.value,
+            email: email.value,
+            senha: senha.value,
+            colocarDividas: dividas
+        }
+    
+
+        if (nomeUsuario.value.length == 0 || email.value.length == 0 || senha.value.length == 0){
+            alert('Preencha os campos vazios');
+        }
+        else{
+            dados.push(auxUsuario);
+            localStorage.setItem("dadosUsuario", JSON.stringify(dados));
+            // alerta e limpando dados dos campos
+            alert("Usuário Cadastrado com Sucesso!");
+            nomeUsuario.value = "";
+            email.value = "";
+            senha.value = "";
+            window.location.href = "index.html"
+        }
     }
 
+}
+
+function valEmail(){
+    var email = document.getElementById("email")
+
+    if(!email.checkValidity()){
+        alert("Email inválido")
+    }
+   
 }

@@ -46,7 +46,7 @@
                           <form>
                             <div class="mb-3">
                               <label for="exampleInputEmail1" class="form-label">Endereço de E-mail:</label>
-                              <input type="email" class="form-control" id="exampleInputEmail" placeholder="Digite o seu e-mail">
+                              <input type="email" onblur="valEmail()" class="form-control" id="email" placeholder="Digite o seu e-mail">
                             </div>
                             <div class="mb-3">
                               <label for="exampleInputSenha" class="form-label">Senha:</label>
@@ -118,7 +118,7 @@
           <div id="envia_sugest"> 
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="labelsugest form-label">Seu e-mail</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+              <input type="email" onblur="valEmail()" class="form-control" id="email" placeholder="name@example.com" required>
             </div>
             <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="labelsugest form-label">Coloque sua sugestão aqui</label>
@@ -137,6 +137,7 @@
       
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
       <script src="/script/index.js"></script>
+      <script src="/script/cadastro.js"></script>
       <script src="/script/login.js"></script>
     
 </body>

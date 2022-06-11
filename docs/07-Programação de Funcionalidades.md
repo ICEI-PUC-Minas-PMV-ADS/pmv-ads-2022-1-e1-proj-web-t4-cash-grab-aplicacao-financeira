@@ -17,6 +17,16 @@ Essa funcionalidade irá captar os dados inseridos pelo usuário como nome, e-ma
 ![CodigoCadastro](img/C%C3%B3digo_Cadastro.png)
 
 
+## Tela de Login
+Nesta tela o usuário irá inserir seus dados de e-mail e senha que já foram cadastrados em nossa tela de cadastro.
+
+![Login](img/Login_template.png)
+
+### Funcionalidade login
+Esta funcionaldiade irá validar se o usuário já está cadastrado no sistema e para isto, irá verificar as informações inseridas nos campos constam no localstorage.
+
+![CodigoLogin](img/Codigo_Login.png)
+
 ## Tela de despesas (RF-01)
 Na tela de despesas o usuario do site poderar ver sua vida finaceira de forma mais ampla. Nessa tela fica seus limites, suas despesas, suas fontes de renda.
 
@@ -45,12 +55,17 @@ Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e fu
 ## Tela de Simulacoes (RF-05) e (RF-07)
     A tela de simulações permitirá ao usuário acessar e simular juros de empréstimos e rendimentos de investimentos a sua escolha.
 
-![Simulacoes](img/Simula%C3%A7%C3%B5es%20Intt..png)  
+![Simulacoes](img/Tela%20de%20Simula%C3%A7%C3%A3o1.png)
 
 ### Funcionalidade (RF-05)
     Essa funcionalidade concederá ao usuário uma simulação de empréstimo, calculando juros ao mês, e lhe informando o valor de cada parcela referente a sua solicitação nos campos de preenchimento como mostra a imagem a seguir.
 
- ![RF-05](img/simulacoes%20func..png)   
+ ![RF-05](img/simulacoes%20func..png)  
+ 
+ ### Funcionalidade (RF-07) 
+    Essa funcionalidade permitirá ao usuário simular investimentos diversos a sua escolha, permitindo calcular aportes mensais e rendimentos com valores similares ao que as principais instituições bancárias oferecem.
+
+  ![RF-07](img/Tela%20de%20Investimentos.png)  
 
 ## Tela de Extrato
     Com a tela de extratos o usuario terá todas as informações sobre o movimento dos seus gastos, terá a possibilidade de vizualizar e incluir sua lista de despesas conforme imagem abaixo.

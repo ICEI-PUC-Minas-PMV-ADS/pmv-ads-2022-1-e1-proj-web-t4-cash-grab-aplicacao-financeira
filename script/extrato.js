@@ -23,7 +23,6 @@ if(dados == null){
 
 // Colocando os valores em uma variável e colocando no localstorage
 
-
 function colocarExtrato( ) {
   if(Input_campoData.value !='' && Input_campoTipo.value!='' &&  Input_campoDescricao.value!='' &&  Input_campoValor.value!=''){
     let extratos = {
@@ -36,7 +35,6 @@ function colocarExtrato( ) {
    localStorage.setItem(nomeUser.validaNome, JSON.stringify(dados));
    location.reload()
   }else{
-  
 
 }
 

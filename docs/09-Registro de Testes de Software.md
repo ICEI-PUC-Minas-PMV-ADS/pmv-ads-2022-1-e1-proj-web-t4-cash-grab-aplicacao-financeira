@@ -47,7 +47,7 @@
 
 ![Tela 1](img/caso_de_sucesso_telaDeExtrato.jpg)
 
-2 - Caso de insucesso:  Caso no preenchimento das datas não sejam inclusas não será possivel incluir-lá.
+2 - Caso de insucesso:  Caso o usuário não preencha a data de sua compra o envio para o localStorage não poderá ser relizado.
 
 ![Tela 9](img/caso_de_insucesso_telaDeData.jpg)
 
@@ -56,4 +56,8 @@
 
 1- Caso de sucesso: Após a inclusão dos valores gastos pelo Usuário temos uma auto soma dos valores.
 
-![Tela 2](img/caso_de_sucesso_telaDeValor.jpg)
+![Tela valor](img/caso_de_sucesso_telaDeValor.jpg)
+
+2 - Caso de insucesso:  Caso o usuário não inclua o valor em numeral  a soma não poderá ser realizada.
+
+![Tela valor](img/caso_de_insucesso_telaDeValor.jpg)

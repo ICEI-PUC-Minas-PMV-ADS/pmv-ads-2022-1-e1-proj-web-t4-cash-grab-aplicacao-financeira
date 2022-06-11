@@ -89,3 +89,7 @@
 1- Caso de sucesso: Após a inclusão de todas as informações o usuário poderá vizualizar seus dados quando quiser e de onde quiser.
 
 ![Tela Completa](img/funcionalidade.incuir.jpg)
+
+2- Caso de insucesso: Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.
+
+![Tela Completa](img/tela.extratos.jpg)

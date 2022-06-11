@@ -69,13 +69,13 @@
 | **Caso de Teste 1**  | Vizualizar despesas futuras através do campo Data  |
 | ------------------- | ------------------- |
 | **Requisitos Associados** |  O sistema deve exibir as datas das compras do usuário.  |
-| **Objetivo do Teste**  | Verificar se o os campos então sendo vizualizados e adcionados pelo usuario.  |
+| **Objetivo do Teste**  | Verificar se o os campos então sendo vizualizados e adcionados pelo usuário.  |
 | **Caso de sucesso**  | As datas são inceridas e vizualizadas pelo usuário na tela.|
-| **Caso de Insucesso** | Se o usuario não tiver incerido a data corretamente não poderá vizualizar e seguir para o próximo preenchimento.|
+| **Caso de Insucesso** | Se o usuario não tiver incluido a data corretamente não poderá vizualizar e seguir para o próximo preenchimento.|
 
 | **Caso de Teste 2**  | Seleção do tipo de compra   |
 | ------------------- | ------------------- |
-| **Requisitos Associados** |  O sistema deve exibir o tipo da compras do usuário.  |
+| **Requisitos Associados** |  O sistema deverá exibir o tipo da compras do usuário.  |
 | **Objetivo do Teste**  | Possibilidade do usuário selecionar e vizualizar o tipo de compra realizada.  |
 | **Caso de sucesso**  | O usuário poderá escolher o tipo de compra que mais se assemelha com o produto comprado.|
 | **Caso de Insucesso** | Caso o usuário não selecione o tipo do porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente limpo e impossibilidado de seguir para o proximo bloco.|
@@ -99,4 +99,21 @@
 | **Requisitos Associados** |  O sistema deve possibilitar ao usuário inserir todas as suas informações.  |
 | **Objetivo do Teste**  | Possibilidade do usuário inserir e vizualizar todas as informações relacionadas a suas despesas.  |
 | **Caso de sucesso**  | O usuário poderá inserir todas as informações referente a seus gastos.|
-| **Caso de Insucesso** | Caso o usuário não ensira todas as informações o dados não poderam ser vizualizados.|
+| **Caso de Insucesso** | Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.|
+
+
+
+### Plano de Testes Simulações
+| **Caso de Teste 1** | Simulação dos empréstimos |
+| -------------------- | -----------------------|
+| **Requisitos Associados** | O sistema deve calcular os valores e parcelas de empréstimos de acordo com os dados inseridos pelo usuário. |
+| **Objetivo do teste** | Calcular corretamente contendo juros e as parcelas solicitadas. |
+| **Caso de sucesso** | Cálculo das parcelas e valores aparecendo de forma correta. |
+| **Caso de insucesso** | Caso não insira nenhum valor de parcela ou de empréstimo e aperte 'ok' o sistema mostra a mensagem 'NaN' no retorno. |
+
+| **Caso de Teste 2** | Simulação dos investimentos |
+| -------------------- | -----------------------|
+| **Requisitos Associados** | O sistema deve calcular os valores dos aportes iniciais e mensais dos investimentos de acordo com a opção selecionada pelo usuário. |
+| **Objetivo do teste** | Calcular corretamente os valores de acordo com a opção de investimento selecionada. |
+| **Caso de sucesso** | Cálculo dos aportes iniciais e mensais aparecendo de forma correta. |
+| **Caso de insucesso** | Caso o usuário não indique o aporte incial ou mensal como '0' quando não há o retorno total fica como inválido 'NaN'. |

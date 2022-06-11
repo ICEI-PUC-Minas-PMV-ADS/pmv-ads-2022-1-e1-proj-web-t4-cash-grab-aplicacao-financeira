@@ -26,3 +26,15 @@
 | **Objetivo do Teste**  | Verificar se o grafico mostra de maneira correta os valores adcionados pelo usuario  |
 | **Caso de sucesso**  | Grafico mostrado em varias cores com o seus respectivos valores|
 | **Caso de Insucesso** | Se o usuario não tiver nenhum dado cadastrado o grafico fico de uma única cor|
+
+
+
+
+
+## Plano de Testes Extrato
+| **Caso de Teste 1**  | Vizualizar despesas futuras   |
+| ------------------- | ------------------- |
+| **Requisitos Associados** |  O sistema deve exibir as datas das compras do usuário.  |
+| **Objetivo do Teste**  | Verificar se o os campos então sendo vizualizados e adcionados pelo usuario.  |
+| **Caso de sucesso**  | As datas são inceridas e vizualizadas pelo usuário na tela.|
+| **Caso de Insucesso** | Se o usuario não tiver incerido a data corretamente não poderá vizualizar e seguir para o proximo preenchimento.|

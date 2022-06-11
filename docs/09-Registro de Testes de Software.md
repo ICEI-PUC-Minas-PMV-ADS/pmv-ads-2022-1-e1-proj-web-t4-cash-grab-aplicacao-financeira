@@ -88,4 +88,4 @@
 
 1- Caso de sucesso: Após a inclusão de todas as informações o usuário poderá vizualizar seus dados quando quiser e de onde quiser.
 
-![Tela valor](img/funcionalidade.incuir.jpg)
+![Tela Completa](img/funcionalidade.incuir.jpg)

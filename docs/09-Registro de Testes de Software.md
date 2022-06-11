@@ -83,3 +83,9 @@
 2 - Caso de insucesso:  Caso o usuário não inclua o valor em numeral a soma não poderá ser realizada.
 
 ![Tela valor](img/caso_de_insucesso_telaDeValor.jpg)
+
+## Caso de teste 05 - Inclusão de todas informações
+
+1- Caso de sucesso: Após a inclusão de todas as informações o usuário poderá vizualizar seus dados quando quiser e de onde quiser.
+
+![Tela valor](img/funcionalidade.incuir.jpg)

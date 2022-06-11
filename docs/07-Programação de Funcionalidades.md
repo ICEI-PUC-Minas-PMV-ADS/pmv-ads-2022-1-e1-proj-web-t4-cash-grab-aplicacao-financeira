@@ -17,6 +17,16 @@ Essa funcionalidade irá captar os dados inseridos pelo usuário como nome, e-ma
 ![CodigoCadastro](img/C%C3%B3digo_Cadastro.png)
 
 
+## Tela de Login
+Nesta tela o usuário irá inserir seus dados de e-mail e senha que já foram cadastrados em nossa tela de cadastro.
+
+![Login](img/Login_template.png)
+
+### Funcionalidade login
+Esta funcionaldiade irá validar se o usuário já está cadastrado no sistema e para isto, irá verificar as informações inseridas nos campos constam no localstorage.
+
+![CodigoLogin](img/Codigo_Login.png)
+
 ## Tela de despesas (RF-01)
 Na tela de despesas o usuario do site poderar ver sua vida finaceira de forma mais ampla. Nessa tela fica seus limites, suas despesas, suas fontes de renda.
 

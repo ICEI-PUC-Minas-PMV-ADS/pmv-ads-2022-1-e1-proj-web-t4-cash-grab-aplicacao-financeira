@@ -38,7 +38,7 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
 
 ### Inclusão das despesas atuais e despesas futuras (RF-04)
 Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e futuras, com um somatorio de dividas do mês. Segue abaixo, uma imagem do algoritmo implementado.
-![RF-04](img/print%20despesas%20atuais%20e%20futuras%20corte.png)
+![RF-04](img/)
 
 
 ## Tela de Simulacoes (RF-05) e (RF-07)

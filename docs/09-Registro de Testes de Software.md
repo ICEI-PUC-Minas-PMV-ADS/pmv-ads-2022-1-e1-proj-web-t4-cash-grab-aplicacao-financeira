@@ -19,3 +19,13 @@
 2- Caso de Insucesso: Email não enviado por está invalido.
 
 ![Tela 8](img/caso_de_insucesso_email%20.png)
+
+## Caso de teste 03- Possibilidade da visualização de despesas atuais e futuras
+
+1- Caso de sucesso: Somatorio das dividas Aparecendo corretamente.
+
+![tela 7]()
+
+2- Caso de insucesso: Valor das Dividas aparecendo zerado.
+
+![tela 7]() 

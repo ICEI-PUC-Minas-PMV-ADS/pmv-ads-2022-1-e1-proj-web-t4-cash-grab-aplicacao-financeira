@@ -12,3 +12,10 @@
 | **Objetivo do Teste**  | Verificar se os email estão sendo enviados de maneira correta.  |
 | **Caso de sucesso**  | Alerta enviado quando o usuario chegue ao limite ou caso o usuario chegue a 60% do limite. |
 | **Caso de insucesso**| Email não enviado por estar invalido|
+
+|**Caso de teste 3**| Possibilidade de visualização das despesas atuais e futuras|
+| ------------------- | ------------------- |
+|**Requisitos Associados**| Conter uma função que possibilite ao usuario visualizar o seu total de dividas do mês. |
+|**Objetivo do Teste**| Verificar se o somatorio das dividas do mês e futuras, está aparecendo corretamente. |
+|**Caso de sucesso**| Somatorio das dividas aparecendo de forma correta. |
+|**Caso de insucesso**| Dividas aparecendo zerada. | 

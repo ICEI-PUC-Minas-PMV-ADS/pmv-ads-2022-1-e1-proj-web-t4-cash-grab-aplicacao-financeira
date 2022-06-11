@@ -19,3 +19,10 @@
 |**Objetivo do Teste**| Verificar se o somatorio das dividas do mês e futuras, está aparecendo corretamente. |
 |**Caso de sucesso**| Somatorio das dividas aparecendo de forma correta. |
 |**Caso de insucesso**| Dividas aparecendo zerada. | 
+
+| **Caso de Teste 4**  | Mostra Grafico em formato de pizza   |
+| ------------------- | ------------------- |
+| **Requisitos Associados** |  O sistema deve exibir as despesas em formato de gráficos.  |
+| **Objetivo do Teste**  | Verificar se o grafico mostra de maneira correta os valores adcionados pelo usuario  |
+| **Caso de sucesso**  | Grafico mostrado em varias cores com o seus respectivos valores|
+| **Caso de Insucesso** | Se o usuario não tiver nenhum dado cadastrado o grafico fico de uma única cor|

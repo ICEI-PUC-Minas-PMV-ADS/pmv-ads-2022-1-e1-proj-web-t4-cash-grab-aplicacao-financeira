@@ -50,7 +50,12 @@ Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e fu
 ### Funcionalidade (RF-05)
     Essa funcionalidade concederá ao usuário uma simulação de empréstimo, calculando juros ao mês, e lhe informando o valor de cada parcela referente a sua solicitação nos campos de preenchimento como mostra a imagem a seguir.
 
- ![RF-05](img/simulacoes%20func..png)   
+ ![RF-05](img/simulacoes%20func..png)  
+ 
+ ### Funcionalidade (RF-07) 
+    Essa funcionalidade permitirá ao usuário simular investimentos diversos a sua escolha, permitindo calcular aportes mensais e rendimentos com valores similares ao que as principais instituições bancárias oferecem.
+
+  ![RF-07](img/Tela%20de%20Investimentos.png)  
 
 ## Tela de Extrato
     Com a tela de extratos o usuario terá todas as informações sobre o movimento dos seus gastos, terá a possibilidade de vizualizar e incluir sua lista de despesas conforme imagem abaixo.

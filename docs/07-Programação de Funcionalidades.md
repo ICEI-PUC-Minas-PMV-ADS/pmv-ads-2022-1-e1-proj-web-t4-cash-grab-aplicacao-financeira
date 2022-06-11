@@ -46,13 +46,32 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
 
  ![RF-05](img/simulacoes%20func..png)   
 
-### Tela de Extrato
+## Tela de Extrato
     Com a tela de extratos o usuario terá todas as informações sobre o movimento dos seus gastos, terá a possibilidade de vizualizar e incluir sua lista de despesas conforme imagem abaixo.
 
  ![EXTRATO](img/tela.extratos.jpg)
 
-### Funcionalidades do Extrato
-#### Data
+## Funcionalidades do Extrato
+### Funcionalidade Data
     Essa funcionalidade possibilita ao usuário incluir as datas das suas compras para um controle pessoal dinâmico. 
 
-![Funcionalide 01](img/funcionalidade.data.jpg)
+![Funcionalide Data](img/funcionalidade.data.jpg)
+
+### Funcionalidade Tipo
+    Na funcionalide tipo implementamos um select pre estabelecido para que o usuário possa selecionar o tipo de despesa que aproxima-se da compra realizada.
+
+![Funcionalide Tipo](img/funcionalidade.tipo.jpg)
+
+### Funcionalidade Descrição
+    Nessa funcionalidade o Usuário poderá incluir a descrição da compra realizada.
+
+![Funcionalide Descrição](img/funcionalidade.descri%C3%A7%C3%A3o.jpg)
+
+### Funcionalidade Valor e Total
+    Nessa funcionalidade o usuário poderá incluir os valores das compras realizadas, após incluir os valores em númerais a soma será realizada automaticamente na conteiner total conforme imagem abaixo. 
+
+![Funcionalide Valor e Total](img/funcionalidade.valor.jpg)
+
+### Funcionalidade Incluir
+    Essa funcionalidade está entre as mais inportantes, pois ela e a reponsável pelo envio das informações colocadas pelo usuário.
+![Funcionalide Incluir](img/funcionalidade.incuir.jpg)      

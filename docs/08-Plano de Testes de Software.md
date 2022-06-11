@@ -26,3 +26,17 @@
 | **Objetivo do Teste**  | Verificar se o grafico mostra de maneira correta os valores adcionados pelo usuario  |
 | **Caso de sucesso**  | Grafico mostrado em varias cores com o seus respectivos valores|
 | **Caso de Insucesso** | Se o usuario não tiver nenhum dado cadastrado o grafico fico de uma única cor|
+
+| **Caso de Teste 5** | Simulação dos empréstimos |
+| -------------------- | -----------------------|
+| **Requisitos Associados** | O sistema deve calcular os valores e parcelas de empréstimos de acordo com os dados inseridos pelo usuário. |
+| **Objetivo do teste** | Calcular corretamente contendo juros e as parcelas solicitadas. |
+| **Caso de sucesso** | Cálculo das parcelas e valores aparecendo de forma correta. |
+| **Caso de insucesso** | Caso não insira nenhum valor de parcela ou de empréstimo e aperte 'ok' o sistema mostra a mensagem 'NaN' no retorno. |
+
+| **Caso de Teste 6** | Simulação dos investimentos |
+| -------------------- | -----------------------|
+| **Requisitos Associados** | O sistema deve calcular os valores dos aportes iniciais e mensais dos investimentos de acordo com a opção selecionada pelo usuário. |
+| **Objetivo do teste** | Calcular corretamente os valores de acordo com a opção de investimento selecionada. |
+| **Caso de sucesso** | Cálculo dos aportes iniciais e mensais aparecendo de forma correta. |
+| **Caso de insucesso** | Caso o usuário não indique o aporte incial ou mensal como '0' quando não há o retorno total fica como inválido 'NaN'. |

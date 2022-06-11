@@ -43,9 +43,14 @@
 
 ## Caso de teste 01 - Vizualizar despesas futuras
 
-1- Caso de sucesso: As datas colocadas pelo usuário aparecem na tela.
+1- Caso de sucesso: As datas inceridas pelo usuário aparecem na tela.
 
 ![Tela 1](img/caso_de_sucesso_telaDeExtrato.jpg)
+
+2 - Caso de insucesso:  Caso no preenchimento das datas não sejam inclusas não será possivel incluir-lá.
+
+![Tela 9](img/caso_de_insucesso_telaDeData.jpg)
+
 
 ## Caso de teste 02 - Soma dos valores inceridos
 

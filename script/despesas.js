@@ -165,9 +165,6 @@ let lazer =0
 let outros = 0
 if(dividasUser==undefined){
  saude=50;
- educacao = 50
-  lazer =50
-  outros = 50
 }
 else{
   for(let j in dividasUser){

@@ -28,13 +28,18 @@ Essa funcionalidade permite que o usuario crie um controle de gastos com o limit
 ![RF-01](img/RF-01.png)
 
 ### Despesas em formato de grafico (RF-02)
-Nessa funcionalidade o usuario consigará ter uma grande noção de onde seu dinheiro esta sendo aplicao
+Nessa funcionalidade o usuario consigará ter uma grande noção de onde seu dinheiro esta sendo aplicado
 
 ![RF-02](img/rf-02.png)
 
 ### Notificação do usuario (RF-03)
 Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto. Abaixo uma imagem do algoritimo implementado.
 ![RF-03](img/rf-03.png)
+
+### Inclusão das despesas atuais e despesas futuras (RF-04)
+Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e futuras, com um somatorio de dividas do mês. Segue abaixo, uma imagem do algoritmo implementado.
+
+
 
 ## Tela de Simulacoes (RF-05) e (RF-07)
     A tela de simulações permitirá ao usuário acessar e simular juros de empréstimos e rendimentos de investimentos a sua escolha.
@@ -83,3 +88,5 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
     Observando se que o usário precisará conferir se todos os campos estão preenchidos e conforme desejado, após isso poderá selecionar o campo "Incluir" para armazenar suas informações.
 
 ![Funcionalide Incluir](img/funcionalidade.incuir.jpg)   
+
+

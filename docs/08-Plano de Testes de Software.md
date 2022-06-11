@@ -1,4 +1,38 @@
 # Plano de Testes de Software
+
+## Plano de Testes Cadastro
+| **Caso de Teste 1**  | Realizar o cadastro do usuário  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se o os campos então preenchidos pelo usuário.  |
+| **Caso de sucesso**  | Ao clicar no botão de cadastrar, o usuário será cadastrado no sistema.|
+| **Caso de Insucesso** | Se o usuario não inserir a os dados em algum dos campos,o sistema não permitirá que o cadastro seja concluído.|
+
+| **Caso de Teste 2**  | Validação do e-mail no cadastro  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se o e-mail inserido é válido.  |
+| **Caso de sucesso**  | Ao sair do campo de inserção de e-mail, o sistema permitirá prosseguir o cadastro.|
+| **Caso de Insucesso** | Sistema irá informar que o e-mail inserido é inválido.|
+
+## Plano de Testes Login
+| **Caso de Teste 1**  | Realizar o login  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se as informações estão cadastradas.  |
+| **Caso de sucesso**  | Ao clicar no botão de entrar, o sistema irá apresentar uma mensagem de bem vindo e será direcionado para o sistema.|
+| **Caso de Insucesso** | Ao clicar no botão entrar, o sistema irá informar que o usuário não está cadastrado e irá informar que é necessário o realizar o cadastro.|
+
+| **Caso de Teste 2**  | Preenchimento dos campos  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se os campos de e-mail e senha foram preenchidos.  |
+| **Caso de sucesso**  | Ao clicar no botão de entrar, o sistema irá permitir realizar o login.|
+| **Caso de Insucesso** | Ao clicar no botão entrar, o sistema irá informar os campos não foram preenchidos.|
+
+| **Caso de Teste 2**  | Validação do e-mail do login  |
+| ------------------- | ------------------- |
+| **Objetivo do Teste**  | Verificar se o e-mail inserido é válido.  |
+| **Caso de sucesso**  | Ao sair do campo de inserção de e-mail, o sistema permitirá prosseguir o login.|
+| **Caso de Insucesso** | Sistema irá informar que o e-mail inserido é inválido e não permitirá realizar o login.|
+
+
 | **Caso de Teste 1**  |   Criação de um controlador de gastos |
 | ------------------- | ------------------- |
 | **Requisitos Associados** |  O sistema deve permitir a criação de um controlador de gastos, com limites pré-estabelecido pelo usuário.   |

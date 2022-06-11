@@ -51,13 +51,31 @@
 
 ![Tela 9](img/caso_de_insucesso_telaDeData.jpg)
 
+## Caso de teste 02 - Vizualizar o tipo de compra
 
-## Caso de teste 02 - Soma dos valores inceridos
+1- Caso de sucesso: O usuário poderá escolher o tipo de compra que mais se asemelha com o produto comprado.
+
+![Tela 1](img/funcionalidade.tipo.jpg)
+
+2 - Caso de insucesso:  Caso o usuário não selecione o tipo da seu porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente limpo. 
+
+![Tela 9](img/caso_de_insucesso_telaDeTipo.jpg)
+
+
+
+
+
+
+
+
+
+
+## Caso de teste 04 - Soma dos valores inceridos
 
 1- Caso de sucesso: Após a inclusão dos valores gastos pelo Usuário temos uma auto soma dos valores.
 
 ![Tela valor](img/caso_de_sucesso_telaDeValor.jpg)
 
-2 - Caso de insucesso:  Caso o usuário não inclua o valor em numeral  a soma não poderá ser realizada.
+2 - Caso de insucesso:  Caso o usuário não inclua o valor em numeral a soma não poderá ser realizada.
 
 ![Tela valor](img/caso_de_insucesso_telaDeValor.jpg)

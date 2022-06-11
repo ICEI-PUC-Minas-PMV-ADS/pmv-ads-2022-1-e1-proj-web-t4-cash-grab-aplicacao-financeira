@@ -52,7 +52,7 @@ Implementação da funcionalidade de notificação ao usaurio sobre o seus gasto
  ![EXTRATO](img/tela.extratos.jpg)
 
 ### Funcionalidades do Extrato
-## Data
+#### Data
     Essa funcionalidade possibilita ao usuário incluir as datas das suas compras para um controle pessoal dinâmico. 
 
 ![Funcionalide 01](img/funcionalidade.data.jpg)

@@ -45,7 +45,7 @@ Nessa funcionalidade, será possivel ao usuario ver as suas despesas atuais e fu
 ## Tela de Simulacoes (RF-05) e (RF-07)
     A tela de simulações permitirá ao usuário acessar e simular juros de empréstimos e rendimentos de investimentos a sua escolha.
 
-![Simulacoes](img/Simula%C3%A7%C3%B5es%20Intt..png)  
+![Simulacoes](img/Tela%20de%20Simula%C3%A7%C3%A3o1.png)
 
 ### Funcionalidade (RF-05)
     Essa funcionalidade concederá ao usuário uma simulação de empréstimo, calculando juros ao mês, e lhe informando o valor de cada parcela referente a sua solicitação nos campos de preenchimento como mostra a imagem a seguir.

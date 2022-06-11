@@ -24,8 +24,8 @@
 
 1- Caso de sucesso: Somatorio das dividas Aparecendo corretamente.
 
-![tela 7]()
+![tela 7](img/caso%20sucesso%20teste03.png)
 
 2- Caso de insucesso: Valor das Dividas aparecendo zerado.
 
-![tela 7]() 
+![tela 7](img/caso%20insucesso%20teste%2003.png) 

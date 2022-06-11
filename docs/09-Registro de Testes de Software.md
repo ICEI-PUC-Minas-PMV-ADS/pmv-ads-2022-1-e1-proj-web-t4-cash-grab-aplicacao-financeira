@@ -41,6 +41,9 @@
 ![Tela 9](img/caso%20de%20insucesso%20grafico.png)
 
 
+
+
+
 ## Caso de teste 01 - Vizualizar despesas futuras
 
 1- Caso de sucesso: As datas inceridas pelo usuário aparecem na tela.
@@ -57,18 +60,19 @@
 
 ![Tela 1](img/funcionalidade.tipo.jpg)
 
-2 - Caso de insucesso:  Caso o usuário não selecione o tipo da seu porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente limpo. 
+2 - Caso de insucesso:  Caso o usuário não selecione o tipo do porduto comprado não será possivel a vizualização e armazenamento de seus dados, ficado totalmente limpo. 
 
 ![Tela 9](img/caso_de_insucesso_telaDeTipo.jpg)
 
+## Caso de teste 03 - Vizualização e inclusão das descrições
 
+1- Caso de sucesso: O usuário poderá declarar as descrições da suas compras conforme imagem abaixo.
 
+![Tela decrição](img/caso_de_sucesso_telaDeDescri%C3%A7%C3%A3o.jpg)
 
+2 - Caso de insucesso:  Caso o usuário não preecha o campo de digitação os dados não poderam ser armazenados, ficado o campo totalmente limpo. 
 
-
-
-
-
+![Tela descrição](img/funcionalidade.descri%C3%A7%C3%A3o.jpg)
 
 ## Caso de teste 04 - Soma dos valores inceridos
 

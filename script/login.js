@@ -1,6 +1,6 @@
 function ValidaLogin(){
 
-    var emailLogin = document.getElementById("exampleInputEmail");
+    var emailLogin = document.getElementById("email");
     var senhaLogin = document.getElementById("exampleInputSenha");
 
     let listaUsuario = []
@@ -25,7 +25,7 @@ function ValidaLogin(){
     })
 
 // Validando os campos vazios para comprar as informações do localstorage
-    if(emailLogin.value != '' && senhaLogin.value != ''){
+    if(emailLogin.value != '' && senhaLogin.value != '' && emailLogin.checkValidity()){
         if(emailLogin.value == validaUsuario.validaEmail && senhaLogin.value == validaUsuario.validaSenha){
             alert("Seja Bem Vindo!")
             window.location.href = "despesas.html"

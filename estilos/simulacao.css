@@ -307,12 +307,6 @@ canvas{
          visibility: visible;
          z-index: 1;
      }
-     #despesasFuturas {
-        position: relative;
-        left: 0vw;
-        top: 0vh;
-    
-     }
      #logo{
         width: 34px;
         height: 38px;

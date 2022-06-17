@@ -142,3 +142,23 @@
 2- Caso de insucesso: Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.
 
 ![Tela Completa](img/tela.extratos.jpg)
+
+## Caso de Teste 1 - Simulação de empréstimo
+
+1- Caso de sucesso: Cálculo das parcelas e valores aparecendo de forma correta.
+
+![Tela Emprestimo](img/simul1.png)
+
+2- Caso de insucesso: Caso não insira nenhum valor de parcela ou de empréstimo e aperte 'ok' o sistema mostra a mensagem 'NaN' no retorno.
+
+![Tela Emprestimo](img/RegistroSimul.png)
+
+## Caso de Teste 2 - Simulação de Investimento
+
+1- Caso de Sucesso: Cálculo dos aportes iniciais e mensais aparecendo de forma correta.
+
+![Tela de Investimento](img/simul2.png)
+
+2- Caso de Insucesso: Caso o usuário não indique o aporte incial ou mensal como '0' quando não há o retorno total fica como inválido 'NaN'.
+
+![Tela de Invesyimento](img/Registro1Simul.png)

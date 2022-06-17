@@ -23,7 +23,7 @@ function capturar() {
     
     var retornoInicial = document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
     var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
-    var retornoTotal = parseFloat(retornoInicial) + parseFloat(retornoMensal);
+    var retornoTotal =  (parseFloat(retornoInicial) + parseFloat(retornoMensal));
     document.getElementById("retornoTotal").innerHTML = parseFloat(retornoTotal.toFixed(2));
   }
 

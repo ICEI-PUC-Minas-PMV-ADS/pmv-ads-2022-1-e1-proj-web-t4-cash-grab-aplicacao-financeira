@@ -18,7 +18,7 @@
 
 2- Caso de Insucesso: Mensagem de erro informando que o e-mail inserido é inválido.
 
-![TelaCadastro4](img/TelaCadastro4.png)
+![TelaCadastro4](img/TesteCadastro4.png)
 
 ## Caso de teste 01 - Realizar o login
 

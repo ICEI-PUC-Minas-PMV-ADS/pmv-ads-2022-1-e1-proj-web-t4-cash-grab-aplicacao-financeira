@@ -98,21 +98,35 @@ main{
     width: 80%;
     position: relative;
     left: 29px;
-    top: 10px;
+    top: 21px;
+    height: 18px;
 }
 #btnAddDespesas{
     width: 30px;
     height: 30px;
 }
+#textoLimite{
+    position: relative;
+    top: 10vh;
+}
+
 #btnEditar{
     width: 30px;
     height: 30px;
+    position: relative;
+    top: 4vh;
 }
 #cancelarEditar{
     width: 30px;
     height: 30px;
     left: -10%;
+    top: 4vh;
 
+}
+#adiconarLimite{
+    position: relative;
+    left: 17vw;
+    top: -4vh;
 }
 #cancelarEditardois{
     width: 30px;
@@ -123,6 +137,7 @@ main{
 #valorLimite{
     position: relative;
     left: 15%;
+    font-size: 18px;
 }
 #somaDividas{
     position: relative;
@@ -160,6 +175,11 @@ main{
     text-shadow: none;
     color: aliceblue;
     background: rgba(36, 38, 58, 1);;
+}
+#camposDoLimite{
+    position: relative;
+    top: 18vh;
+    width: 20vw;
 }
 /*Estilo do menu*/
 #caminhosMenu{
@@ -345,7 +365,8 @@ canvas{
     height: 1vh
 }
 /*Parte da responsividade*/
-@media only screen and (min-width: 900px) and (max-width:1800px){
+/*PC*/
+@media only screen and (min-width: 860px) and (max-width:1800px){
     .menu{
         height: 100vh;
     }
@@ -358,7 +379,7 @@ canvas{
 }
 
 }
-@media only screen and (width:820px){
+@media only screen and (min-width:481px) and (max-width:850px){
     .menu{
         height: 100vh;
         visibility:hidden;
@@ -371,7 +392,7 @@ canvas{
         top: 10vh;
      }
      #caminhosMenu{
-        right: 20vw;
+        right: -20vw;
         top: 7vh;
      }
      #logo{
@@ -422,7 +443,8 @@ canvas{
         top: 5vh;
     }
 }
-@media only screen and (min-width: 360px) and (max-width:700px){
+/*Celular*/
+@media only screen and (min-width: 320px) and (max-width:480px){
     .menu{
         height: 100vh;
         visibility:hidden;

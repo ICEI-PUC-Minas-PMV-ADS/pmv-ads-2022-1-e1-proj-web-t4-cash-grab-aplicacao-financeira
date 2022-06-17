@@ -57,7 +57,7 @@
             </article>
             <main>
                 <div id="financas" class="campos">
-                    <h2>Seus gasto dividos</h2>
+                    <h2>Seus gastos dividos</h2>
                     <p>Saude <p id="legendaSaude" class="posicaoLegenda"> </p></p>
                     <p>Educação<p id="legendaEducacao" class="posicaoLegenda"> </p></p>
                     <p>Lazer <p id="legendaLazer" class="posicaoLegenda"> </p></p>
@@ -70,18 +70,20 @@
         
         <!--Parte de limites-->
         <div id="limites" class="campos">
-            <h3> Seus limites</h3>
+            <h3> Seu limite</h3>
             <div class="progress" id="barradeprogresso">
                 <div id="visualizador"class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <br>
-            <p>Limite proposto: <span id="valorLimite"> R$</span> </p>
-                <img id="btnEditar" style="position: relative; left: 0%; top:8%" src="imgsite/editar.png" alt="Editar">
-                <img id="cancelarEditar" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative; top:8%" alt="">
+            <p id="textoLimite">Limite proposto: <span id="valorLimite"> R$</span> </p>
+            <section id="camposDoLimite">
+                <img id="btnEditar" style="position: relative; left: 0%;" src="imgsite/editar.png" alt="Editar">
+                <img id="cancelarEditar" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative;" alt="">
                 <input id="limiteproposto" class="ocultarElemento estiloInputs"type="text" placeholder="Adicionar valor do limite...">
                 <button id="adiconarLimite" class="ocultarElemento estiloBotao">+</button>
-            <p>Valor da divida: <span id="somaDividas">  R$</span> </p>
-                <img  id="btnAddDespesas" style="position: relative; left: 0%;top:5%;" src="imgsite/botao-adicionar.png" alt="Colocar Divida">
+            </section>
+            <p class="ocultarElemento">Valor da divida: <span id="somaDividas">  R$</span> </p>
+                <img  id="btnAddDespesas"class="ocultarElemento" style="position: relative; left: 0%;top:5%;" src="imgsite/botao-adicionar.png" alt="Colocar Divida">
                 <img id="cancelarEditardois" class="ocultarElemento" src="imgsite/cancel.png" style="position: relative;top:8%" alt="">
                 <input class="ocultarElemento estiloInputs" id="gastos" type="text"placeholder="Adicionar nova divida...">
                 <button class="ocultarElemento estiloBotao" id="colocarDividas" type="submit" >+</button>

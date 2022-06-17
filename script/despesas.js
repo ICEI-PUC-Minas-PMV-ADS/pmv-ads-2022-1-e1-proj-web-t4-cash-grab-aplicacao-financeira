@@ -86,7 +86,7 @@ function colocarLimite(){
           localStorage.setItem(usuarioLogado.validaNome+'limite',"[]");
           limite = [];
       }
-    valorLimiteEl.value=limiteProposto.value;
+    valorLimiteEl.value=parseFloat(limiteProposto.value.replace(',','.'));
     let limiteDefinido = {
       limite:limiteProposto.value,
     }

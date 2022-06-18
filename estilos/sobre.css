@@ -35,7 +35,7 @@ font-family: arial;
     
 }
 
-img {
+.conteiner > img{
 border-radius: 10px 10px 10px 10px;
 }
 #programadores {
@@ -54,12 +54,14 @@ border-radius: 10px 10px 10px 10px;
 display: flex;
 justify-content: space-around;
 flex-direction: row;
-left: 5%;
+left: 20%;
 position: relative;
+
 }
+
 h3{
     font-size: small;
-font-family: arial;
+    font-family: arial;
     color: white;
     text-align: center;
     
@@ -74,17 +76,19 @@ a{
 font-size:smaller;
 color: aliceblue;
 }
+
 footer{
    position: relative;
     color: white;
     font-family: italic;
     left: 15vw;
     font-size: medium;
+    width: 80vw;
     
     
 }
 #paragrafo {
-width: 50%;
+
 left: 20%;
 }
 #sociais{
@@ -100,6 +104,7 @@ left: 20%;
 }
 #teste{
     height: 100vh;
+    position:fixed ;
 }
 #nameUser>h1{
     font-size: 1.5rem;
@@ -118,6 +123,7 @@ left: 20%;
     height: 713px;
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
+    position: fixed;
 }
 
 .menu>ul>li>a{
@@ -433,4 +439,10 @@ canvas{
     }
     
  
+}
+#renato {
+visibility: hidden;
+}
+#principal {
+width:80vw;
 }

@@ -14,6 +14,7 @@ function cadastroUsuario(){
     
     if(!email.checkValidity()){
         alert("Email inválido")
+        
     }
     else{
         // Colocando os valores em uma variável e colocando no localstorage
@@ -27,8 +28,10 @@ function cadastroUsuario(){
 
         if (nomeUsuario.value.length == 0 || email.value.length == 0 || senha.value.length == 0){
             alert('Preencha os campos vazios');
+            
         }
         else{
+              
             dados.push(auxUsuario);
             localStorage.setItem("dadosUsuario", JSON.stringify(dados));
             // alerta e limpando dados dos campos

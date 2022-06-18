@@ -242,10 +242,10 @@ function  mostrardespesas () {
      futuro.innerHTML="Não a dividas pendentes!";
    }
  }
- atual.innerHTML=dividames;
+ atual.innerHTML='R$ '+dividames;
  atual.value = dividames
  somaDividas.value =dividames;
- futuro.innerHTML=dividaproxmes;
+ futuro.innerHTML='R$ '+dividaproxmes;
 }
 
 /*Chamando a função atraves do click no botão*/

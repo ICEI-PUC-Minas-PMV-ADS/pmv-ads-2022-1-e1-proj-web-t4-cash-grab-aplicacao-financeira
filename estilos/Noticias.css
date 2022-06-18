@@ -527,6 +527,20 @@ canvas{
     
  
 }
+.noticias{
+    position: relative;
+    left: 16em;
+}
+.noticias>iframe{
+    width: 70vw;
+}
+.noticiasDois{
+    position: relative;
+    left: 10em;
+}
+.noticiasDois>iframe{
+    width: 70vw;
+}
 /*parte das noticias*/
 .noticiasUnicio{
     position: relative;

@@ -8,69 +8,149 @@
     <Link rel="stylesheet"href="estilos/Noticias.css"></Link>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body id="corpo"> 
+<body id="corpo" onload="saudacoesUsuario()"> 
      <!--Menu-->
-     <nav  id="menu" class="navbar navbar-expand-lg ">
-        <img id="logo" src="imgsite/Logo_Principal.png" alt="">
+     <nav  id="teste"class=" menu navbar navbar-expand-lg ">
+        
         <ul class="nav flex-column" id="caminhosMenu">
             <li class="nav-item">
             </li>
             <li class="nav-item elementoMenu">
-                <a class="nav-link" href="index.html"> <p id="textoInicio">Inicio</p></a>
+                <a class="nav-link" href="index.html"> <p id="textoInicio"class="textoInicio">Inicio</p></a>
                 <a class="nav-link" href="index.html"><img src="imgsite/casa.png" class="imgsMenu" alt=""></a>
             </li>
             <li class="nav-item elementoMenu">
-                <a class="nav-link" href="despesas.html"><p id="textoDespesas">Despesa</p></a>
+                <a class="nav-link" href="despesas.html"><p id="textoDespesas" class="textoDespesas">Despesa</p></a>
                 <a class="nav-link" href="despesas.html"><img src="imgsite/despesa.png" class="imgsMenu" id="imgDespesas"alt=""></a>
             </li>
             <li class="nav-item elementoMenu">
-                <a class="nav-link" href="extrato.html"><p id="textoExtrato">Extrato</p></a>
+                <a class="nav-link" href="extrato.html"><p id="textoExtrato" class="textoExtrato">Extrato</p></a>
                 <a class="nav-link" href="extrato.html"><img src="imgsite/extrato.png" class="imgsMenu"alt=""></a>
             </li>
             <li class="nav-item elementoMenu">
-                <a class="nav-link" href="simulacao.html"><p id="textoSimulacao">Simulação</p></a>
+                <a class="nav-link" href="simulacao.html"><p id="textoSimulacao" class="textoSimulacao">Simulação</p></a>
                 <a class="nav-link" href="extrato.html"><img src="imgsite/calculadora.png" class="imgsMenu"alt=""></a>
             </li>
             <li class="nav-item elementoMenu">
-                <a class="nav-link elementoMenu" href="Noticias.html"><p id="textoNoticias">Noticias</p></a>
+                <a class="nav-link elementoMenu" href="Noticias.html"><p id="textoNoticias" class="textoNoticias">Noticias</p></a>
                 <a class="nav-link" href="Noticias.html"><img src="imgsite/noticias-de-guerra.png" class="imgsMenu" alt=""></a>
             </li>
             <li class="nav-item elementoMenu">
-                <a class="nav-link" href="sobre.html"><p id="textoSobre">Sobre</p></a>
+                <a class="nav-link" href="sobre.html"><p id="textoSobre" class="textoSobre">Sobre</p></a>
                 <a class="nav-link" href="sobre.html"><img src="imgsite/grupo.png" class="imgsMenu" alt=""></a>
             </li>
+          <!--  <li class="nav-item elementoMenu">
+                <img id="logo" src="imgsite/Logo_Principal.png" alt="">
+            </li>-->
           </ul>
       </nav>
        <!--Parte onde vai ficar o nome de usaurio-->
-    <nav id="nameUser">
-        <h1> Ola, <span>Renato Sousa</span></h1>
+       <nav id="nameUser">
+        <h2> <span id="campoDeSaudacao"></span><span id="campoNameUser"> ! </span></h2>
+        <img src="imgsite/menu.png"  onclick="aparecerMenu()"class="imgMenuCell" alt="">
     </nav>
-    <div id="noticias" >
-        <h3><a href="https://www.infomoney.com.br/minhas-financas/golpe-do-imposto-de-renda-receita-emite-alerta-sobre-e-mail-fake-saiba-como-se-proteger/" target="_blank"> Golpe do Imposto de Renda</a></h3> 
-        <iframe src="https://www.infomoney.com.br/minhas-financas/golpe-do-imposto-de-renda-receita-emite-alerta-sobre-e-mail-fake-saiba-como-se-proteger/" frameborder="0"></iframe>
-        <p>Fonte da Noticia: <a href="https://www.infomoney.com.br/" target="_blank">infomoney</a></p>
-    </div>
-    <div id="noticias" >
-        <h3><a href="https://www.empiricus.com.br/artigos/investimentos/volta-dos-bares-e-restaurantes-surte-efeito-positivo-para-a-ambev-abev3-no-1t22/"target="_blank">Efeitos positivos na Ambev</a></h3> 
-        <iframe src="https://www.empiricus.com.br/artigos/investimentos/volta-dos-bares-e-restaurantes-surte-efeito-positivo-para-a-ambev-abev3-no-1t22/" frameborder="0"></iframe>
-        <p>Fonte da Noticia: <a href="https://www.empiricus.com.br/" target="_blank">empiricus</a></p>
-    </div>
-    <div id="noticias" >
-        <h3><a href="https://site.guiainvest.com.br/raio-x-do-mercado-de-irbr3-a-mrfg3/"target="_blank"> Raio-x do Mercado</a></h3> 
-        <iframe  id="ajusteNoticias" src="https://site.guiainvest.com.br/raio-x-do-mercado-de-irbr3-a-mrfg3/" frameborder="0"></iframe>
-        <p> id="texto">Fonte da Noticia: <a href="https://site.guiainvest.com.br/home/blog-inicio/" target="_blank" >guiainvest</a></p>
-    </div>
-    <div id="noticias">
-        <h3><a href="    https://www.youtube.com/watch?v=nrci2ojdVLs"target="_blank"> Raio-x do Mercado</a></h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nrci2ojdVLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p> id="texto">Fonte da Noticia: <a href="    https://www.youtube.com/watch?v=nrci2ojdVLs" target="_blank" >guiainvest</a></p>
-    </div>
-    <div id="noticias">
-        <h3><a href=" https://www.youtube.com/watch?v=Hb2YRZke1rQ" target="_blank">como invertir e ganhar dinheiro com criptomoedas do zero</a></h3>
-        <iframe src="https://www.youtube.com/watch?v=Hb2YRZke1rQ" frameborder="0"></iframe>
-        <p>Fote da Noticia: <a href="https://www.youtube.com/watch?v=Hb2YRZke1rQ" target="_blank" >como invertir e ganhar dinheiro com criptomoedas</a></p>
+    <div id="sessaoUm">
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="noticiasUnicio estiloNoticias" src="https://www.cnnbrasil.com.br/branded-content/tecnologia/7-licoes-financeiras-que-voce-deve-aprender-antes-dos-30-anos/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias" src="https://cbn.globoradio.globo.com/media/audio/378483/conta-fica-complicada-quando-faco-novas-aplicacoes.htm" frameborder="0">
+
+            </iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias .noticiasUltimo"src="https://cbn.globoradio.globo.com/media/audio/378689/como-investir-na-aquisicao-de-um-carro-e-de-viagen.htm" frameborder="0"></iframe></article>
+    </div> 
+    <div id="sessaoDois">
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="noticiasUnicio estiloNoticias" src="https://www.infomoney.com.br/minhas-financas/planejamento-financeiro-como-organizar-as-financas-do-casal/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias" src="https://www.infomoney.com.br/mercados/empresas-globais-de-cripto-so-aguardam-regulacao-para-entrar-no-brasil/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias noticiasUltimo" src="https://discordapp.com/channels/945474699389960222/951613413392523324/974489760846450768" frameborder="0"></iframe>
+        </article>
+    </div> 
+    <div id="sessaoTres">
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="noticiasUnicio estiloNoticias" src="https://www.infomoney.com.br/mercados/presidente-do-fed-reforca-foco-em-retornar-inflacao-nos-eua-a-meta-de-2/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias" src="https://www.nexoos.com.br/blog/sites-de-investimentos/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias noticiasUltimo"src="https://exame.com/negocios/startup-quer-mudar-as-financas-de-1-milhao-de-mulheres-empreendedoras/" frameborder="0"></iframe>
+        </article>
+    </div> 
+    <div id="sessaoQuatro">
+        <article class="noticias">
+            <h6></h6>
+            <iframe  class="noticiasUnicio estiloNoticias" src="https://einvestidor.estadao.com.br/investimentos/alta-selic-investimento-titulos-prefixados/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias"src="https://einvestidor.estadao.com.br/comportamento/mulheres-lideranca-mercado-financeiro-curso/" frameborder="0"></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe  class="estiloNoticias noticiasUltimo" width="560" height="315" src="https://www.youtube.com/embed/UQxu26FJqKQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+    </div> 
+    <div id="sessaoCinco">
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="noticiasUnicio estiloNoticias" width="560" height="315" src="https://www.youtube.com/embed/Sh5ZAZF6rV0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias " width="560" height="315" src="https://www.youtube.com/embed/y8MH24VyiRQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe  class="estiloNoticias noticiasUltimo" width="560" height="315" src="https://www.youtube.com/embed/AsU7zPTvwlo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+        </article>
+    </div> 
+    <div id="sessaoSeis">
+        <article class="noticias">
+            <h6></h6>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jpyl6xb8zpc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias" width="560" height="315" src="https://www.youtube.com/embed/ZoRjXRbujUQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
- 
+        </article>
+
+        <article class="noticias">
+            <h6></h6>
+            <iframe class="estiloNoticias noticiasUltimo" width="560" height="315" src="https://www.youtube.com/embed/-7K7pfLhEwo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        </article>
+    </div> 
    
 </body>
+<script src="script/noticias.js"></script>
 </html>

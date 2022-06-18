@@ -534,48 +534,40 @@ canvas{
 }
 .noticiasUltimo{
     position: relative;
-    left: -3em;
+    left: 10em;
+    
 }
 .estiloNoticias{
     height: 60vh;
-    width: 20vw;
+    width: 70vw;
+    
 }
  #corpo{
     background-color:rgba(29, 30, 44, 1);
 } 
-#sessaoUm{
-    display: flex;
-    justify-content: space-around;
+#sessaoUm>iframe{
+
     position: relative;
-    left: 6em;
-}
-#sessaoDois{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    left: 6em;
+    left:50em;
+
 }
 #sessaoTres{
-    display: flex;
-    justify-content: space-around;
+
     position: relative;
     left: 6em;
 }
 #sessaoQuatro{
-    display: flex;
-    justify-content: space-around;
+
     position: relative;
     left: 6em;
 }
 #sessaoCinco{
-    display: flex;
-    justify-content: space-around;
+
     position: relative;
     left: 6em;
 }
 #sessaoSeis{
-    display: flex;
-    justify-content: space-around;
+
     position: relative;
     left: 6em;
 }

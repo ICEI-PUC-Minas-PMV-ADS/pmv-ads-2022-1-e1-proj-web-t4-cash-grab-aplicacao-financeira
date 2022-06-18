@@ -29,7 +29,7 @@ function colocarExtrato( ) {
       data: Input_campoData.value,
       tipo: Input_campoTipo.value,
       descricao: Input_campoDescricao.value,
-      valor: Input_campoValor.value,
+      valor:parseFloat(Input_campoValor.value.replace(',','.')),
     }
     dados.push(extratos);
    localStorage.setItem(nomeUser.validaNome, JSON.stringify(dados));
@@ -67,6 +67,7 @@ let textData = document.createElement ("p") //variavel para criacao de elemento
 /*Soma dos valores*/
     for(let i in dados) {
       total+=parseFloat(dados[i].valor)
+      
     }
     saldo.innerHTML = total
 

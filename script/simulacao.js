@@ -6,6 +6,7 @@ function capturar() {
     juros = 1/100;
     var valor = parseFloat(valor.replace(',', '.'));
 
+    /*alerts emprestimo*/
     if(document.getElementById("valorEmprestimo").value == ''){
       alert('Por favor, preencha o campo valor do empréstimo.');
       document.getElementById("valorEmprestimo").focus();
@@ -33,6 +34,7 @@ function capturar() {
     var select = document.getElementById("investimentos");
     jurosinv = (select.options[select.selectedIndex].value)/100;
 
+    /*alerts investimentos*/
     if(document.getElementById("valorInvestimento").value == ''){
       alert('Por favor, preencha o campo valor do investimento, se não houver informe 0.');
       document.getElementById("valorInvestimento").focus();

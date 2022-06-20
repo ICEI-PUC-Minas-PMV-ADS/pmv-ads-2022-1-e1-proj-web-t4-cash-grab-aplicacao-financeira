@@ -289,29 +289,30 @@ canvas{
         width: 30vw;
     }
     #simuladordeemprestimos{
-        width: 89vw;
+        width: 90vw;
         position: relative;
-        left: -70vw;
+        left: 15vw;
+        top: -5em;
     }
     #calculodeemprestimos{
-        width: 89vw;
+        width: 90vw;
         position: relative;
-        left: -515vw;
-        top: 16em;
+        left: -44vw;
+        top: 12em;
     }
     #simuladordeinvestimentos{
-        width: 89vw;
-        height: 89vw;
+        width: 90vw;
+        height: 50vw;
         position: relative;
-        left: -70vw;
-        top: 17em;
+        left: 15vw;
+        top: 13em;
     }
     #retornodeinvestimento{
-        width: 89vw;
-        height: 55vw;
+        width: 90vw;
+        height: 65vw;
         position: relative;
-        left: -515vw;
-        top: 45em;
+        left: -44vw;
+        top: 40em;
     }
     .textoMenucelular{
         left: 13vw;

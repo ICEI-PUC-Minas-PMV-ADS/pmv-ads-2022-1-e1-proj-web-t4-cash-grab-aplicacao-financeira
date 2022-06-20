@@ -230,7 +230,8 @@ canvas{
 }
 
 /*Parte da responsividade*/
-@media only screen and (min-width: 900px) and (max-width:1800px){
+/*computador*/
+@media only screen and (min-width: 860px) and (max-width:1800px){
     .menu{
         height: 100vh;
     }
@@ -243,21 +244,27 @@ canvas{
 }
 
 }
-@media only screen and (width:820px){
+/*tablet*/
+@media only screen and (min-width:481px) and (max-width:850px){
     .menu{
         height: 100vh;
         visibility:hidden;
         transition-duration: 0.1s;
         transition-delay: 0.1s;
     }
+    #teste{
+        position: fixed;
+        height: 100%;
+        width: 35vw;
+    }
     main{
         position: relative;
-        right: 12em;
+        right: 15em;
         top: 10vh;
      }
      #caminhosMenu{
-        right: 20vw;
-        top: 7vh;
+        right: 0vw;
+        top: -17vh;
      }
      #logo{
         width: 50px;
@@ -281,11 +288,38 @@ canvas{
     .menuCell{
         width: 30vw;
     }
+    #simuladordeemprestimos{
+        width: 89vw;
+        position: relative;
+        left: -28vw;
+    }
+    #calculodeemprestimos{
+        width: 89vw;
+        position: relative;
+        left: -515px;
+        top: 16em
+    }
+    #simuladordeinvestimentos{
+        width: 89vw;
+        height: 89vw;
+        position: relative;
+        left: -28vw;
+        top: 17em;
+    }
+    #retornodeinvestimento{
+        width: 89vw;
+        height: 55vw;
+        position: relative;
+        left: -515px;
+        top: 45em;
+
+    }
     .textoMenucelular{
         left: 13vw;
         top: 5vh;
     }
 }
+/*celular*/
 @media only screen and (min-width: 360px) and (max-width:700px){
     .menu{
         height: 100vh;

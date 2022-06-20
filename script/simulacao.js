@@ -5,6 +5,18 @@ function capturar() {
     meses = document.getElementById("mesesEmprestimo").value;
     juros = 1/100;
     var valor = parseFloat(valor.replace(',', '.'));
+
+    if(document.getElementById("valorEmprestimo").value == ''){
+      alert('Por favor, preencha o campo valor do empréstimo.');
+      document.getElementById("valorEmprestimo").focus();
+      return false
+      }
+      if(document.getElementById("mesesEmprestimo").value == 0){
+        alert('Por favor, preencha o campo tempo do empréstimo.');
+        document.getElementById("mesesEmprestimo").focus();
+        return false
+        }
+
     document.getElementById("parcelas").innerHTML = (valor*Math.pow((1+juros),meses)/meses).toFixed(2);
     document.getElementById("jurosemp").innerHTML = (valor*Math.pow((1+juros),meses)-(valor)).toFixed(2);
     document.getElementById("montante").innerHTML = (valor*Math.pow((1+juros),meses)).toFixed(2);
@@ -20,12 +32,28 @@ function capturar() {
     var aporte = parseFloat(aporte.replace(',', '.'));
     var select = document.getElementById("investimentos");
     jurosinv = (select.options[select.selectedIndex].value)/100;
+
+    if(document.getElementById("valorInvestimento").value == ''){
+      alert('Por favor, preencha o campo valor do investimento, se não houver informe 0.');
+      document.getElementById("valorInvestimento").focus();
+      return false
+      }
+      if(document.getElementById("aporteMes").value == ''){
+        alert('Por favor, preencha o campo aporte mensal, se não houver informe 0.');
+        document.getElementById("aporteMes").focus();
+        return false
+        }
+        if(document.getElementById("mesesInvestimento").value == 0){
+          alert('Por favor, preencha o campo tempo de investimento.');
+          document.getElementById("mesesInvestimento").focus();
+          return false
+          }
     
     var retornoInicial = document.getElementById("retornoInicial").innerHTML = (valorinv*Math.pow((1+jurosinv),mesesinv)).toFixed(2);
     var retornoMensal = document.getElementById("retornoMensal").innerHTML = ((aporte*(Math.pow(1+jurosinv,mesesinv)-1))/jurosinv).toFixed(2);
     var retornoTotal =  (parseFloat(retornoInicial) + parseFloat(retornoMensal));
     document.getElementById("retornoTotal").innerHTML = parseFloat(retornoTotal.toFixed(2));
-  }
+  }  
 
 /*Recuperando dados do localStorage*/
 let usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));

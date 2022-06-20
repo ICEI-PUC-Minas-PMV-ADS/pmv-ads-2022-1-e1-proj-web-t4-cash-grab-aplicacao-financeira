@@ -291,26 +291,26 @@ canvas{
     #simuladordeemprestimos{
         width: 89vw;
         position: relative;
-        left: -28vw;
+        left: -70vw;
     }
     #calculodeemprestimos{
         width: 89vw;
         position: relative;
-        left: -515px;
-        top: 16em
+        left: -515vw;
+        top: 16em;
     }
     #simuladordeinvestimentos{
         width: 89vw;
         height: 89vw;
         position: relative;
-        left: -28vw;
+        left: -70vw;
         top: 17em;
     }
     #retornodeinvestimento{
         width: 89vw;
         height: 55vw;
         position: relative;
-        left: -515px;
+        left: -515vw;
         top: 45em;
     }
     .textoMenucelular{
@@ -351,7 +351,7 @@ canvas{
     #calculodeemprestimos{
         width: 89vw;
         position: relative;
-        left: -480px;
+        left: -133vw;
         top: 16em
     }
     #simuladordeinvestimentos{
@@ -365,7 +365,7 @@ canvas{
         width: 89vw;
         height: 70vw;
         position: relative;
-        left: -480px;
+        left: -133vw;
         top: 47em;
     }
      #logo{

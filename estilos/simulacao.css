@@ -312,7 +312,6 @@ canvas{
         position: relative;
         left: -515px;
         top: 45em;
-
     }
     .textoMenucelular{
         left: 13vw;
@@ -330,6 +329,9 @@ canvas{
     main{
         left: -2vh;
     }
+    #teste{
+        position: fixed;
+    }
     #caminhosMenu{
         right: -6vw;
         top: -6vh;
@@ -341,6 +343,31 @@ canvas{
          visibility: visible;
          z-index: 1;
      }
+     #simuladordeemprestimos{
+        width: 89vw;
+        position: relative;
+        left: -38vw;
+    }
+    #calculodeemprestimos{
+        width: 89vw;
+        position: relative;
+        left: -480px;
+        top: 16em
+    }
+    #simuladordeinvestimentos{
+        width: 89vw;
+        height: 130vw;
+        position: relative;
+        left: -38vw;
+        top: 17em;
+    }
+    #retornodeinvestimento{
+        width: 89vw;
+        height: 70vw;
+        position: relative;
+        left: -480px;
+        top: 47em;
+    }
      #logo{
         width: 34px;
         height: 38px;

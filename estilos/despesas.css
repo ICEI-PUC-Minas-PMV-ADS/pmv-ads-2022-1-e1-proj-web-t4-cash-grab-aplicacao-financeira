@@ -53,6 +53,18 @@ main{
     padding: 12px;
     
 }
+#atual{
+    position: relative;
+    top: 2em;
+    font-size: 24px;
+    left: 2em;
+}
+#futuro{
+    left: 2em;
+    position: relative;
+    top: 2em;
+    font-size: 24px;
+}
 #limites>button{
     position: relative;
     left: 90%;
@@ -107,7 +119,7 @@ main{
 }
 #textoLimite{
     position: relative;
-    top: 10vh;
+    top: 1vh;
 }
 
 #btnEditar{
@@ -137,7 +149,8 @@ main{
 #valorLimite{
     position: relative;
     left: 15%;
-    font-size: 18px;
+    font-size: 29px;
+    top: 5vh;;
 }
 #somaDividas{
     position: relative;
@@ -178,8 +191,9 @@ main{
 }
 #camposDoLimite{
     position: relative;
-    top: 18vh;
+    top: 11vh;
     width: 20vw;
+    height: 0vh;
 }
 /*Estilo do menu*/
 #caminhosMenu{
@@ -379,22 +393,30 @@ canvas{
 }
 
 }
+/*Tablete*/
 @media only screen and (min-width:481px) and (max-width:850px){
     .menu{
         height: 100vh;
         visibility:hidden;
         transition-duration: 0.1s;
         transition-delay: 0.1s;
+        
+    }
+    #teste{
+        position: fixed;
+        height: 100%;
+        width: 35vw;
     }
     main{
         position: relative;
-        right: 12em;
+        right: 15em;
         top: 10vh;
      }
      #caminhosMenu{
-        right: -20vw;
-        top: 7vh;
-     }
+        right: 0vw;
+        top: -17vh;
+    }
+     
      #logo{
         width: 50px;
         height: 50px;
@@ -404,6 +426,8 @@ canvas{
      }
      #financas{
         width: 89vw;
+        position: relative;
+        left: 5vw;
      }
      #caminhosMenus>a{
         visibility: hidden;
@@ -421,14 +445,51 @@ canvas{
         width: 30vw;
     }
     #limites{
-        width: 40vw;
+        width: 89vw;
+        left: 5vw;
     }
     #rendas{
-        left: 22vw;
-        width: 46vw;   
+        left: -14vw;
+        width: 88vw;
+        top: 24em;
+    }
+    #legendaSaude {
+        background-color: #D4CD08;
+        position: relative;
+        top: -25px;
+        width: 2vw;
+        left: 7.5vw;
+        height: 1vh;
+    }
+    #legendaEducacao {
+        background-color: #11BD2E;
+        position: relative;
+        top: -25px;
+        width: 2vw;
+        left: 11vw;
+        height: 1vh;
+    }
+    #legendaLazer {
+        background-color: #089AC7;
+        position: relative;
+        top: -25px;
+        width: 2vw;
+        left: 6.5vw;
+        height: 1vh;
+    }
+    #legendaOutros {
+        background-color: #9116D1;
+        position: relative;
+        top: -25px;
+        width: 2vw;
+        left: 8.5vw;
+        height: 1vh;
     }
     .posicaoLegenda{
         left: 815vw;
+    }
+    #camposDoLimite{
+        top: 5vh;
     }
     #desenhodografico {
         width: 30%;
@@ -442,6 +503,24 @@ canvas{
         left: 13vw;
         top: 5vh;
     }
+    #limiteproposto{
+        position: relative;
+        left: 4em;
+        top: 1em;
+        
+    }
+
+    #adiconarLimite {
+        position: relative;
+        left: 39vw;
+        top: -1vh;
+    }
+    #despesasFuturas {
+        position: relative;
+        left: 25vw;
+        top: -8.5vh;
+        width: 65vw;
+    }
 }
 /*Celular*/
 @media only screen and (min-width: 320px) and (max-width:480px){
@@ -453,6 +532,32 @@ canvas{
     }
     main{
         left: -2vh;
+    }
+    #teste{
+        position: fixed;
+    }
+    #camposDoLimite{
+        top: 9vh;
+        height: 20vh;
+    }
+    #cancelarEditar {
+        left: -48%;
+        
+    }
+    #atual{
+        top: 0em;
+    }
+    #futuro{
+        top:1em;
+    }
+    #adiconarLimite {
+        left: 65vw;
+        top: -3vh;
+    }
+    #limiteproposto{
+        position: relative;
+    left: 3em;
+    top: 1vh;
     }
     #caminhosMenu{
         right: -6vw;
@@ -491,6 +596,7 @@ canvas{
      .imgMenuCell{
          visibility: visible;
          z-index: 1;
+         position: fixed;
      }
      #despesasFuturas {
         position: relative;

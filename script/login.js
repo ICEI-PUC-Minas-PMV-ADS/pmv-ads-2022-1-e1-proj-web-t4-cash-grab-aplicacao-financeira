@@ -38,7 +38,7 @@ function ValidaLogin(){
         }
     }
     else{
-        alert("Preencha os campos para realizar o login!")
+        alert("Preencha os campos corretamentes para realizar o login!")
     }
 
     

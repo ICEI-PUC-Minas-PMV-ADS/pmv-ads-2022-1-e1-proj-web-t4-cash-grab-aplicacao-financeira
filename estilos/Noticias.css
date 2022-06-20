@@ -542,6 +542,11 @@ canvas{
     width: 70vw;
 }
 /*parte das noticias*/
+.noticias {
+position: relative;
+left:20vh;
+}
+
 .noticiasUnicio{
     position: relative;
     left: 0em;
@@ -559,10 +564,10 @@ canvas{
  #corpo{
     background-color:rgba(29, 30, 44, 1);
 } 
-#sessaoUm>iframe{
+#sessaoUm{
 
     position: relative;
-    left:50em;
+    left: 6em;
 
 }
 #sessaoTres{

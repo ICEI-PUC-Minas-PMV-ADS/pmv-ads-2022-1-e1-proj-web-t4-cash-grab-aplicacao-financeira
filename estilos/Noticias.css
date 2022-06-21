@@ -31,121 +31,9 @@ main{
     color: #fff;
     box-shadow:  1px 1px 1px 1px #000;
 }
-#financas{
-    position: relative;
-    height: 250px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    padding: 12px;   
-}
-#financas>p{
-    margin-bottom: 10px;
-}
-#despesas{
-    width: 81%;
-    height: 250px;
-    position: relative;
-    top: 10px;
-    padding-left: 10px;
-}
-#limites{
-    width: 81%;
-    height: 329px;
-    position: relative;
-    top: 30px;
-    padding: 12px;
-    
-}
-#limites>button{
-    position: relative;
-    left: 90%;
-    bottom: 10%;
 
-}
-#rendas{
-    width: 80vh;
-    height: 250px;
-    position: relative;
-    top: 50px;
-    padding: 12px;
-}
-#linhaDivisoria {
-    position: relative;
-    transform: rotate(90deg);
-    width: 10vh;
-    left: 15vw;
-}
-#despesasFuturas{
-    position: relative;
-    left: 20vw;
-    top: -13vh;
-}
-#rendas>button{
-    position: relative;
-    top: 71%;
-    left: 81%;
-}
-#suasfontes{
-    width: 81%;
-    position: relative;
-    height: 250px;
-    top: 50px;
-    padding: 12px;
-}
-#suasfontes>button{
-    position: relative;
-    top: 58%;
-    left: 81%;
-}
-#barradeprogresso{
-    width: 80%;
-    position: relative;
-    left: 29px;
-    top: 21px;
-    height: 18px;
-}
-#btnAddDespesas{
-    width: 30px;
-    height: 30px;
-}
-#textoLimite{
-    position: relative;
-    top: 10vh;
-}
 
-#btnEditar{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: 4vh;
-}
-#cancelarEditar{
-    width: 30px;
-    height: 30px;
-    left: -10%;
-    top: 4vh;
 
-}
-#adiconarLimite{
-    position: relative;
-    left: 17vw;
-    top: -4vh;
-}
-#cancelarEditardois{
-    width: 30px;
-    height: 30px;
-    left: -10%;
-}
-
-#valorLimite{
-    position: relative;
-    left: 15%;
-    font-size: 18px;
-}
-#somaDividas{
-    position: relative;
-    left: 15%;
-}
 /*mexendo com class*/
 .campos{
     background: rgba(36, 38, 58, 1);
@@ -156,9 +44,7 @@ main{
 .ocultarElemento{
     visibility: hidden;
 }
-.mostraoX{
-    visibility: hidden;
-}
+
 
 .estiloInputs{
     display: block;
@@ -179,11 +65,7 @@ main{
     color: aliceblue;
     background: rgba(36, 38, 58, 1);;
 }
-#camposDoLimite{
-    position: relative;
-    top: 18vh;
-    width: 20vw;
-}
+
 /*Estilo do menu*/
 #caminhosMenu{
     position: relative;
@@ -212,7 +94,10 @@ main{
     border-radius: 4px 10px 10px 4px;
     box-shadow:  1px 1px 1px 1px #000;
 }
-
+.estiloLink{
+    text-decoration: none;
+    color: aliceblue;
+}
 .menu>ul>li>a{
     color: #fff;
 }
@@ -314,18 +199,7 @@ main{
     transition-duration: 0.8s;
     transition-delay: 0.1s;
 }
-#desenhodografico{
- width: 20%;
- justify-content: space-around;
- flex-direction: row;
- left: 50%;
- position: relative;
- bottom: 110%;
- 
-}
-canvas{
-    position: relative;
-}
+
 .textoMenucelular{
     visibility: visible;
     position: relative;
@@ -335,40 +209,45 @@ canvas{
     transition-duration: 0.8s;
     transition-delay: 0.1s;
 }
-#legendaSaude{
-    background-color: #D4CD08; 
-    position: relative; 
-    top: -25px; 
-    width: 2vw; 
-    left: 3.5vw; 
-    height: 1vh;
-}
-#legendaEducacao{
-    background-color: #11BD2E;
+#primeiraNoticia{
     position: relative;
-    top: -25px;
-    width: 2vw;
-    left: 5vw;
-    height: 1vh;
+    right: 25vw;
+    top: 8vh;
+    width: 36vw;
+    padding: 10px;
 }
-#legendaLazer{
-    background-color: #089AC7; 
-    position: relative; 
-    top: -25px; 
-    width: 2vw; 
-    left: 3.5vw; 
-    height: 1vh
+#segundaNoticia{
+    position: relative;
+    right: 11em;
+    top: 8vh;
+    width: 36vw;
+    padding: 10px;
+
 }
-#legendaOutros{
-    background-color:#9116D1; 
-    position: relative; 
-    top: -25px; 
-    width: 2vw; 
-    left: 3.5vw; 
-    height: 1vh
+#terceiraNoticia{
+    position: relative;
+    top: 11vh;
+    width: 36vw;
+    padding: 10px;
+    
+
 }
-/*Parte da responsividade*/
-/*PC*/
+#categoria{
+    position: relative;
+    width: 20vw;
+    height: 4vh;
+}
+.estiloNoticias{
+    width: 532px;
+    height: 315px;
+    
+}
+article>h6{
+    color: #fff;
+}
+.ocultarNoticia{
+    visibility:hidden;
+}
 @media only screen and (min-width: 860px) and (max-width:1800px){
     .menu{
         height: 100vh;
@@ -382,30 +261,31 @@ canvas{
 }
 
 }
+/*Tablete*/
 @media only screen and (min-width:481px) and (max-width:850px){
     .menu{
         height: 100vh;
         visibility:hidden;
         transition-duration: 0.1s;
         transition-delay: 0.1s;
+        
+    }
+    #teste{
+        position: fixed;
+        height: 100%;
+        width: 35vw;
     }
     main{
         position: relative;
-        right: 12em;
+        right: 15em;
         top: 10vh;
      }
      #caminhosMenu{
-        right: -20vw;
-        top: 7vh;
-     }
-     #logo{
-        width: 50px;
-        height: 50px;
-        top: -69vw;
-        left: 57%;
-        visibility: visible;
-     }
-    
+        right: 0vw;
+        top: -17vh;
+    }
+     
+  
      #caminhosMenus>a{
         visibility: hidden;
     }
@@ -422,26 +302,38 @@ canvas{
         width: 30vw;
     }
     #limites{
-        width: 40vw;
+        width: 89vw;
+        left: 5vw;
     }
-    #rendas{
-        left: 22vw;
-        width: 46vw;   
-    }
-    .posicaoLegenda{
-        left: 815vw;
-    }
-    #desenhodografico {
-        width: 30%;
-        justify-content: space-around;
-        flex-direction: row;
-        left: 50%;
-        position: relative;
-        bottom: 23vh;
-    }
+ 
     .textoMenucelular{
         left: 13vw;
         top: 5vh;
+    }
+    .estiloNoticias {
+        width: 87vw;
+        height: 315px;
+    }
+    #primeiraNoticia {
+        position: relative;
+        right: 17vw;
+        top: 8vh;
+        width: 94vw;
+        padding: 10px;
+    }
+    #segundaNoticia {
+        position: relative;
+        right: 17em;
+        top: 47vh;
+        width: 94vw;
+        padding: 10px;
+    }
+    #terceiraNoticia {
+        position: relative;
+        top: 50vh;
+        width: 94vw;
+        padding: 10px;
+        right: 0em;
     }
 }
 /*Celular*/
@@ -455,6 +347,10 @@ canvas{
     main{
         left: -2vh;
     }
+    #teste{
+        position: fixed;
+    }
+   
     #caminhosMenu{
         right: -6vw;
         top: -6vh;
@@ -462,24 +358,7 @@ canvas{
     #caminhosMenus>a{
         visibility: hidden;
     }
-    #financas{
-        left: -56vw;
-        width: 95vw;
-    }
-    #limites{
-        right: 56vw;
-        width: 95vw;
-    }
-    #rendas{
-        top: 111%;
-        right: -1vh;
-        width: 94vw;
-        position: absolute;
-        z-index: 0;
-    }
-    .posicaoLegenda{
-        left: 20%;
-    }
+  
     #desenhodografico{
         width: 40vw;
         justify-content: space-around;
@@ -492,101 +371,40 @@ canvas{
      .imgMenuCell{
          visibility: visible;
          z-index: 1;
+        
      }
-     #despesasFuturas {
+
+     #categoria {
         position: relative;
-        left: 0vw;
-        top: 0vh;
-    
-     }
-     #linhaDivisoria {
+        width: 32vw;
+        height: 4vh;
         position: relative;
-        transform: rotate(0deg);
-        width: 43vh;
-        left: -2vw;
+        right: 14em;
     }
-     #logo{
-        width: 34px;
-        height: 38px;
-        top: -49%;
-        left: 78%;
-    
-     }
-     #legendaSaude{
-        left: 20%;
+    .estiloNoticias {
+        width: 87vw;
+        height: 315px;
     }
-    #legendaEducacao{
-        left: 20%;
+    #primeiraNoticia {
+        position: relative;
+        right: 66vw;
+        top: 8vh;
+        width: 94vw;
+        padding: 10px;
     }
-    #legendaLazer{
-        left: 20%;
+    #segundaNoticia {
+        position: relative;
+        right: 19em;
+        top: 62vh;
+        width: 94vw;
+        padding: 10px;
     }
-    #legendaOutros{
-        left: 20%;
+    #terceiraNoticia {
+        position: relative;
+        top: 65vh;
+        width: 94vw;
+        padding: 10px;
+        right: 14em;
     }
-    
  
-}
-.noticias{
-    position: relative;
-    left: 16em;
-}
-.noticias>iframe{
-    width: 70vw;
-}
-.noticiasDois{
-    position: relative;
-    left: 10em;
-}
-.noticiasDois>iframe{
-    width: 70vw;
-}
-/*parte das noticias*/
-.noticias {
-position: relative;
-left:20vh;
-}
-
-.noticiasUnicio{
-    position: relative;
-    left: 0em;
-}
-.noticiasUltimo{
-    position: relative;
-    left: 10em;
-    
-}
-.estiloNoticias{
-    height: 60vh;
-    width: 70vw;
-    
-}
- #corpo{
-    background-color:rgba(29, 30, 44, 1);
-} 
-#sessaoUm{
-
-    position: relative;
-    left: 6em;
-
-}
-#sessaoTres{
-
-    position: relative;
-    left: 6em;
-}
-#sessaoQuatro{
-
-    position: relative;
-    left: 6em;
-}
-#sessaoCinco{
-
-    position: relative;
-    left: 6em;
-}
-#sessaoSeis{
-
-    position: relative;
-    left: 6em;
 }

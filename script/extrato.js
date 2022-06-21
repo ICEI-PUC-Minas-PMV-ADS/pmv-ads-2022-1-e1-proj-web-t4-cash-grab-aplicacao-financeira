@@ -21,6 +21,7 @@ if(dados == null){
     dados = [];
 }
 
+
 // Colocando os valores em uma variável e colocando no localstorage
 
 function colocarExtrato( ) {
@@ -73,6 +74,26 @@ let textData = document.createElement ("p") //variavel para criacao de elemento
 
 }
 butoon_adicionar.addEventListener ("click",colocarExtrato)
+
+
+  /*alert de Confirmação*/
+butoon_adicionar.addEventListener ("click", function(){
+
+let adicionar = confirm("Você tem a certeza que preencheu todos os campos corretamente?")
+
+if(adicionar == true) 
+{
+  alert("E isso ai, Parabéns, dados adicionados com sucesso! \n 😁👍")
+} else 
+{
+  alert("Ops, preencha os dados corretamentes para seguirmos!!! \n 😞👎")
+}
+} );
+
+
+  /*alert inicial*/
+alert("Prezado (a), Seja bem-vindo ao seu extrato Báncario! 🙃😁😜");
+
 
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];

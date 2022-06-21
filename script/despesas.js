@@ -7,7 +7,7 @@ let valorLimiteEl = document.getElementById('valorLimite');
 let btncolocarDividas=document.getElementById('colocarDividas');
 let btnAdcionarLimite = document.getElementById('adiconarLimite');
 let btnAddDespesas = document.getElementById('btnAddDespesas');
-let btnEditar = document.getElementById('btnEditar');
+let btnEditar = document.getElementById('btnEditar')
 let porcetagemDivida;
 
 

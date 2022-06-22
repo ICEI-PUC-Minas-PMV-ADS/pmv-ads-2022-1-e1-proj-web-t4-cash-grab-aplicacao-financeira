@@ -375,74 +375,50 @@ canvas{
     #caminhosMenus>a{
         visibility: hidden;
     }
-    #financas{
-        left: -56vw;
-        width: 95vw;
-    }
-    #limites{
-        right: 56vw;
-        width: 95vw;
-    }
-    #rendas{
-        top: 111%;
-        right: -1vh;
-        width: 94vw;
-        position: absolute;
-        z-index: 0;
-    }
-    .posicaoLegenda{
-        left: 20%;
-    }
-    #desenhodografico{
-        width: 40vw;
-        justify-content: space-around;
-        flex-direction: row;
-        left: 53%;
-        position: relative;
-        top: -91%;
-
-     }
-     .imgMenuCell{
-         visibility: visible;
-         z-index: 1;
-     }
-     #despesasFuturas {
-        position: relative;
-        left: 0vw;
-        top: 0vh;
-    
-     }
-     #linhaDivisoria {
-        position: relative;
-        transform: rotate(0deg);
-        width: 43vh;
-        left: -2vw;
-    }
-     #logo{
-        width: 34px;
-        height: 38px;
-        top: -49%;
-        left: 78%;
-    
-     }
-     #legendaSaude{
-        left: 20%;
-    }
-    #legendaEducacao{
-        left: 20%;;
-    }
-    #legendaLazer{
-        left: 20%;
-    }
-    #legendaOutros{
-        left: 20%;
-    }
-    
- 
+   
 }
 #renato {
 visibility: hidden;
 }
 #principal {
 width:80vw;
+}
+/*Celular*/
+@media only screen and (min-width: 320px) and (max-width:480px){
+    .menu{
+        height: 100vh;
+        visibility:hidden;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    main{
+        left: -2vh;
+    }
+    #teste{
+        position: fixed;
+    }
+   
+    #caminhosMenu{
+        right: -6vw;
+        top: -6vh;
+    }
+    #caminhosMenus>a{
+        visibility: hidden;
+    }
+    
+     .imgMenuCell{
+         visibility: visible;
+         z-index: 1;
+         position: fixed;
+     }
+  
+   
+   
+        #programadores {
+           
+           
+        }
+       
+       
+        
 }

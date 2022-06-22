@@ -491,5 +491,31 @@ canvas{
         left: 20%;
     }
     
- 
+ /*Celular*/
+@media only screen and (min-width: 320px) and (max-width:480px){
+
+}
+#nameUser{
+    display: flex;
+    justify-content: end;
+    margin-left: 16%;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+#financas{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    padding:8px;
+    width:900%;
+    left: -400%;
+}
+
+
+
+
+
+
+
 }

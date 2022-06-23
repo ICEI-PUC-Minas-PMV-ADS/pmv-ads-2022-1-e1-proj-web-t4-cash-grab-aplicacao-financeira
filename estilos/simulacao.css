@@ -29,32 +29,28 @@ main{
     box-shadow:  1px 1px 1px 1px #000;
 }
 #simuladordeemprestimos{
-    width: 180%;
-    height: 250px;
+    width: 44vw;
     position: relative;
     top: -10px;
     padding: 12px;
     margin-left: -70px;
 }
 #calculodeemprestimos{
-    width: 160%;
-    height: 250px;
+    width: 40vw;
     position: relative;
     top: -10px;
     padding: 12px;
     margin-left: 240px;
 }
 #simuladordeinvestimentos{
-    width: 180%;
-    height: 390px;
+    width: 44vw;
     position: relative;
     top: 0px;
     padding: 22px;
     margin-left: -70px;
 }
 #retornodeinvestimento{
-    width: 160%;
-    height: 390px;
+    width: 40vw;
     position: relative;
     top: 0px;
     padding: 22px;
@@ -357,17 +353,15 @@ canvas{
     }
     #simuladordeinvestimentos{
         width: 89vw;
-        height: 130vw;
         position: relative;
         left: -38vw;
         top: 17em;
     }
     #retornodeinvestimento{
         width: 89vw;
-        height: 70vw;
         position: relative;
         left: -128vw;
-        top: 50em;
+        top: 45em;
     }
      #logo{
         width: 34px;

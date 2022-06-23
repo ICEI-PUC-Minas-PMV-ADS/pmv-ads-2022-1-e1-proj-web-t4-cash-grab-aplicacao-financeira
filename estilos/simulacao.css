@@ -352,7 +352,7 @@ canvas{
     #calculodeemprestimos{
         width: 89vw;
         position: relative;
-        left: -133vw;
+        left: -128vw;
         top: 16em
     }
     #simuladordeinvestimentos{
@@ -366,8 +366,8 @@ canvas{
         width: 89vw;
         height: 70vw;
         position: relative;
-        left: -133vw;
-        top: 47em;
+        left: -128vw;
+        top: 50em;
     }
      #logo{
         width: 34px;

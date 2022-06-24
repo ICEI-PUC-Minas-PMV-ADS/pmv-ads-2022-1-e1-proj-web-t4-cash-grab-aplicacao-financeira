@@ -499,29 +499,31 @@ canvas{
         width: 38vh;
         height: 40px;
     }
+
+     /*Responsividade Imput*/
     #campoData{
         position: absolute;
-        width: 278px;
+        width: 265px;
         height: 31px;
         top: 83%;
 
     }
     #campoTipo{
         position: absolute;
-        width: 278px;
+        width: 265px;
         height: 31px;
         top: 83%;
       
     }
     #campoDescricao{
         position: absolute;
-        width: 278px;
+        width: 265px;
         height: 31px;
         top: 83%;
     }
     #campoValor{
         position: absolute;
-        width: 278px;
+        width: 265px;
         height: 31px;
         top: 83%;
     }

@@ -410,9 +410,8 @@ canvas{
         left: 13vw;
         top: 5vh;
     }
-   
-
-}
+} 
+/*Responsividade Celular IPHONE 12 PRO - Conteiner, etc*/
 @media only screen and (min-width: 360px) and (max-width:700px){
     .menu{
         height: 100vh;
@@ -431,13 +430,15 @@ canvas{
         visibility: hidden;
 
      }
-     .imgMenuCell{
+    .imgMenuCell{
          visibility: visible;
          z-index: 1;
      }
     #nameUser{
         display: flex;
         margin-left: 12%;
+        height: 45px;
+        padding: 0px;
     }
     
     #financas{
@@ -494,13 +495,14 @@ canvas{
     }
     #adicionar{
         position: absolute;
-        top: 160vh;
-        left: 12%;
-        width: 38vh;
+        top: 154vh;
+        left: 14%;
+        width: 37vh;
         height: 40px;
     }
 
-     /*Responsividade Imput*/
+
+     /*Responsividade Celular IPHONE 12 PRO - Imput*/
     #campoData{
         position: absolute;
         width: 265px;
@@ -527,11 +529,153 @@ canvas{
         height: 31px;
         top: 83%;
     }
+}
+ /*Parte da responsividade*/
+/*ipad Air*/
+@media only screen and (min-width: 481px) and (max-width:850px){
+    
+    .menu{
+        height: 100vh;
+        visibility:hidden;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    main{
+        left: -2vh;
+    }
+    #caminhosMenu{
+        right: -6vw;
+        top: -6vh;
+    }
+    #caminhosMenus>a{
+        visibility: hidden;
+
+    }
+    .imgMenuCell{
+        visibility: visible;
+        z-index: 1;
+    }
+    #nameUser{
+        display: flex;
+        margin-left: 12%;
+    }
+
+    #financas{
+        left: -20vw;
+        width: 89vw;
+        top: -9vh;
+        height: 8%;
+    }
+
+    #Data {
+        position: relative;
+        top: -5%;
+        height: 700px;
+        padding: 10px;
+        width: 100%;
+        left: -196%;       
+    }
+
+    #Tipo{
+        position: relative;
+        top: -5%;
+        height: 700px;
+        padding: 12px;
+        width: 100%;
+        left: -185%;
+    }
+    #Descrição {
+        position: relative;
+        top: -105%;
+        height: 700px;
+        padding: 12px;
+        width: 100%;;
+        left: 124%;
+    }
+    #Valor {
+        position: relative;
+        top: -105%;
+        height: 700px;
+        padding: 12px;
+        width: 100%;
+        left: 133%;
+    }
+    #SaldoAtual{
+        position: absolute;
+        top: 60vh;
+        height: 49px;
+        padding: 11px;
+        width: 54vh;
+        left: -10vh;
+    }
+    #adicionar{
+        position: absolute;
+        top: 81vh;
+        left: 13%;
+        width: 54vh;
+        height: 51px;
+    }
+
+
+     /*Responsividade tablet ipad Air - Imput*/
+    #campoData{
+        position: absolute;
+        width: 143px;
+        height: 31px;
+        top: 93%;
+
+    }
+    #campoTipo{
+        position: absolute;
+        width: 143px;
+        height: 31px;
+        top: 93%;
+      
+    }
+    #campoDescricao{
+        position: absolute;
+        width: 157px;
+        height: 31px;
+        top: 93%;
+        left: 4%;
+    }
+    #campoValor{
+        position: absolute;
+        width: 143px;
+        height: 31px;
+        top: 93%;
+    }
+}
 
  /*Parte da responsividade*/
 /*PC*/
-@media only screen and (min-width: 860px) and (max-width:1800px){
+@media only screen and (min-width: 860px) and (max-width:1900px){
+      }
+    #nameUser{
+        display: flex;
+        margin-left: 12%;
+        height: 43px;
+        padding: 0px;
+
+    }
+    #corpo{
+        background-color:rgba(29, 30, 44, 1);
+        overflow: hidden;  
+    }
+    #SaldoAtual{
+        top: 9vh;
+        height: 45px;
+        padding: 10px;
+        width: 70%;
+        left: 37%;
+    }
+    #adicionar{
+        position: absolute;
+        top: 66vh;
+        height: 44px;
+        width: 38vh;
+        left: 54%;
+
+    }
 
 
-  }
-}

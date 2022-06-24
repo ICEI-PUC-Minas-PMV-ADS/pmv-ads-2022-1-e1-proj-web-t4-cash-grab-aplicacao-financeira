@@ -650,31 +650,7 @@ canvas{
  /*Parte da responsividade*/
 /*PC*/
 @media only screen and (min-width: 860px) and (max-width:1900px){
-  .menu{
-        height: 100vh;
-        visibility:hidden;
-        transition-duration: 0.1s;
-        transition-delay: 0.1s;
-    }
-    main{
-        left: -2vh;
-    }
-    #caminhosMenu{
-        right: -6vw;
-        top: -6vh;
-    }
-    #caminhosMenus>a{
-        visibility: hidden;
 
-    }
-    .imgMenuCell{
-        visibility: visible;
-        z-index: 1;
-    }
-    #nameUser{
-        display: flex;
-        margin-left: 12%;
-    }
     #corpo{
         background-color:rgba(29, 30, 44, 1);
         overflow: hidden;  

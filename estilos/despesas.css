@@ -383,6 +383,7 @@ canvas{
 @media only screen and (min-width: 860px) and (max-width:1800px){
     .menu{
         height: 100vh;
+        position:fixed;
     }
     #logo{
     position: relative;

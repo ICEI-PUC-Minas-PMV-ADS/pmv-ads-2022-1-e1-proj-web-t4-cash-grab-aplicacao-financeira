@@ -649,7 +649,7 @@ canvas{
 
  /*Parte da responsividade*/
 /*PC*/
-@media only screen and (min-width: 860px) and (max-width:1900px){
+@media only screen and (min-width: 851px) and (max-width:1900px){
 
     #corpo{
         background-color:rgba(29, 30, 44, 1);

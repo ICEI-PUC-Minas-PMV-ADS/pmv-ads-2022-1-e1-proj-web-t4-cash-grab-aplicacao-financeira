@@ -65,7 +65,7 @@ main{
    justify-content: center;
     left: 155%;
 }
-#Valor{   
+#Valor{  
     position: relative;
     top: -87%;
     height: 446px;
@@ -75,19 +75,19 @@ main{
     left: 137%; 
 }
 #SaldoAtual{
+    text-align: center;
     position: relative;
-    top: 12vh;
-    height: 42px;
-    padding: 12px;
+    top: 11vh;
+    height: 36px;
+    padding: 5px;
     width:70%;
-    justify-content: center;
     left: 37%; 
 }
 
 /*TEXTO TITULO*/ 
 #despesas>h3{
     text-align: center;
-position: relative;
+    position: relative;
 }
 /*mexendo com class*/
 .campos{
@@ -140,11 +140,11 @@ position: relative;
     position: absolute;
 }
 #adicionar{
-    position: relative;
-    top: -56vh;
-    left: 56%;
-    width: 235px;
-    height: 43px;
+    position: absolute;
+    top: 91vh;
+    left: 57%;
+    width: 222px;
+    height: 38px;
     border-radius: 10px 10px 10px 10px;
     color: #fff;
     background-color: rgba(36, 38, 58, 1);
@@ -410,6 +410,8 @@ canvas{
         left: 13vw;
         top: 5vh;
     }
+   
+
 }
 @media only screen and (min-width: 360px) and (max-width:700px){
     .menu{
@@ -427,95 +429,107 @@ canvas{
     }
     #caminhosMenus>a{
         visibility: hidden;
-    }
-    #financas{
-        left: -56vw;
-        width: 95vw;
-    }
-    #limites{
-        right: 56vw;
-        width: 95vw;
-    }
-    #rendas{
-        top: 111%;
-        right: -1vh;
-        width: 94vw;
-        position: absolute;
-        z-index: 0;
-    }
-    .posicaoLegenda{
-        left: 20%;
-    }
-    #desenhodografico{
-        width: 40vw;
-        justify-content: space-around;
-        flex-direction: row;
-        left: 53%;
-        position: relative;
-        top: -91%;
 
      }
      .imgMenuCell{
          visibility: visible;
          z-index: 1;
      }
-     #despesasFuturas {
+    #nameUser{
+        display: flex;
+        margin-left: 12%;
+    }
+    
+    #financas{
+        left: -46vw;
+        width: 82vw;
+    }
+   
+    #Data {
         position: relative;
-        left: 0vw;
-        top: 0vh;
-    
-     }
-     #linhaDivisoria {
+        top: 23%;
+        height: 265px;
+        padding: 13px;
+        width:37vh;
+        justify-content: center;
+        left: -26vh;
+            
+    }
+    #Tipo{
         position: relative;
-        transform: rotate(0deg);
-        width: 43vh;
-        left: -2vw;
+        top: 129%;
+        height: 265px;
+        padding: 13px;
+        width:37vh;
+        justify-content: center;
+        left: -31vh;
+
     }
-     #logo{
-        width: 34px;
-        height: 38px;
-        top: -49%;
-        left: 78%;
-    
-     }
-     #legendaSaude{
-        left: 20%;
+    #Descrição{
+        position: relative;
+        top: 134%;
+        height: 265px;
+        padding: 12px;
+        width: 37vh;
+        justify-content: center;
+        left: -21vh;
     }
-    #legendaEducacao{
-        left: 20%;;
+    #Valor{  
+        position: relative;
+        top: 240%;
+        height: 265px;
+        padding: 12px;
+        width: 37vh;
+        justify-content: center;
+        left: -26vh; 
     }
-    #legendaLazer{
-        left: 20%;
+    #SaldoAtual{
+        text-align: center;
+        position: absolute;
+        top: 140vh;
+        height: 41px;
+        padding: 8px;
+        width: 37vh;
+        left: -21vh; 
     }
-    #legendaOutros{
-        left: 20%;
+    #adicionar{
+        position: absolute;
+        top: 160vh;
+        left: 12%;
+        width: 38vh;
+        height: 40px;
     }
-    
- /*Celular*/
-@media only screen and (min-width: 320px) and (max-width:480px){
+    #campoData{
+        position: absolute;
+        width: 278px;
+        height: 31px;
+        top: 83%;
 
-}
-#nameUser{
-    display: flex;
-    justify-content: end;
-    margin-left: 16%;
-    border-radius: 10px 0px 0px 10px;
-    
-}
-#financas{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    height: 40px;
-    padding:8px;
-    width:900%;
-    left: -400%;
-}
+    }
+    #campoTipo{
+        position: absolute;
+        width: 278px;
+        height: 31px;
+        top: 83%;
+      
+    }
+    #campoDescricao{
+        position: absolute;
+        width: 278px;
+        height: 31px;
+        top: 83%;
+    }
+    #campoValor{
+        position: absolute;
+        width: 278px;
+        height: 31px;
+        top: 83%;
+    }
+
+ /*Parte da responsividade*/
+/*PC*/
+@media only screen and (min-width: 860px) and (max-width:1800px){
 
 
-
-
-
-
-
+  }
 }

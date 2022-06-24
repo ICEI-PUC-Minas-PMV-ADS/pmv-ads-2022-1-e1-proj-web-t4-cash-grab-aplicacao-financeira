@@ -117,10 +117,6 @@ function aparecerMenu(){
   textoSobre.classList.toggle('textoSobre');
 }
 
-  /*alert inicial*/
-alert("Prezado (a), Seja bem-vindo ao seu extrato Báncario! 🙃😁😜");
-
-
 /*Saudação ao usario*/
 let emojis = ['🙃','🤠','😀','😃','😄','😁','🙂','🙃','😊','😙','😜','🤪','😝','🤗'];
 let campoDeSaudacao = document.getElementById('campoDeSaudacao')

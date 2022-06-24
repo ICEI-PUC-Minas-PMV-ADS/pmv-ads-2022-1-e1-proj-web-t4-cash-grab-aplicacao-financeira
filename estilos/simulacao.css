@@ -29,36 +29,32 @@ main{
     box-shadow:  1px 1px 1px 1px #000;
 }
 #simuladordeemprestimos{
-    width: 180%;
-    height: 250px;
+    width: 44vw;
     position: relative;
     top: -10px;
     padding: 12px;
-    margin-left: -70px;
+    left: -70px;
 }
 #calculodeemprestimos{
-    width: 160%;
-    height: 250px;
+    width: 42vw;
     position: relative;
     top: -10px;
     padding: 12px;
-    margin-left: 240px;
+    left: 230px;
 }
 #simuladordeinvestimentos{
-    width: 180%;
-    height: 390px;
+    width: 44vw;
     position: relative;
     top: 0px;
     padding: 22px;
-    margin-left: -70px;
+    left: -70px;
 }
 #retornodeinvestimento{
-    width: 160%;
-    height: 390px;
+    width: 42vw;
     position: relative;
     top: 0px;
     padding: 22px;
-    margin-left: 240px;
+    left: 230px;
 }
 /*mexendo com class*/
 .campos{
@@ -291,28 +287,27 @@ canvas{
     #simuladordeemprestimos{
         width: 90vw;
         position: relative;
-        left: 15vw;
+        left: 5vw;
         top: -5em;
     }
     #calculodeemprestimos{
         width: 90vw;
         position: relative;
-        left: -44vw;
+        left: -16vw;
         top: 12em;
     }
     #simuladordeinvestimentos{
         width: 90vw;
-        height: 50vw;
         position: relative;
-        left: 15vw;
-        top: 13em;
+        left: 5vw;
+        top: 14em;
     }
     #retornodeinvestimento{
         width: 90vw;
         height: 65vw;
         position: relative;
-        left: -44vw;
-        top: 40em;
+        left: -16vw;
+        top: 49em;
     }
     .textoMenucelular{
         left: 13vw;
@@ -347,27 +342,25 @@ canvas{
      #simuladordeemprestimos{
         width: 89vw;
         position: relative;
-        left: -38vw;
+        left: -55vw;
     }
     #calculodeemprestimos{
         width: 89vw;
         position: relative;
-        left: -133vw;
+        left: -65vw;
         top: 16em
     }
     #simuladordeinvestimentos{
         width: 89vw;
-        height: 130vw;
         position: relative;
-        left: -38vw;
-        top: 17em;
+        left: -55vw;
+        top: 18em;
     }
     #retornodeinvestimento{
         width: 89vw;
-        height: 70vw;
         position: relative;
-        left: -133vw;
-        top: 47em;
+        left: -65vw;
+        top: 46em;
     }
      #logo{
         width: 34px;

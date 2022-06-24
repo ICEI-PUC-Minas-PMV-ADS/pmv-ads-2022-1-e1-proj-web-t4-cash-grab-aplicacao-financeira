@@ -33,28 +33,28 @@ main{
     position: relative;
     top: -10px;
     padding: 12px;
-    margin-left: -70px;
+    left: -70px;
 }
 #calculodeemprestimos{
-    width: 43vw;
+    width: 42vw;
     position: relative;
     top: -10px;
     padding: 12px;
-    margin-left: 230px;
+    left: 230px;
 }
 #simuladordeinvestimentos{
     width: 44vw;
     position: relative;
     top: 0px;
     padding: 22px;
-    margin-left: -70px;
+    left: -70px;
 }
 #retornodeinvestimento{
-    width: 43vw;
+    width: 42vw;
     position: relative;
     top: 0px;
     padding: 22px;
-    margin-left: 230px;
+    left: 230px;
 }
 /*mexendo com class*/
 .campos{
@@ -287,28 +287,27 @@ canvas{
     #simuladordeemprestimos{
         width: 90vw;
         position: relative;
-        left: 15vw;
+        left: 5vw;
         top: -5em;
     }
     #calculodeemprestimos{
         width: 90vw;
         position: relative;
-        left: -44vw;
+        left: -16vw;
         top: 12em;
     }
     #simuladordeinvestimentos{
         width: 90vw;
-        height: 50vw;
         position: relative;
-        left: 15vw;
-        top: 13em;
+        left: 5vw;
+        top: 14em;
     }
     #retornodeinvestimento{
         width: 90vw;
         height: 65vw;
         position: relative;
-        left: -44vw;
-        top: 40em;
+        left: -16vw;
+        top: 49em;
     }
     .textoMenucelular{
         left: 13vw;
@@ -343,25 +342,25 @@ canvas{
      #simuladordeemprestimos{
         width: 89vw;
         position: relative;
-        left: -35vw;
+        left: -55vw;
     }
     #calculodeemprestimos{
         width: 89vw;
         position: relative;
-        left: -123vw;
+        left: -65vw;
         top: 16em
     }
     #simuladordeinvestimentos{
         width: 89vw;
         position: relative;
-        left: -35vw;
-        top: 17em;
+        left: -55vw;
+        top: 18em;
     }
     #retornodeinvestimento{
         width: 89vw;
         position: relative;
-        left: -123vw;
-        top: 45em;
+        left: -65vw;
+        top: 46em;
     }
      #logo{
         width: 34px;

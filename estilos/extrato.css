@@ -58,7 +58,7 @@ main{
 }
 #Descrição{
    position: relative;
-   top: -87%;
+   top: -88%;
    height: 438px;
    padding: 12px;
    width: 70%;
@@ -67,8 +67,8 @@ main{
 }
 #Valor{  
     position: relative;
-    top: -87%;
-    height: 446px;
+    top: -88%;
+    height: 440px;
     padding: 12px;
     width: 70%;
     justify-content: center;
@@ -141,7 +141,7 @@ main{
 }
 #adicionar{
     position: absolute;
-    top: 91vh;
+    top: 93vh;
     left: 57%;
     width: 222px;
     height: 38px;
@@ -664,7 +664,7 @@ canvas{
     }
     #adicionar{
         position: absolute;
-        top: 90vh;
+        top: 91vh;
         height: 44px;
         width: 38vh;
         left: 56%;

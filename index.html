@@ -13,25 +13,25 @@
 </head>
 <body>
       <!--Menu Principal-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="menu navbar navbar1 navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Cash Grab</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="botaoredux navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="opt1 nav-item">
                   <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="opt2 nav-item">
                   <a class="nav-link" href="#noticia">Noticias</a>
                 </li>
-                <li class="nav-item">
+                <li class="opt3 nav-item">
                   <a class="nav-link" href="#informacao">Sobre</a>
                 </li>
                 <!--Botão Login (Modal)-->
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" class="opt4 btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Login
                   </button>
                   <!-- Início Modal -->
@@ -71,68 +71,47 @@
       <main>
         <!--Home-->
         <div id="home">
-          <img src="imgsite/Background inicio.jpg" class="efeitoimg img-fluid height: auto" alt="Responsive image">
-          <p id="cashgrab">Cash Grab </p>
+         <img src="imgsite/Background_inicio.jpg" class="efeitoimg img-fluid " alt="Responsive image"> 
+          <p id="cashgrab">Cash Grab </p> 
           <div id="subtext"><br>Aplicação Financeria</div>
           <div id="deschome"><p>Com a crescente falta de controle na vida financeira e endividamento <br>
             por conta de financiamentos e cartões de crédito, decidimos criar <br>
             esta aplicação para a sua gestão financeira pessoal.</p>
           </div>
         </div>
-      <!--Notícias-->
-      <div id="noticia">
-        <div id="textonot"><p>Notícias</p></div>  
-        <div id="descnot"><p>Possuímos uma tela com as ultimas notícias disponíeis <br>
-          sobre o mundo dos investimentos, para que você possa <br>
-          se interar ao mundo de investimentos, sem necessitar <br>
-          sair da sua aplicação financeira.</p>
-        </div>
-        <div id="img_not">
-          <div id="portais"><p>Principais portais de notícias</p></div>
-          <div class="img_config">
-            <img src="imgsite/InfoMoney.png" class="img_inf" alt="Responsive image">
-            <img src="imgsite/E-investidor.jpg" class="img_inf" alt="Responsive image">
-            <img src="imgsite/Valor_economico.jpg" class="img_inf" alt="Responsive image">
+
+        <!--Notícias-->
+
+        <div id="noticia">
+          <div id="textonot"><p>Notícias</p></div>  
+          <div id="descnot"><p>Possuímos uma tela com as ultimas notícias disponíeis <br>
+            sobre o mundo dos investimentos, para que você possa <br>
+            se interar ao mundo de investimentos, sem necessitar <br>
+            sair da sua aplicação financeira.</p>
           </div>
-        </div>
-      </div>
-      <!--Informações-->
-      <div id="informacao">
-        <div id="inf">
-          <img src="imgsite/Logo_PUC.jpg" class="puc" alt="Responsive image" >
-          <h1 id="textoinf">PUC MINAS</h1>
-          <p id="descinfo">
-            Projeto realizado por alunos do curso de
-            <br>
-            Analise e Desenvolvimento de Sistema da
-            <br>
-            Pontífica Universidade Católica de Minas Gerais
-          </p>
-        </div>
-        <!--Campo de sugestão-->
-        <div id="sugest">
-          <p class="sugest_text">Tem alguma sugestão para nosso site? Escreva sua sugestão <br>
-             abaixo para que possamos melhorar<br>
-             cada vez mais sua experiência.
-          </p>
-          <div id="envia_sugest"> 
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="labelsugest form-label">Seu e-mail</label>
-              <input type="email" onblur="valEmail()" class="form-control" id="email" placeholder="name@example.com" required>
-            </div>
-            <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="labelsugest form-label">Coloque sua sugestão aqui</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-            <button onclick="emailSugest()" class="btn btn-primary" type="submit">Enviar Sugestão</button>
+          <div id="img_not">
+            <div id="portais"><p>Principais portais de notícias</p></div>
+            <div class="img_config">
+              <img src="imgsite/InfoMoney.png" class="img_inf" alt="Responsive image">
+              <img src="imgsite/E-investidor.jpg" class="img_inf" alt="Responsive image">
+              <img src="imgsite/Valor_economico.jpg" class="img_inf" alt="Responsive image">
             </div>
           </div>
-          <div id="inf_final">
-            <p>Para saber mais sobre nossos programadores, faça login em nossa plataforma e verifique a página "Sobre".</p>
+        </div>
+        <!--Informações-->
+        <div id="informacao">
+          <div id="inf">
+            <img src="imgsite/Logo_PUC.jpg" class="puc" alt="Responsive image" >
+            <h1 id="textoinf">PUC MINAS</h1>
+            <p id="descinfo">
+              Projeto realizado por alunos do curso de
+              <br>
+              Analise e Desenvolvimento de Sistema da
+              <br>
+              Pontífica Universidade Católica de Minas Gerais
+            </p>
           </div>
         </div>
-      </div>
       </main>
       
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

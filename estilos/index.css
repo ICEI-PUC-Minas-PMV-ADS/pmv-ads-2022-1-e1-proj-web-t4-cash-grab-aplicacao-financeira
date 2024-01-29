@@ -1,60 +1,120 @@
 @charset "UTF-8";
 
 html{
-  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#home{
+  background-color: #309975;
+  display: grid;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#add {
+  position: absolute;
   display: flex;
-  overflow-x:hidden;
+  top: 30%;
+  left: 50%;
+  width: 900px;
 }
 
-#login{
-    justify-content: end;
-    margin-left: 1520px;
+#login {
+  justify-content: end;
+  margin-left: 1520px;
 }
 
-/*Efeito das imagens*/
+/*
 .efeitoimg{
     max-width:100%;
     height:auto;
     position: relative;
     filter: blur(2px);
-}
+}*/
 
-#noticia{
+/*#noticia{
   background-image: url(../imgsite/Background\ Noticia.jpg);
   background-size: cover;
-}
+}*/
+
 
 /*Ajustando texto Inicial*/
+hr{
+  width: 20%;
+}
 #cashgrab {
-    position: absolute; 
-    font-size: calc(1em + 3vw);
-    font-weight: bold;
-    left: 185px;
-    top: 15%;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #303030;
-    display: flex;
-  } 
-  #subtext{
-    position: absolute;
-    font-size: calc(1em + 2vw);
-    top: 15%;
-    left: 105px;
-    font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
-  #deschome{
-    position: absolute;
-    color: aliceblue;
-    font-size: calc(1em + 1vw);
-    font-weight: bold;
-    top: 45%;
-    right: 30px;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
+  position: relative;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  left: 50px;
+  top: 15%;
+  color: aliceblue;
+  display: flex;
+}
 
-/*Ajustando texto Noticia*/
+#subtext {
+  position: relative;
+  font-size: calc(0.5em + 1vw);
+  font-family: 'Poppins', sans-serif;
+  top: -65%;
+  left: 55px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#deschome {
+  position: relative;
+  color: aliceblue;
+  font-size: calc(0.5em + 0.4vw);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  top: -90%;
+  left: 950px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#t1 {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  align-content: center;
+  color: aliceblue;
+}
+
+#beneficio01 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  top: 35%;
+  left: 30px;
+}
+
+#beneficio02 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  top: 35%;
+  left: 200px;
+}
+
+#beneficio03 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  top: 35%;
+  left: 450px;
+}
+
+/*Ajustando texto Noticia
 #textonot {
     font-size: calc(3em + 3vw);
     font-weight: bold;
@@ -96,96 +156,100 @@ html{
 
 .img_inf{
   max-width: 150px;
+}*/
+
+/*Ajustando parte Informações*/
+#informacao {
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  align-items: center;
+  height: 20%;
+  width: 100%;
 }
 
-  /*Ajustando parte Informações*/
-#informacao{
-    background-color: rgba(36, 38, 58, 1);
-    height: 1050px;
-    display: flex;
-    align-items: center;
-}
-
-.puc{
-    max-width:300px;
-    height: auto;
-    border-radius: 30px;
-    margin-left: 90vh;
-    margin-top: 00px;
+.puc {
+  max-width: 90px;
+  top: -100%;
+  border-radius: 30px;
+  margin-left: 3vh;
 }
 
 #textoinf {
-    font-size: calc(1.5em + 3vw);
+    font-size: calc(0.5em + 0.5vw);
     font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #494848;
-    margin-left: 80vh;
+    color:#303030;
+    margin-left: 3vh;
 }
 #descinfo{
-    font-size: calc(0.5em + 0.5vw);
-    text-align: center;
+    font-size: calc(0.3em + 0.4vw);
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #494848;
-    margin-left: 80vh;
+    color:#303030;
+    margin-left: 3vh;
 }
 
 /*Responsividade*/
 /*PC*/
-@media only screen and (min-width: 860px) and (max-width:1800px){
-   
-  .navbar1{
-      display: flex;
-      height: 15vh;
-      flex-wrap: wrap;
-      align-items: center;
+@media only screen and (min-width: 860px) and (max-width:1800px) {
+
+  .navbar1 {
+    display: flex;
+    height: 15vh;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
-  .navbar :disabled
-  
-  .menu{
-        height: 10vh;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        transition-duration: 0.1s;
-        transition-delay: 0.1s;
-  }  
-  .opt1{
+  .navbar :disabled .menu {
+    height: 10vh;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+  }
+
+  .opt1 {
     max-width: 100vh;
     text-align: center;
   }
-  .opt2{
+
+  .opt2 {
     max-width: 100vh;
     text-align: center
   }
-  .opt3{
+
+  .opt3 {
     max-width: 100vh;
     text-align: center
   }
-  .opt4{
+
+  .opt4 {
     max-width: 100vh;
     text-align: center
   }
- /*Home*/
+
+  /*Home*/
   #cashgrab {
-    position: absolute; 
+    position: absolute;
     font-size: calc(1em + 3vw);
     font-weight: bold;
     left: 185px;
     top: 12%;
-    color:aliceblue;
+    color: aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
-  } 
-  #subtext{
+  }
+
+  #subtext {
     position: absolute;
     font-size: calc(1em + 2vw);
     top: 15%;
     left: 105px;
     font-weight: bold;
-    color:aliceblue;
+    color: aliceblue;
     text-shadow: 0.2em 0.2em 0.2em #303030;
   }
-  #deschome{
+
+  #deschome {
     position: absolute;
     color: aliceblue;
     font-size: calc(1em + 1vw);
@@ -195,17 +259,18 @@ html{
     text-shadow: 0.2em 0.2em 0.2em #303030;
   }
 
-/*Noticias*/
+  /*Noticias*/
   #textonot {
     font-size: calc(3em + 3vw);
     font-weight: bold;
     padding: 20px;
-    color:aliceblue;
+    color: aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #303030;
     display: flex;
     flex-direction: row-reverse;
   }
-  #descnot{
+
+  #descnot {
     color: aliceblue;
     font-size: calc(1em + 1vw);
     font-weight: bold;
@@ -213,34 +278,36 @@ html{
     top: 200%;
     text-shadow: 0.2em 0.2em 0.2em #303030;
   }
-  #portais{
-  color: aliceblue;
-  font-weight: lighter;
-  font-size: calc(0.5em + 1vw);
-  text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+
+  #portais {
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: calc(0.5em + 1vw);
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
   }
 
-  #img_not{
-  display: flex;
-  flex-direction: column;
-  padding-top: 850px;
-  padding-bottom: 100px;
-  padding-left: 44vw;
+  #img_not {
+    display: flex;
+    flex-direction: column;
+    padding-top: 850px;
+    padding-bottom: 100px;
+    padding-left: 44vw;
   }
 
-  .img_config{
-  gap: 30px;
-  display: flex;
-  }
-  .img_config::before{
-  gap: -100px;
+  .img_config {
+    gap: 30px;
+    display: flex;
   }
 
-  .img_inf{
-  max-width: 150px;
+  .img_config::before {
+    gap: -100px;
   }
 
- /*Sobre*/
+  .img_inf {
+    max-width: 150px;
+  }
+
+  /*Sobre
    #informacao{
    background-color: rgba(36, 38, 58, 1);
     height: 1050px;
@@ -271,106 +338,116 @@ html{
     text-shadow: 0.1em 0.1em 0.1em #494848;
     margin-left: 80vh;
   }
-
+*/
 
 }
-/*Tablet*/
-@media only screen and (min-width:481px) and (max-width:850){
-  .menu{
-      width: 100vh; 
-      position:fixed;  
-  }
-  .opt1{
-    max-width: 100vh;
-    text-align: center;
-  }
-  .opt2{
-    max-width: 100vh;
-    text-align: center
-  }
-  .opt3{
-    max-width: 100vh;
-    text-align: center
-  }
-  .opt4{
-    max-width: 100vh;
-    text-align: center
-  }
- /*Home*/
-  #cashgrab {
-    position: absolute; 
-    font-size: calc(1em + 3vw);
-    font-weight: bold;
-    left: 185px;
-    top: 15%;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #303030;
-  } 
-  #subtext{
-    position: absolute;
-    font-size: calc(1em + 2vw);
-    top: 15%;
-    left: 105px;
-    font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
-  #deschome{
-    position: absolute;
-    color: aliceblue;
-    font-size: calc(1em + 1vw);
-    font-weight: bold;
-    top: 45%;
-    right: 30px;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
+  /*Tablet*/
+  @media only screen and (min-width:481px) and (max-width:850) {
+    .menu {
+      width: 100vh;
+      position: fixed;
+    }
 
-/*Noticias*/
-  #textonot {
-    font-size: calc(3em + 3vw);
-    font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #303030;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  #descnot{
-    color: aliceblue;
-    font-size: calc(1em + 1vw);
-    font-weight: bold;
-    left: 30px;
-    top: 200%;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
-  #portais{
-  color: aliceblue;
-  font-weight: lighter;
-  font-size: calc(1em + 1vw);
-  text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
-  }
+    .opt1 {
+      max-width: 100vh;
+      text-align: center;
+    }
 
-  #img_not{
-  display: flex;
-  flex-direction: column;
-  padding-top: 850px;
-  padding-bottom: 100px;
-  padding-left: 10vw;
-  }
+    .opt2 {
+      max-width: 100vh;
+      text-align: center
+    }
 
-  .img_config{
-  gap: 30px;
-  display: flex;
-  }
-  .img_config::before{
-  gap: -100px;
-  }
+    .opt3 {
+      max-width: 100vh;
+      text-align: center
+    }
 
-  .img_inf{
-    max-width: 120px;
-  }
+    .opt4 {
+      max-width: 100vh;
+      text-align: center
+    }
+
+    /*Home*/
+    #cashgrab {
+      position: absolute;
+      font-size: calc(1em + 3vw);
+      font-weight: bold;
+      left: 185px;
+      top: 15%;
+      color: aliceblue;
+      text-shadow: 0.1em 0.1em 0.1em #303030;
+    }
+
+    #subtext {
+      position: absolute;
+      font-size: calc(1em + 2vw);
+      top: 15%;
+      left: 105px;
+      font-weight: bold;
+      color: aliceblue;
+      text-shadow: 0.2em 0.2em 0.2em #303030;
+    }
+
+    #deschome {
+      position: absolute;
+      color: aliceblue;
+      font-size: calc(1em + 1vw);
+      font-weight: bold;
+      top: 45%;
+      right: 30px;
+      text-shadow: 0.2em 0.2em 0.2em #303030;
+    }
+
+    /*Noticias*/
+    #textonot {
+      font-size: calc(3em + 3vw);
+      font-weight: bold;
+      color: aliceblue;
+      text-shadow: 0.1em 0.1em 0.1em #303030;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    #descnot {
+      color: aliceblue;
+      font-size: calc(1em + 1vw);
+      font-weight: bold;
+      left: 30px;
+      top: 200%;
+      text-shadow: 0.2em 0.2em 0.2em #303030;
+    }
+
+    #portais {
+      color: aliceblue;
+      font-weight: lighter;
+      font-size: calc(1em + 1vw);
+      text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+    }
+
+    #img_not {
+      display: flex;
+      flex-direction: column;
+      padding-top: 850px;
+      padding-bottom: 100px;
+      padding-left: 10vw;
+    }
+
+    .img_config {
+      gap: 30px;
+      display: flex;
+    }
+
+    .img_config::before {
+      gap: -100px;
+    }
+
+    .img_inf {
+      max-width: 120px;
+    }
 
 
-/*Sobre*/
+    /*Sobre
   #informacao{
     background-color: rgba(36, 38, 58, 1);
     height: 1050px;
@@ -401,113 +478,125 @@ html{
     text-shadow: 0.1em 0.1em 0.1em #494848;
     margin-left: 67vh;
   }
+  */
    
 }
-/*Celular*/
-@media only screen and (min-width: 320px) and (max-width:480px){
-  
-  .navbar1{
-    height: 50vh;
-    position: relative;
+    /*Celular*/
+    @media only screen and (min-width: 320px) and (max-width:480px) {
 
-  }
-  .menu{
-      height: 50vh;
-      padding-top: .5rem;
-      padding-bottom: .5rem;
-      transition-duration: 0.1s;
-      transition-delay: 0.1s;
-  }
-  .opt1{
-    max-width: 100vh;
-    text-align: center;
-  }
-  .opt2{
-    max-width: 100vh;
-    text-align: center
-  }
-  .opt3{
-    max-width: 100vh;
-    text-align: center
-  }
-  .opt4{
-    max-width: 100vh;
-    text-align: center
-  }
+      .navbar1 {
+        height: 50vh;
+        position: relative;
+
+      }
+
+      .menu {
+        height: 50vh;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+      }
+
+      .opt1 {
+        max-width: 100vh;
+        text-align: center;
+      }
+
+      .opt2 {
+        max-width: 100vh;
+        text-align: center
+      }
+
+      .opt3 {
+        max-width: 100vh;
+        text-align: center
+      }
+
+      .opt4 {
+        max-width: 100vh;
+        text-align: center
+      }
 
 
-   /*Home*/
-  #cashgrab {
-    position: absolute; 
-    font-size: calc(1em + 3vw);
-    font-weight: bold;
-    left: 185px;
-    top: 50%;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #303030;
-  } 
-  #subtext{
-    position: absolute;
-    font-size: calc(1em + 2vw);
-    top: 50%;
-    left: 105px;
-    font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
-  #deschome{
-    position: absolute;
-    color: aliceblue;
-    font-size: calc(1em + 1vw);
-    font-weight: bold;
-    top: 70%;
-    right: 30px;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
+      /*Home*/
+      #cashgrab {
+        position: absolute;
+        font-size: calc(1em + 3vw);
+        font-weight: bold;
+        left: 185px;
+        top: 50%;
+        color: aliceblue;
+        text-shadow: 0.1em 0.1em 0.1em #303030;
+      }
 
-/*Noticias*/
-  #textonot {
-    font-size: calc(3em + 3vw);
-    font-weight: bold;
-    color:aliceblue;
-    text-shadow: 0.1em 0.1em 0.1em #303030;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  #descnot{
-    color: aliceblue;
-    font-size: calc(0.8em + 1vw);
-    font-weight: bold;
-    text-shadow: 0.2em 0.2em 0.2em #303030;
-  }
-  #portais{
-  color: aliceblue;
-  font-weight: lighter;
-  font-size: calc(1em + 1vw);
-  text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
-  }
+      #subtext {
+        position: absolute;
+        font-size: calc(1em + 2vw);
+        top: 50%;
+        left: 105px;
+        font-weight: bold;
+        color: aliceblue;
+        text-shadow: 0.2em 0.2em 0.2em #303030;
+      }
 
-  #img_not{
-  display: flex;
-  flex-direction: column;
-  padding-top: 850px;
-  padding-bottom: 100px;
-  padding-left: 10vw;
-  }
+      #deschome {
+        position: absolute;
+        color: aliceblue;
+        font-size: calc(1em + 1vw);
+        font-weight: bold;
+        top: 70%;
+        right: 30px;
+        text-shadow: 0.2em 0.2em 0.2em #303030;
+      }
 
-  .img_config{
-  gap: 30px;
-  display: flex;
-  }
-  .img_config::before{
-  gap: -100px;
-  }
+      /*Noticias*/
+      #textonot {
+        font-size: calc(3em + 3vw);
+        font-weight: bold;
+        color: aliceblue;
+        text-shadow: 0.1em 0.1em 0.1em #303030;
+        display: flex;
+        flex-direction: row-reverse;
+      }
 
-  .img_inf{
-    max-width: 80px;
-  }
-  
-/*Sobre*/
+      #descnot {
+        color: aliceblue;
+        font-size: calc(0.8em + 1vw);
+        font-weight: bold;
+        text-shadow: 0.2em 0.2em 0.2em #303030;
+      }
+
+      #portais {
+        color: aliceblue;
+        font-weight: lighter;
+        font-size: calc(1em + 1vw);
+        text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+      }
+
+      #img_not {
+        display: flex;
+        flex-direction: column;
+        padding-top: 850px;
+        padding-bottom: 100px;
+        padding-left: 10vw;
+      }
+
+      .img_config {
+        gap: 30px;
+        display: flex;
+      }
+
+      .img_config::before {
+        gap: -100px;
+      }
+
+      .img_inf {
+        max-width: 80px;
+      }
+    }
+
+      /*Sobre
   #informacao{
     background-color: rgba(36, 38, 58, 1);
     height: 1050px;
@@ -524,7 +613,7 @@ html{
   }
 
   #textoinf {
-    font-size: calc(1.5em + 3vw);
+    font-size: calc(1em + 1vw);
     font-weight: bold;
     color:aliceblue;
     text-shadow: 0.1em 0.1em 0.1em #494848;
@@ -538,4 +627,4 @@ html{
     text-shadow: 0.1em 0.1em 0.1em #494848;
     margin-left: 25vh;
   }
-}
+  */

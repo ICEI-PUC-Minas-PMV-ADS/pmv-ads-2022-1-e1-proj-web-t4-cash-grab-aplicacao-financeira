@@ -1,0 +1,23 @@
+message:O projeto que está em desenvolviemnto trata-se de um gestor financiero pessoal. Tendo como objetivo auxiliar as pessoas em relção a sua saude financeira e dar dicas de possiveis caminhos para lhe ajudar
+authors:
+  - family-names: Ferreira Pires
+    given-names: Matheus
+  - family-names: Lemos Sampaio
+    given-names: Matheus
+  - family-names: Assis Silva Almeida
+    given-names: Pedro
+  - family-names: Eduardo Silva Oliveira
+    given-names: Vinícius
+  - family-names: Hugo Silva Ribeiro
+    given-names: Vitor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Lucia Maria Silveira
+    given-names: Soraia
+keywords:
+  - Controle
+  - Financeiro
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t4-cash-grab-aplicacao-financeira.git
+version: 0.1.0
+date-released: 2022-06-27
+
